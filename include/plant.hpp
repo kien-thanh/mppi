@@ -24,7 +24,6 @@ public:
     float t = this->state_time_;
     float dt = this->controller_->getDt();
     system_dynamics_->step(prev_state, current_state_, state_derivative, u, dynamics_output, t, dt);
-    system_dynamics_->printState(current_state_);
     current_time_ += dt;
   }
 

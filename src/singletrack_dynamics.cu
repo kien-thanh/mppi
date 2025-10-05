@@ -27,14 +27,20 @@ __device__ void SingletrackDynamics::computeDynamics(float *state, float *contro
 
   const float l_wb = this->params_.wheelbase;
 
+  const float MAX_STEER = M_PI / 3.0f;  // 60 degrees
+  if (steer > MAX_STEER)
+    steer = MAX_STEER;
+  else if (steer < -MAX_STEER)
+    steer = -MAX_STEER;
+
   state_der[S_INDEX(X_POS)] = state[S_INDEX(VEL)] * cos_yaw;
   state_der[S_INDEX(Y_POS)] = state[S_INDEX(VEL)] * sin_yaw;
   state_der[S_INDEX(STEER)] = control[C_INDEX(STEER_SPEED)];
   state_der[S_INDEX(VEL)] = control[C_INDEX(ACCELERATION)];
-  state_der[S_INDEX(YAW)] = state[S_INDEX(VEL)] / (l_wb * __tanf(state[S_INDEX(STEER)]));
+  state_der[S_INDEX(YAW)] = state[S_INDEX(VEL)] / l_wb * __tanf(steer);
 }
 
-void SingletrackDynamics::printState(const Eigen::Ref<const state_array>& state)
+void SingletrackDynamics::printState(const Eigen::Ref<const state_array> &state)
 {
   printf("Position: x=%f, y=%f; Steering angle: %f; Velocity: %f; Yaw: %f \n", state(0), state(1), state(2), state(3), state(4));
 }
