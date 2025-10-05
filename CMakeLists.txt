@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
-# Project name and language
+set(CMAKE_CUDA_ARCHITECTURES "native")
+
 project(MyProject VERSION 1.0 LANGUAGES CXX CUDA)
 
 set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH}" "${CMAKE_CURRENT_SOURCE_DIR}/submodules/MPPI-Generic/cmake")
