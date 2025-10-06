@@ -5,7 +5,7 @@
 #include <plant.hpp>
 
 const int NUM_TIMESTEPS = 100;
-const int NUM_ROLLOUTS = 4096;
+const int NUM_ROLLOUTS = 1024;
 const int DYN_BLOCK_X = 64;
 using DYN_T = SingletrackDynamics;
 const int DYN_BLOCK_Y = DYN_T::STATE_DIM;
