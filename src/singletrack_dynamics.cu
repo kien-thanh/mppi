@@ -43,11 +43,11 @@ __device__ void SingletrackDynamics::computeDynamics(float *state, float *contro
   // else if (steer < -MAX_STEER)
   //   steer = -MAX_STEER;
 
-  state_der[S_INDEX(X_POS)] = state[S_INDEX(VEL)] * cos(yaw);
-  state_der[S_INDEX(Y_POS)] = state[S_INDEX(VEL)] * sin(yaw);
+  state_der[S_INDEX(X_POS)] = state[S_INDEX(VEL)] * cosf(yaw);
+  state_der[S_INDEX(Y_POS)] = state[S_INDEX(VEL)] * sinf(yaw);
   state_der[S_INDEX(STEER)] = control[C_INDEX(STEER_SPEED)];
   state_der[S_INDEX(VEL)] = control[C_INDEX(ACCELERATION)];
-  state_der[S_INDEX(YAW)] = (state[S_INDEX(VEL)] / l_wb) * tan(steer);
+  state_der[S_INDEX(YAW)] = (state[S_INDEX(VEL)] / l_wb) * tanf(steer);
 }
 
 void SingletrackDynamics::printState(const Eigen::Ref<const state_array> &state)
