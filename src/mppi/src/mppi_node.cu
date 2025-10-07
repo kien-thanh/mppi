@@ -53,10 +53,12 @@ public:
     PLANT_T plant(controller, (1.0 / dt), 1);
 
     std::atomic<bool> alive(true);
-    for (int t = 0; t < 10000; t++)
+    for (int t = 0; t < 500; t++)
     {
       plant.updateState(plant.current_state_, (t + 1) * dt);
       plant.runControlIteration(&alive);
+
+      std::cout << "State: at time " << (t + 1) * dt << "s: " << plant.current_state_.transpose() << std::endl;
 
       ackermann_msgs::msg::AckermannDriveStamped msg;
       msg.drive.speed = plant.current_state_(3);
