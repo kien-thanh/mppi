@@ -2,6 +2,7 @@
 #include <mppi/cost_functions/quadratic_cost/quadratic_cost.cuh>
 #include <mppi/feedback_controllers/DDP/ddp.cuh>
 #include <singletrack_dynamics.cuh>
+#include <singletrack_cost.cuh>
 #include <plant.hpp>
 
 const int NUM_TIMESTEPS = 100;
@@ -9,7 +10,7 @@ const int NUM_ROLLOUTS = 1024;
 const int DYN_BLOCK_X = 64;
 using DYN_T = SingletrackDynamics;
 const int DYN_BLOCK_Y = DYN_T::STATE_DIM;
-using COST_T = QuadraticCost<DYN_T>;
+using COST_T = SingletrackCost;
 using FB_T = DDPFeedback<DYN_T, NUM_TIMESTEPS>;
 using SAMPLING_T = mppi::sampling_distributions::GaussianDistribution<DYN_T::DYN_PARAMS_T>;
 using CONTROLLER_T = VanillaMPPIController<DYN_T, COST_T, FB_T, NUM_TIMESTEPS, NUM_ROLLOUTS, SAMPLING_T>;
@@ -42,9 +43,10 @@ int main(int argc, char** argv)
   PLANT_T plant(controller, (1.0 / dt), 1);
 
   std::atomic<bool> alive(true);
-  for (int t = 0; t < 10000; t++)
+  for (int t = 0; t < 500; t++)
   {
     plant.updateState(plant.current_state_, (t + 1) * dt);
+    std::cout << "State at t=" << t << ": " << plant.current_state_.transpose() << std::endl;
     plant.runControlIteration(&alive);
   }
 
