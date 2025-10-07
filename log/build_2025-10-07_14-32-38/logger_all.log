@@ -1,0 +1,189 @@
+[0.388s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.389s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff924845b0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff924845b0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff92484b20>)
+[0.704s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.706s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kt/repos/mppi'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['ignore', 'ignore_ament_install']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ignore'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ignore_ament_install'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['colcon_pkg']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'colcon_pkg'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['colcon_meta']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'colcon_meta'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['ros']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ros'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['cmake', 'python']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'cmake'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'python'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['python_setup_py']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'python_setup_py'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extensions ['ignore', 'ignore_ament_install']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extension 'ignore'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extension 'ignore_ament_install'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extensions ['colcon_pkg']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extension 'colcon_pkg'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extensions ['colcon_meta']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extension 'colcon_meta'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extensions ['ros']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extension 'ros'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extensions ['cmake', 'python']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extension 'cmake'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extension 'python'
+[0.740s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mppi' with type 'cmake' and name 'mppi'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(submodules) by extensions ['ignore', 'ignore_ament_install']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(submodules) by extension 'ignore'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(submodules) by extension 'ignore_ament_install'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(submodules) by extensions ['colcon_pkg']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(submodules) by extension 'colcon_pkg'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(submodules) by extensions ['colcon_meta']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(submodules) by extension 'colcon_meta'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(submodules) by extensions ['ros']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(submodules) by extension 'ros'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(submodules) by extensions ['cmake', 'python']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(submodules) by extension 'cmake'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(submodules) by extension 'python'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(submodules) by extensions ['python_setup_py']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(submodules) by extension 'python_setup_py'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(submodules/MPPI-Generic) by extensions ['ignore', 'ignore_ament_install']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(submodules/MPPI-Generic) by extension 'ignore'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(submodules/MPPI-Generic) by extension 'ignore_ament_install'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(submodules/MPPI-Generic) by extensions ['colcon_pkg']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(submodules/MPPI-Generic) by extension 'colcon_pkg'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(submodules/MPPI-Generic) by extensions ['colcon_meta']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(submodules/MPPI-Generic) by extension 'colcon_meta'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(submodules/MPPI-Generic) by extensions ['ros']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(submodules/MPPI-Generic) by extension 'ros'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(submodules/MPPI-Generic) by extensions ['cmake', 'python']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(submodules/MPPI-Generic) by extension 'cmake'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(submodules/MPPI-Generic) by extension 'python'
+[0.754s] DEBUG:colcon.colcon_core.package_identification:Package 'submodules/MPPI-Generic' with type 'cmake' and name 'MPPI-Generic'
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.791s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 314 installed packages in /opt/ros/foxy
+[0.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'MPPI-Generic' build argument 'cmake_args' from command line to 'None'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'MPPI-Generic' build argument 'cmake_target' from command line to 'None'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'MPPI-Generic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'MPPI-Generic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'MPPI-Generic' build argument 'cmake_clean_first' from command line to 'False'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'MPPI-Generic' build argument 'cmake_force_configure' from command line to 'False'
+[0.960s] Level 5:colcon.colcon_core.verb:set package 'MPPI-Generic' build argument 'ament_cmake_args' from command line to 'None'
+[0.960s] Level 5:colcon.colcon_core.verb:set package 'MPPI-Generic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.960s] Level 5:colcon.colcon_core.verb:set package 'MPPI-Generic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.960s] DEBUG:colcon.colcon_core.verb:Building package 'MPPI-Generic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kt/repos/mppi/build/MPPI-Generic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kt/repos/mppi/install/MPPI-Generic', 'merge_install': False, 'path': '/home/kt/repos/mppi/submodules/MPPI-Generic', 'symlink_install': True, 'test_result_base': None}
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'cmake_args' from command line to 'None'
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'cmake_target' from command line to 'None'
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'cmake_clean_cache' from command line to 'False'
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'cmake_clean_first' from command line to 'False'
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'cmake_force_configure' from command line to 'False'
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'ament_cmake_args' from command line to 'None'
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'catkin_cmake_args' from command line to 'None'
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.961s] DEBUG:colcon.colcon_core.verb:Building package 'mppi' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kt/repos/mppi/build/mppi', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kt/repos/mppi/install/mppi', 'merge_install': False, 'path': '/home/kt/repos/mppi/src/mppi', 'symlink_install': True, 'test_result_base': None}
+[0.961s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.964s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.964s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kt/repos/mppi/submodules/MPPI-Generic'
+[0.969s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.969s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.970s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.980s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kt/repos/mppi/src/mppi'
+[0.981s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.981s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kt/repos/mppi/build/MPPI-Generic': /usr/bin/cmake --build /home/kt/repos/mppi/build/MPPI-Generic -- -j6 -l6
+[1.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kt/repos/mppi/build/mppi': /usr/bin/cmake /home/kt/repos/mppi/src/mppi -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/mppi
+[1.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kt/repos/mppi/build/MPPI-Generic' returned '0': /usr/bin/cmake --build /home/kt/repos/mppi/build/MPPI-Generic -- -j6 -l6
+[1.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kt/repos/mppi/build/MPPI-Generic': /usr/bin/cmake --install /home/kt/repos/mppi/build/MPPI-Generic
+[1.290s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(MPPI-Generic)
+[1.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kt/repos/mppi/build/MPPI-Generic' returned '0': /usr/bin/cmake --install /home/kt/repos/mppi/build/MPPI-Generic
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/kt/repos/mppi/install/MPPI-Generic' for CMake module files
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/kt/repos/mppi/install/MPPI-Generic' for CMake config files
+[1.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('MPPI-Generic', 'cmake_prefix_path')
+[1.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kt/repos/mppi/install/MPPI-Generic/share/MPPI-Generic/hook/cmake_prefix_path.ps1'
+[1.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kt/repos/mppi/install/MPPI-Generic/share/MPPI-Generic/hook/cmake_prefix_path.dsv'
+[1.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kt/repos/mppi/install/MPPI-Generic/share/MPPI-Generic/hook/cmake_prefix_path.sh'
+[1.309s] Level 1:colcon.colcon_core.environment:checking '/home/kt/repos/mppi/install/MPPI-Generic/lib'
+[1.309s] Level 1:colcon.colcon_core.environment:checking '/home/kt/repos/mppi/install/MPPI-Generic/bin'
+[1.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('MPPI-Generic', 'path')
+[1.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kt/repos/mppi/install/MPPI-Generic/share/MPPI-Generic/hook/path.ps1'
+[1.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kt/repos/mppi/install/MPPI-Generic/share/MPPI-Generic/hook/path.dsv'
+[1.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kt/repos/mppi/install/MPPI-Generic/share/MPPI-Generic/hook/path.sh'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/kt/repos/mppi/install/MPPI-Generic/lib/pkgconfig/MPPI-Generic.pc'
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/kt/repos/mppi/install/MPPI-Generic/lib/python3.8/site-packages'
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/kt/repos/mppi/install/MPPI-Generic/bin'
+[1.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('MPPI-Generic', 'pythonscriptspath')
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kt/repos/mppi/install/MPPI-Generic/share/MPPI-Generic/hook/pythonscriptspath.ps1'
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kt/repos/mppi/install/MPPI-Generic/share/MPPI-Generic/hook/pythonscriptspath.dsv'
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kt/repos/mppi/install/MPPI-Generic/share/MPPI-Generic/hook/pythonscriptspath.sh'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/kt/repos/mppi/install/MPPI-Generic/share/MPPI-Generic/package.ps1'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kt/repos/mppi/install/MPPI-Generic/share/MPPI-Generic/package.dsv'
+[1.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/kt/repos/mppi/install/MPPI-Generic/share/MPPI-Generic/package.sh'
+[1.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/kt/repos/mppi/install/MPPI-Generic/share/MPPI-Generic/package.bash'
+[1.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/kt/repos/mppi/install/MPPI-Generic/share/MPPI-Generic/package.zsh'
+[1.324s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kt/repos/mppi/install/MPPI-Generic/share/colcon-core/packages/MPPI-Generic)
+[3.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kt/repos/mppi/build/mppi' returned '1': /usr/bin/cmake /home/kt/repos/mppi/src/mppi -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/mppi
+[3.409s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.409s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.409s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[3.409s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.424s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.424s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.424s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.450s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.Notifications exited with status 1
+[3.451s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.452s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kt/repos/mppi/install/local_setup.ps1'
+[3.454s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kt/repos/mppi/install/_local_setup_util_ps1.py'
+[3.457s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kt/repos/mppi/install/setup.ps1'
+[3.459s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kt/repos/mppi/install/local_setup.sh'
+[3.460s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kt/repos/mppi/install/_local_setup_util_sh.py'
+[3.462s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kt/repos/mppi/install/setup.sh'
+[3.464s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kt/repos/mppi/install/local_setup.bash'
+[3.465s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kt/repos/mppi/install/setup.bash'
+[3.466s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kt/repos/mppi/install/local_setup.zsh'
+[3.468s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kt/repos/mppi/install/setup.zsh'

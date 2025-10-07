@@ -1,0 +1,11 @@
+[0.021s] Invoking command in '/home/kt/repos/mppi/build/mppi': /usr/bin/cmake /home/kt/repos/mppi/src/mppi -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/mppi
+[0.044s] CMake Error at CMakeLists.txt:28:
+[0.044s]   Parse error.  Expected "(", got newline with text "
+[0.044s] 
+[0.044s]   ".
+[0.044s] 
+[0.044s] 
+[0.045s] -- Configuring incomplete, errors occurred!
+[0.045s] See also "/home/kt/repos/mppi/build/mppi/CMakeFiles/CMakeOutput.log".
+[0.045s] See also "/home/kt/repos/mppi/build/mppi/CMakeFiles/CMakeError.log".
+[0.048s] Invoked command in '/home/kt/repos/mppi/build/mppi' returned '1': /usr/bin/cmake /home/kt/repos/mppi/src/mppi -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/mppi

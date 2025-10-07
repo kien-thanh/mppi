@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:37 (target_link_libraries):
+  Cannot specify link libraries for target "myprogram" which is not built by
+  this project.
+
+

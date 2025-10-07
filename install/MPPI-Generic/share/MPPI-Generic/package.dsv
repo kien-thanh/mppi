@@ -1,0 +1,9 @@
+source;share/MPPI-Generic/hook/cmake_prefix_path.ps1
+source;share/MPPI-Generic/hook/cmake_prefix_path.dsv
+source;share/MPPI-Generic/hook/cmake_prefix_path.sh
+source;share/MPPI-Generic/hook/path.ps1
+source;share/MPPI-Generic/hook/path.dsv
+source;share/MPPI-Generic/hook/path.sh
+source;share/MPPI-Generic/hook/pythonscriptspath.ps1
+source;share/MPPI-Generic/hook/pythonscriptspath.dsv
+source;share/MPPI-Generic/hook/pythonscriptspath.sh

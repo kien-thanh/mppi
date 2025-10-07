@@ -1,0 +1,4 @@
+Invoking command in '/home/kt/repos/mppi/build/mppi': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kt/repos/mppi/build/mppi -- -j6 -l6
+Invoked command in '/home/kt/repos/mppi/build/mppi' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kt/repos/mppi/build/mppi -- -j6 -l6
+Invoking command in '/home/kt/repos/mppi/build/mppi': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/kt/repos/mppi/build/mppi
+Invoked command in '/home/kt/repos/mppi/build/mppi' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/kt/repos/mppi/build/mppi

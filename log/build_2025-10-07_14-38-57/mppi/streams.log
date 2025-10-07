@@ -1,0 +1,37 @@
+[0.022s] Invoking command in '/home/kt/repos/mppi/build/mppi': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kt/repos/mppi/src/mppi -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/mppi
+[1.270s] -- Autodetected CUDA architecture(s):  8.7
+[1.270s] -- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+[2.519s] -- Autodetected CUDA architecture(s):  8.7
+[2.520s] -- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+[2.520s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.571s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.944s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.974s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.141s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.176s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.176s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kt/repos/mppi/src/mppi/include>
+[3.176s] -- Configured cppcheck exclude dirs and/or files: 
+[3.209s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.210s] -- Configured cpplint exclude dirs and/or files: 
+[3.214s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.223s] -- Added test 'lint_cmake' to check CMake code style
+[3.228s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.261s] -- Added test 'uncrustify' to check C / C++ code style
+[3.261s] -- Configured uncrustify additional arguments: 
+[3.265s] -- Added test 'xmllint' to check XML markup files
+[3.271s] -- Configuring done
+[3.273s] CMake Error at CMakeLists.txt:31 (add_executable):
+[3.274s]   Cannot find source file:
+[3.274s] 
+[3.274s]     src/mppi_node.cpp
+[3.274s] 
+[3.274s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[3.275s]   .hpp .hxx .in .txx
+[3.275s] 
+[3.275s] 
+[3.275s] CMake Error at CMakeLists.txt:31 (add_executable):
+[3.275s]   No SOURCES given to target: mppi_node
+[3.275s] 
+[3.276s] 
+[3.276s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[3.288s] Invoked command in '/home/kt/repos/mppi/build/mppi' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kt/repos/mppi/src/mppi -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/mppi

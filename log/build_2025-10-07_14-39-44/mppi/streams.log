@@ -1,0 +1,17 @@
+[0.022s] Invoking command in '/home/kt/repos/mppi/build/mppi': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kt/repos/mppi/src/mppi -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/mppi
+[1.275s] -- Autodetected CUDA architecture(s):  8.7
+[1.276s] -- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+[2.521s] -- Autodetected CUDA architecture(s):  8.7
+[2.522s] -- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+[2.523s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.570s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.935s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.962s] CMake Error at CMakeLists.txt:37 (target_link_libraries):
+[2.963s]   Cannot specify link libraries for target "myprogram" which is not built by
+[2.963s]   this project.
+[2.963s] 
+[2.964s] 
+[2.965s] -- Configuring incomplete, errors occurred!
+[2.966s] See also "/home/kt/repos/mppi/build/mppi/CMakeFiles/CMakeOutput.log".
+[2.966s] See also "/home/kt/repos/mppi/build/mppi/CMakeFiles/CMakeError.log".
+[2.983s] Invoked command in '/home/kt/repos/mppi/build/mppi' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kt/repos/mppi/src/mppi -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/mppi

@@ -1,0 +1,7 @@
+CMake Error in CMakeLists.txt:
+  Target "mppi_node" requires the language dialect "CUDA17" (with compiler
+  extensions), but CMake does not know the compile flags to use to enable it.
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:308: cmake_check_build_system] Error 1

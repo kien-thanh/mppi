@@ -1,0 +1,324 @@
+[0.000000] (-) TimerEvent: {}
+[0.001104] (mppi) JobQueued: {'identifier': 'mppi', 'dependencies': OrderedDict()}
+[0.001443] (mppi) JobStarted: {'identifier': 'mppi'}
+[0.022051] (mppi) JobProgress: {'identifier': 'mppi', 'progress': 'cmake'}
+[0.023717] (mppi) JobProgress: {'identifier': 'mppi', 'progress': 'build'}
+[0.025260] (mppi) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kt/repos/mppi/build/mppi', '--', '-j6', '-l6'], 'cwd': '/home/kt/repos/mppi/build/mppi', 'env': OrderedDict([('USER', 'kt'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_CLIENT', '100.94.52.62 53525 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/helpers/browser.sh'), ('HOME', '/home/kt'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/kt/repos/mppi/src'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.104.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1002/vscode-ipc-f35fbbc2-57f0-4977-895b-ba7a2c413999.sock'), ('ZSH', '/home/kt/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('P9K_TTY', 'old'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/kt/repos/mppi/install'), ('LOGNAME', 'kt'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/kt'), ('XDG_SESSION_ID', '226'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kt/repos/mppi/install/mppi/bin:/home/kt/repos/mppi/install/MPPI-Generic/bin:/usr/local/cuda/bin:/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1002/vscode-git-ae61417ce1.sock'), ('AMENT_PREFIX_PATH', '/home/kt/repos/mppi/install/mppi:/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'de_DE.UTF-8'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('P9K_SSH', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dd506eb9-29a0-4e44-8b89-d441484a0145'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/kt/repos/mppi/build/mppi'), ('SSH_CONNECTION', '100.94.52.62 53525 100.117.96.76 22'), ('ZDOTDIR', '/home/kt'), ('_P9K_TTY', '/dev/pts/4'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kt/repos/mppi/install/mppi:/home/kt/repos/mppi/install/MPPI-Generic:/opt/ros/foxy')]), 'shell': False}
+[0.099292] (-) TimerEvent: {}
+[0.200082] (-) TimerEvent: {}
+[0.300776] (-) TimerEvent: {}
+[0.401472] (-) TimerEvent: {}
+[0.502205] (-) TimerEvent: {}
+[0.603016] (-) TimerEvent: {}
+[0.703733] (-) TimerEvent: {}
+[0.804433] (-) TimerEvent: {}
+[0.905274] (-) TimerEvent: {}
+[1.006126] (-) TimerEvent: {}
+[1.106986] (-) TimerEvent: {}
+[1.207839] (-) TimerEvent: {}
+[1.296945] (mppi) StdoutLine: {'line': b'-- Autodetected CUDA architecture(s):  8.7\n'}
+[1.298037] (mppi) StdoutLine: {'line': b'-- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87\n'}
+[1.307958] (-) TimerEvent: {}
+[1.408633] (-) TimerEvent: {}
+[1.509303] (-) TimerEvent: {}
+[1.610013] (-) TimerEvent: {}
+[1.710714] (-) TimerEvent: {}
+[1.811444] (-) TimerEvent: {}
+[1.912155] (-) TimerEvent: {}
+[2.013023] (-) TimerEvent: {}
+[2.114217] (-) TimerEvent: {}
+[2.214942] (-) TimerEvent: {}
+[2.315668] (-) TimerEvent: {}
+[2.416369] (-) TimerEvent: {}
+[2.517067] (-) TimerEvent: {}
+[2.559411] (mppi) StdoutLine: {'line': b'-- Autodetected CUDA architecture(s):  8.7\n'}
+[2.560007] (mppi) StdoutLine: {'line': b'-- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87\n'}
+[2.560314] (mppi) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.604461] (mppi) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.617162] (-) TimerEvent: {}
+[2.717735] (-) TimerEvent: {}
+[2.818385] (-) TimerEvent: {}
+[2.919026] (-) TimerEvent: {}
+[2.973484] (mppi) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.991103] (mppi) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.019144] (-) TimerEvent: {}
+[3.058409] (mppi) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.064794] (mppi) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.119328] (-) TimerEvent: {}
+[3.220032] (-) TimerEvent: {}
+[3.301818] (mppi) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.320199] (-) TimerEvent: {}
+[3.415266] (mppi) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.418805] (mppi) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.420249] (-) TimerEvent: {}
+[3.520745] (-) TimerEvent: {}
+[3.621438] (-) TimerEvent: {}
+[3.709270] (mppi) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)\n'}
+[3.721526] (-) TimerEvent: {}
+[3.774513] (mppi) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.821690] (-) TimerEvent: {}
+[3.915679] (mppi) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.921799] (-) TimerEvent: {}
+[3.951917] (mppi) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.952765] (mppi) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/kt/repos/mppi/src/mppi/include/mppi;/home/kt/repos/mppi/src/mppi/src;$<BUILD_INTERFACE:/home/kt/repos/mppi/src/mppi/include>\n'}
+[3.953122] (mppi) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.985906] (mppi) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.986363] (mppi) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.990854] (mppi) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.000131] (mppi) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.005089] (mppi) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[4.021916] (-) TimerEvent: {}
+[4.038654] (mppi) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.039199] (mppi) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.043358] (mppi) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.052062] (mppi) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.088501] (mppi) StdoutLine: {'line': b'-- Generating done\n'}
+[4.099645] (mppi) StdoutLine: {'line': b'-- Build files have been written to: /home/kt/repos/mppi/build/mppi\n'}
+[4.122023] (-) TimerEvent: {}
+[4.177065] (mppi) StdoutLine: {'line': b'[ 25%] Built target cnpy-static\n'}
+[4.180592] (mppi) StdoutLine: {'line': b'[ 50%] Built target cnpy\n'}
+[4.203152] (mppi) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mppi_node\x1b[0m\n'}
+[4.222224] (-) TimerEvent: {}
+[4.228668] (mppi) StdoutLine: {'line': b'[ 75%] Built target example1\n'}
+[4.322409] (-) TimerEvent: {}
+[4.345063] (mppi) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CUDA object CMakeFiles/mppi_node.dir/src/mppi_node.cu.o\x1b[0m\n'}
+[4.422589] (-) TimerEvent: {}
+[4.523282] (-) TimerEvent: {}
+[4.623975] (-) TimerEvent: {}
+[4.691216] (mppi) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:257\x1b[m\x1b[K,\n'}
+[4.691815] (mppi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/controller.cuh:9\x1b[m\x1b[K,\n'}
+[4.692011] (mppi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/MPPI/mppi_controller.cuh:11\x1b[m\x1b[K,\n'}
+[4.692165] (mppi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kt/repos/mppi/src/mppi/src/mppi_node.cu:7\x1b[m\x1b[K:\n'}
+[4.692309] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/cuda/bin/../targets/aarch64-linux/include/host_defines.h:54:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [\x1b[01;35m\x1b[K-Wcpp\x1b[m\x1b[K]\n'}
+[4.692461] (mppi) StderrLine: {'line': b'   54 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."\n'}
+[4.692600] (mppi) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.724141] (-) TimerEvent: {}
+[4.824800] (-) TimerEvent: {}
+[4.925519] (-) TimerEvent: {}
+[5.026181] (-) TimerEvent: {}
+[5.126850] (-) TimerEvent: {}
+[5.227522] (-) TimerEvent: {}
+[5.328246] (-) TimerEvent: {}
+[5.429087] (-) TimerEvent: {}
+[5.529925] (-) TimerEvent: {}
+[5.630766] (-) TimerEvent: {}
+[5.731530] (-) TimerEvent: {}
+[5.832243] (-) TimerEvent: {}
+[5.933107] (-) TimerEvent: {}
+[6.033905] (-) TimerEvent: {}
+[6.134674] (-) TimerEvent: {}
+[6.137783] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp(477)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.138234] (mppi) StderrLine: {'line': b'\n'}
+[6.140915] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp(60)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.141351] (mppi) StderrLine: {'line': b'\n'}
+[6.141655] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp(64)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.141945] (mppi) StderrLine: {'line': b'\n'}
+[6.234841] (-) TimerEvent: {}
+[6.290388] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp(435)\x1b[0m: \x1b[01;31merror\x1b[0m: namespace \x1b[01m"std"\x1b[0m has no member "\x1b[01mshared_timed_mutex\x1b[0m"\n'}
+[6.291148] (mppi) StderrLine: {'line': b'\n'}
+[6.326732] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/builtin_interfaces/msg/detail/time__builder.hpp(60)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.327323] (mppi) StderrLine: {'line': b'\n'}
+[6.327681] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/builtin_interfaces/msg/detail/time__builder.hpp(64)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.327984] (mppi) StderrLine: {'line': b'\n'}
+[6.328256] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/builtin_interfaces/msg/detail/time__builder.hpp(64)\x1b[0m: \x1b[01;31merror\x1b[0m: more than one instance of overloaded function \x1b[01m"builtin_interfaces::build"\x1b[0m matches the argument list:\n'}
+[6.328528] (mppi) StderrLine: {'line': b'\n'}
+[6.334906] (-) TimerEvent: {}
+[6.402017] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/subscription_traits.hpp(83)\x1b[0m: \x1b[01;31merror\x1b[0m: namespace \x1b[01m"std"\x1b[0m has no member "\x1b[01mremove_cv_t\x1b[0m"\n'}
+[6.402904] (mppi) StderrLine: {'line': b'\n'}
+[6.403237] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/subscription_traits.hpp(83)\x1b[0m: \x1b[01;31merror\x1b[0m: expected a ">"\n'}
+[6.403590] (mppi) StderrLine: {'line': b'\n'}
+[6.403880] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/subscription_traits.hpp(82)\x1b[0m: \x1b[01;31merror\x1b[0m: namespace \x1b[01m"std"\x1b[0m has no member "\x1b[01menable_if_t\x1b[0m"\n'}
+[6.404161] (mppi) StderrLine: {'line': b'\n'}
+[6.404422] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/subscription_traits.hpp(82)\x1b[0m: \x1b[01;31merror\x1b[0m: expected a "," or ">"\n'}
+[6.404679] (mppi) StderrLine: {'line': b'\n'}
+[6.404931] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/subscription_traits.hpp(83)\x1b[0m: \x1b[01;31merror\x1b[0m: expected a declaration\n'}
+[6.405183] (mppi) StderrLine: {'line': b'\n'}
+[6.405430] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/subscription_traits.hpp(83)\x1b[0m: \x1b[01;31merror\x1b[0m: expected a ";"\n'}
+[6.405678] (mppi) StderrLine: {'line': b'\n'}
+[6.413633] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__builder.hpp(124)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.414223] (mppi) StderrLine: {'line': b'\n'}
+[6.414524] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__builder.hpp(128)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.414854] (mppi) StderrLine: {'line': b'\n'}
+[6.435032] (-) TimerEvent: {}
+[6.535706] (-) TimerEvent: {}
+[6.536537] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp(60)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.537129] (mppi) StderrLine: {'line': b'\n'}
+[6.537441] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp(64)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.537731] (mppi) StderrLine: {'line': b'\n'}
+[6.557689] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp(140)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.558419] (mppi) StderrLine: {'line': b'\n'}
+[6.558737] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp(144)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.559021] (mppi) StderrLine: {'line': b'\n'}
+[6.559281] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp(144)\x1b[0m: \x1b[01;31merror\x1b[0m: more than one instance of overloaded function \x1b[01m"rcl_interfaces::build"\x1b[0m matches the argument list:\n'}
+[6.559765] (mppi) StderrLine: {'line': b'\n'}
+[6.570369] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_event__builder.hpp(108)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.570848] (mppi) StderrLine: {'line': b'\n'}
+[6.571221] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_event__builder.hpp(112)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.571556] (mppi) StderrLine: {'line': b'\n'}
+[6.571832] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_event__builder.hpp(112)\x1b[0m: \x1b[01;31merror\x1b[0m: more than one instance of overloaded function \x1b[01m"rcl_interfaces::build"\x1b[0m matches the argument list:\n'}
+[6.572097] (mppi) StderrLine: {'line': b'\n'}
+[6.574166] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp(60)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.574678] (mppi) StderrLine: {'line': b'\n'}
+[6.574966] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp(64)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.575231] (mppi) StderrLine: {'line': b'\n'}
+[6.575558] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp(64)\x1b[0m: \x1b[01;31merror\x1b[0m: more than one instance of overloaded function \x1b[01m"rcl_interfaces::build"\x1b[0m matches the argument list:\n'}
+[6.575826] (mppi) StderrLine: {'line': b'\n'}
+[6.598378] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter__builder.hpp(60)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.599256] (mppi) StderrLine: {'line': b'\n'}
+[6.599672] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter__builder.hpp(64)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.599962] (mppi) StderrLine: {'line': b'\n'}
+[6.600227] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter__builder.hpp(64)\x1b[0m: \x1b[01;31merror\x1b[0m: more than one instance of overloaded function \x1b[01m"rcl_interfaces::build"\x1b[0m matches the argument list:\n'}
+[6.600557] (mppi) StderrLine: {'line': b'\n'}
+[6.600971] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_type__builder.hpp(24)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.601250] (mppi) StderrLine: {'line': b'\n'}
+[6.601571] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_type__builder.hpp(28)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.601884] (mppi) StderrLine: {'line': b'\n'}
+[6.602141] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_type__builder.hpp(28)\x1b[0m: \x1b[01;31merror\x1b[0m: more than one instance of overloaded function \x1b[01m"rcl_interfaces::build"\x1b[0m matches the argument list:\n'}
+[6.602390] (mppi) StderrLine: {'line': b'\n'}
+[6.607034] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_value__builder.hpp(188)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.607471] (mppi) StderrLine: {'line': b'\n'}
+[6.607860] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_value__builder.hpp(192)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.608199] (mppi) StderrLine: {'line': b'\n'}
+[6.608463] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_value__builder.hpp(192)\x1b[0m: \x1b[01;31merror\x1b[0m: more than one instance of overloaded function \x1b[01m"rcl_interfaces::build"\x1b[0m matches the argument list:\n'}
+[6.608717] (mppi) StderrLine: {'line': b'\n'}
+[6.614206] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(46)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.614515] (mppi) StderrLine: {'line': b'\n'}
+[6.615051] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(116)\x1b[0m: \x1b[01;31merror\x1b[0m: expected a declaration\n'}
+[6.615412] (mppi) StderrLine: {'line': b'\n'}
+[6.615682] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(131)\x1b[0m: \x1b[01;31merror\x1b[0m: expected a ";"\n'}
+[6.615928] (mppi) StderrLine: {'line': b'\n'}
+[6.616219] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(236)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.616474] (mppi) StderrLine: {'line': b'\n'}
+[6.616750] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(245)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.616998] (mppi) StderrLine: {'line': b'\n'}
+[6.617275] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(246)\x1b[0m: \x1b[01;31merror\x1b[0m: more than one instance of overloaded function \x1b[01m"rclcpp::detail::get_value_helper"\x1b[0m matches the argument list:\n'}
+[6.617531] (mppi) StderrLine: {'line': b'\n'}
+[6.617830] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(254)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" function requires a trailing return type\n'}
+[6.618086] (mppi) StderrLine: {'line': b'\n'}
+[6.618382] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(255)\x1b[0m: \x1b[01;31merror\x1b[0m: more than one instance of overloaded function \x1b[01m"rclcpp::detail::get_value_helper"\x1b[0m matches the argument list:\n'}
+[6.618659] (mppi) StderrLine: {'line': b'\n'}
+[6.618959] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(268)\x1b[0m: \x1b[01;31merror\x1b[0m: expected an identifier\n'}
+[6.619223] (mppi) StderrLine: {'line': b'\n'}
+[6.619603] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(268)\x1b[0m: \x1b[01;31merror\x1b[0m: "auto" is not allowed here\n'}
+[6.619854] (mppi) StderrLine: {'line': b'\n'}
+[6.620090] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(269)\x1b[0m: \x1b[01;31merror\x1b[0m: expected a ";"\n'}
+[6.620329] (mppi) StderrLine: {'line': b'\n'}
+[6.625093] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/subscription_factory.hpp(78)\x1b[0m: \x1b[01;31merror\x1b[0m: namespace \x1b[01m"rclcpp::subscription_traits"\x1b[0m has no member "\x1b[01mhas_message_type\x1b[0m"\n'}
+[6.625656] (mppi) StderrLine: {'line': b'\n'}
+[6.626490] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/subscription_factory.hpp(78)\x1b[0m: \x1b[01;31merror\x1b[0m: expected a "," or ">"\n'}
+[6.627712] (mppi) StderrLine: {'line': b'\n'}
+[6.627972] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/subscription_factory.hpp(78)\x1b[0m: \x1b[01;31merror\x1b[0m: the global scope has no "\x1b[01mtype\x1b[0m"\n'}
+[6.628219] (mppi) StderrLine: {'line': b'\n'}
+[6.628461] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/subscription_factory.hpp(122)\x1b[0m: \x1b[01;31merror\x1b[0m: expected a ";"\n'}
+[6.628701] (mppi) StderrLine: {'line': b'\n'}
+[6.628942] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/subscription_factory.hpp(123)\x1b[0m: \x1b[01;31merror\x1b[0m: no instance of overloaded function \x1b[01m"std::dynamic_pointer_cast"\x1b[0m matches the argument list\n'}
+[6.629187] (mppi) StderrLine: {'line': b'            argument types are: (int)\n'}
+[6.629424] (mppi) StderrLine: {'line': b'\n'}
+[6.629659] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/subscription_factory.hpp(124)\x1b[0m: \x1b[01;31merror\x1b[0m: expected a declaration\n'}
+[6.629897] (mppi) StderrLine: {'line': b'\n'}
+[6.630130] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/subscription_factory.hpp(126)\x1b[0m: \x1b[01;31merror\x1b[0m: expected a declaration\n'}
+[6.630366] (mppi) StderrLine: {'line': b'\n'}
+[6.630596] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/subscription_factory.hpp(129)\x1b[0m: \x1b[01;31merror\x1b[0m: expected a declaration\n'}
+[6.630829] (mppi) StderrLine: {'line': b'\n'}
+[6.631061] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/subscription_factory.hpp(130)\x1b[0m: \x1b[01;31merror\x1b[0m: expected a declaration\n'}
+[6.631291] (mppi) StderrLine: {'line': b'\n'}
+[6.631599] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(66)\x1b[0m: \x1b[01;31merror\x1b[0m: invalid specifier outside a class declaration\n'}
+[6.631845] (mppi) StderrLine: {'line': b'\n'}
+[6.632085] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(71)\x1b[0m: \x1b[01;31merror\x1b[0m: function \x1b[01m"create_subscription"\x1b[0m may not be initialized\n'}
+[6.632358] (mppi) StderrLine: {'line': b'\n'}
+[6.632595] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(74)\x1b[0m: \x1b[01;31merror\x1b[0m: invalid specifier outside a class declaration\n'}
+[6.632835] (mppi) StderrLine: {'line': b'\n'}
+[6.633072] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(78)\x1b[0m: \x1b[01;31merror\x1b[0m: function \x1b[01m"add_subscription"\x1b[0m may not be initialized\n'}
+[6.633306] (mppi) StderrLine: {'line': b'\n'}
+[6.633532] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(81)\x1b[0m: \x1b[01;31merror\x1b[0m: invalid specifier outside a class declaration\n'}
+[6.633792] (mppi) StderrLine: {'line': b'\n'}
+[6.634025] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(83)\x1b[0m: \x1b[01;31merror\x1b[0m: a type qualifier is not allowed on a nonmember function\n'}
+[6.634258] (mppi) StderrLine: {'line': b'\n'}
+[6.634485] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(83)\x1b[0m: \x1b[01;31merror\x1b[0m: function \x1b[01m"get_node_base_interface"\x1b[0m may not be initialized\n'}
+[6.634717] (mppi) StderrLine: {'line': b'\n'}
+[6.634946] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(86)\x1b[0m: \x1b[01;31merror\x1b[0m: invalid specifier outside a class declaration\n'}
+[6.635182] (mppi) StderrLine: {'line': b'\n'}
+[6.635467] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(88)\x1b[0m: \x1b[01;31merror\x1b[0m: a type qualifier is not allowed on a nonmember function\n'}
+[6.635720] (-) TimerEvent: {}
+[6.636099] (mppi) StderrLine: {'line': b'\n'}
+[6.636397] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(88)\x1b[0m: \x1b[01;31merror\x1b[0m: function \x1b[01m"get_node_timers_interface"\x1b[0m may not be initialized\n'}
+[6.636653] (mppi) StderrLine: {'line': b'\n'}
+[6.636894] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(89)\x1b[0m: \x1b[01;31merror\x1b[0m: expected a declaration\n'}
+[6.637131] (mppi) StderrLine: {'line': b'\n'}
+[6.637362] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(91)\x1b[0m: \x1b[01;31merror\x1b[0m: expected a declaration\n'}
+[6.637598] (mppi) StderrLine: {'line': b'\n'}
+[6.637831] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_waitables_interface.hpp(52)\x1b[0m: \x1b[01;31merror\x1b[0m: expected a declaration\n'}
+[6.638067] (mppi) StderrLine: {'line': b'\n'}
+[6.638294] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_waitables_interface.hpp(54)\x1b[0m: \x1b[01;31merror\x1b[0m: expected a declaration\n'}
+[6.638523] (mppi) StderrLine: {'line': b'\n'}
+[6.638749] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(86)\x1b[0m: \x1b[01;31merror\x1b[0m: a type qualifier is not allowed on a nonmember function\n'}
+[6.638979] (mppi) StderrLine: {'line': b'\n'}
+[6.639206] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(91)\x1b[0m: \x1b[01;31merror\x1b[0m: a type qualifier is not allowed on a nonmember function\n'}
+[6.639602] (mppi) StderrLine: {'line': b'\n'}
+[6.639880] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(95)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mNodeOptions\x1b[0m" is undefined\n'}
+[6.640105] (mppi) StderrLine: {'line': b'\n'}
+[6.640320] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(101)\x1b[0m: \x1b[01;31merror\x1b[0m: a type qualifier is not allowed on a nonmember function\n'}
+[6.640539] (mppi) StderrLine: {'line': b'\n'}
+[6.640750] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(111)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mNodeOptions\x1b[0m" is undefined\n'}
+[6.640961] (mppi) StderrLine: {'line': b'\n'}
+[6.641168] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(121)\x1b[0m: \x1b[01;31merror\x1b[0m: a type qualifier is not allowed on a nonmember function\n'}
+[6.641378] (mppi) StderrLine: {'line': b'\n'}
+[6.641586] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(121)\x1b[0m: \x1b[01;31merror\x1b[0m: cannot overload functions distinguished by return type alone\n'}
+[6.641814] (mppi) StderrLine: {'line': b'\n'}
+[6.642026] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(130)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mNodeOptions\x1b[0m" is undefined\n'}
+[6.642238] (mppi) StderrLine: {'line': b'\n'}
+[6.642446] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(135)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mNodeOptions\x1b[0m" is undefined\n'}
+[6.642655] (mppi) StderrLine: {'line': b'\n'}
+[6.642863] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(145)\x1b[0m: \x1b[01;31merror\x1b[0m: a type qualifier is not allowed on a nonmember function\n'}
+[6.643074] (mppi) StderrLine: {'line': b'\n'}
+[6.643279] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(156)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mNodeOptions\x1b[0m" is undefined\n'}
+[6.643562] (mppi) StderrLine: {'line': b'\n'}
+[6.643782] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(162)\x1b[0m: \x1b[01;31merror\x1b[0m: a type qualifier is not allowed on a nonmember function\n'}
+[6.643968] (mppi) StderrLine: {'line': b'\n'}
+[6.644149] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(172)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mNodeOptions\x1b[0m" is undefined\n'}
+[6.644328] (mppi) StderrLine: {'line': b'\n'}
+[6.644506] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(178)\x1b[0m: \x1b[01;31merror\x1b[0m: a type qualifier is not allowed on a nonmember function\n'}
+[6.644682] (mppi) StderrLine: {'line': b'\n'}
+[6.644861] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(191)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mNodeOptions\x1b[0m" is undefined\n'}
+[6.645063] (mppi) StderrLine: {'line': b'\n'}
+[6.645244] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(197)\x1b[0m: \x1b[01;31merror\x1b[0m: a type qualifier is not allowed on a nonmember function\n'}
+[6.645424] (mppi) StderrLine: {'line': b'\n'}
+[6.645600] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(208)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mNodeOptions\x1b[0m" is undefined\n'}
+[6.645782] (mppi) StderrLine: {'line': b'\n'}
+[6.645957] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(214)\x1b[0m: \x1b[01;31merror\x1b[0m: a type qualifier is not allowed on a nonmember function\n'}
+[6.646138] (mppi) StderrLine: {'line': b'\n'}
+[6.646313] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(227)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mNodeOptions\x1b[0m" is undefined\n'}
+[6.646489] (mppi) StderrLine: {'line': b'\n'}
+[6.646666] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(233)\x1b[0m: \x1b[01;31merror\x1b[0m: a type qualifier is not allowed on a nonmember function\n'}
+[6.646844] (mppi) StderrLine: {'line': b'\n'}
+[6.647019] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(243)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mNodeOptions\x1b[0m" is undefined\n'}
+[6.647201] (mppi) StderrLine: {'line': b'\n'}
+[6.647440] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(249)\x1b[0m: \x1b[01;31merror\x1b[0m: a type qualifier is not allowed on a nonmember function\n'}
+[6.647656] (mppi) StderrLine: {'line': b'\n'}
+[6.647839] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(256)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mNodeOptions\x1b[0m" is undefined\n'}
+[6.648029] (mppi) StderrLine: {'line': b'\n'}
+[6.648196] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(262)\x1b[0m: \x1b[01;31merror\x1b[0m: a type qualifier is not allowed on a nonmember function\n'}
+[6.648365] (mppi) StderrLine: {'line': b'\n'}
+[6.648532] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(273)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mNodeOptions\x1b[0m" is undefined\n'}
+[6.648698] (mppi) StderrLine: {'line': b'\n'}
+[6.648863] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(280)\x1b[0m: \x1b[01;31merror\x1b[0m: a type qualifier is not allowed on a nonmember function\n'}
+[6.649029] (mppi) StderrLine: {'line': b'\n'}
+[6.649194] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(293)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mNodeOptions\x1b[0m" is undefined\n'}
+[6.649363] (mppi) StderrLine: {'line': b'\n'}
+[6.649549] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(299)\x1b[0m: \x1b[01;31merror\x1b[0m: a type qualifier is not allowed on a nonmember function\n'}
+[6.649725] (mppi) StderrLine: {'line': b'\n'}
+[6.649895] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(313)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mNodeOptions\x1b[0m" is undefined\n'}
+[6.650066] (mppi) StderrLine: {'line': b'\n'}
+[6.650230] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(320)\x1b[0m: \x1b[01;31merror\x1b[0m: a type qualifier is not allowed on a nonmember function\n'}
+[6.650401] (mppi) StderrLine: {'line': b'\n'}
+[6.650569] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(327)\x1b[0m: \x1b[01;31merror\x1b[0m: identifier "\x1b[01mNodeOptions\x1b[0m" is undefined\n'}
+[6.650758] (mppi) StderrLine: {'line': b'\n'}
+[6.650928] (mppi) StderrLine: {'line': b'Error limit reached.\n'}
+[6.651096] (mppi) StderrLine: {'line': b'100 errors detected in the compilation of "/home/kt/repos/mppi/src/mppi/src/mppi_node.cu".\n'}
+[6.651265] (mppi) StderrLine: {'line': b'Compilation terminated.\n'}
+[6.677121] (mppi) StderrLine: {'line': b'make[2]: *** [CMakeFiles/mppi_node.dir/build.make:63: CMakeFiles/mppi_node.dir/src/mppi_node.cu.o] Error 1\n'}
+[6.677968] (mppi) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:120: CMakeFiles/mppi_node.dir/all] Error 2\n'}
+[6.678662] (mppi) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.685380] (mppi) CommandEnded: {'returncode': 2}
+[6.717280] (mppi) JobEnded: {'identifier': 'mppi', 'rc': 2}
+[6.728491] (-) EventReactorShutdown: {}

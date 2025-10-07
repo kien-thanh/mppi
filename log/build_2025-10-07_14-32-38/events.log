@@ -1,0 +1,277 @@
+[0.000000] (-) TimerEvent: {}
+[0.001546] (MPPI-Generic) JobQueued: {'identifier': 'MPPI-Generic', 'dependencies': OrderedDict()}
+[0.001723] (mppi) JobQueued: {'identifier': 'mppi', 'dependencies': OrderedDict()}
+[0.001830] (MPPI-Generic) JobStarted: {'identifier': 'MPPI-Generic'}
+[0.016693] (mppi) JobStarted: {'identifier': 'mppi'}
+[0.030282] (MPPI-Generic) JobProgress: {'identifier': 'MPPI-Generic', 'progress': 'cmake'}
+[0.031883] (MPPI-Generic) JobProgress: {'identifier': 'MPPI-Generic', 'progress': 'build'}
+[0.033266] (MPPI-Generic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kt/repos/mppi/build/MPPI-Generic', '--', '-j6', '-l6'], 'cwd': '/home/kt/repos/mppi/build/MPPI-Generic', 'env': OrderedDict([('USER', 'kt'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_CLIENT', '100.94.52.62 53525 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/helpers/browser.sh'), ('HOME', '/home/kt'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/kt/repos/mppi/src'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.104.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1002/vscode-ipc-f35fbbc2-57f0-4977-895b-ba7a2c413999.sock'), ('ZSH', '/home/kt/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('P9K_TTY', 'old'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kt'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/kt'), ('XDG_SESSION_ID', '226'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda/bin:/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1002/vscode-git-ae61417ce1.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'de_DE.UTF-8'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('P9K_SSH', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dd506eb9-29a0-4e44-8b89-d441484a0145'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/kt/repos/mppi/build/MPPI-Generic'), ('SSH_CONNECTION', '100.94.52.62 53525 100.117.96.76 22'), ('ZDOTDIR', '/home/kt'), ('_P9K_TTY', '/dev/pts/4'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.045940] (mppi) JobProgress: {'identifier': 'mppi', 'progress': 'cmake'}
+[0.047468] (mppi) Command: {'cmd': ['/usr/bin/cmake', '/home/kt/repos/mppi/src/mppi', '-DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/mppi'], 'cwd': '/home/kt/repos/mppi/build/mppi', 'env': OrderedDict([('USER', 'kt'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_CLIENT', '100.94.52.62 53525 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/helpers/browser.sh'), ('HOME', '/home/kt'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/kt/repos/mppi/src'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.104.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1002/vscode-ipc-f35fbbc2-57f0-4977-895b-ba7a2c413999.sock'), ('ZSH', '/home/kt/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('P9K_TTY', 'old'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kt'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/kt'), ('XDG_SESSION_ID', '226'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda/bin:/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1002/vscode-git-ae61417ce1.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'de_DE.UTF-8'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('P9K_SSH', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dd506eb9-29a0-4e44-8b89-d441484a0145'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/kt/repos/mppi/build/mppi'), ('SSH_CONNECTION', '100.94.52.62 53525 100.117.96.76 22'), ('ZDOTDIR', '/home/kt'), ('_P9K_TTY', '/dev/pts/4'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.078174] (mppi) StderrLine: {'line': b'CMake Error at CMakeLists.txt:8 (add_subdirectory):\n'}
+[0.078861] (mppi) StderrLine: {'line': b'  add_subdirectory not given a binary directory but the given source\n'}
+[0.079059] (mppi) StderrLine: {'line': b'  directory "/home/kt/repos/mppi/submodules/MPPI-Generic" is not a\n'}
+[0.079215] (mppi) StderrLine: {'line': b'  subdirectory of "/home/kt/repos/mppi/src/mppi".  When specifying an\n'}
+[0.079358] (mppi) StderrLine: {'line': b'  out-of-tree source a binary directory must be explicitly specified.\n'}
+[0.079493] (mppi) StderrLine: {'line': b'\n'}
+[0.079626] (mppi) StderrLine: {'line': b'\n'}
+[0.079754] (mppi) StdoutLine: {'line': b'-- Setting Build Type to Release by default\n'}
+[0.079966] (mppi) StdoutLine: {'line': b'-- Using ccache to speed up repeated builds\n'}
+[0.089189] (mppi) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[0.099319] (-) TimerEvent: {}
+[0.139024] (MPPI-Generic) StdoutLine: {'line': b'[ 33%] Built target cnpy-static\n'}
+[0.144479] (MPPI-Generic) StdoutLine: {'line': b'[ 66%] Built target cnpy\n'}
+[0.190148] (MPPI-Generic) StdoutLine: {'line': b'[100%] Built target example1\n'}
+[0.199503] (-) TimerEvent: {}
+[0.214508] (MPPI-Generic) CommandEnded: {'returncode': 0}
+[0.216521] (MPPI-Generic) JobProgress: {'identifier': 'MPPI-Generic', 'progress': 'install'}
+[0.240370] (MPPI-Generic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kt/repos/mppi/build/MPPI-Generic'], 'cwd': '/home/kt/repos/mppi/build/MPPI-Generic', 'env': OrderedDict([('USER', 'kt'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_CLIENT', '100.94.52.62 53525 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/helpers/browser.sh'), ('HOME', '/home/kt'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/kt/repos/mppi/src'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.104.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1002/vscode-ipc-f35fbbc2-57f0-4977-895b-ba7a2c413999.sock'), ('ZSH', '/home/kt/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('P9K_TTY', 'old'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kt'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/kt'), ('XDG_SESSION_ID', '226'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda/bin:/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1002/vscode-git-ae61417ce1.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'de_DE.UTF-8'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('P9K_SSH', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dd506eb9-29a0-4e44-8b89-d441484a0145'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/kt/repos/mppi/build/MPPI-Generic'), ('SSH_CONNECTION', '100.94.52.62 53525 100.117.96.76 22'), ('ZDOTDIR', '/home/kt'), ('_P9K_TTY', '/dev/pts/4'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.257626] (mppi) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[0.258292] (mppi) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.263208] (MPPI-Generic) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.263911] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/lib/cnpy/libcnpy.so\n'}
+[0.264903] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/lib/cnpy/libcnpy.a\n'}
+[0.266121] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/cnpy/cnpy.h\n'}
+[0.266538] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/bin/mat2npz\n'}
+[0.266917] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/bin/npy2mat\n'}
+[0.267229] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/bin/npz2mat\n'}
+[0.267797] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/lib/cmake/cnpy/cnpy-targets.cmake\n'}
+[0.268134] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/lib/cmake/cnpy/cnpy-targets-release.cmake\n'}
+[0.268428] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/lib/cmake/cnpy/cnpy-config.cmake\n'}
+[0.268726] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi\n'}
+[0.268970] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/core\n'}
+[0.269156] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/core/base_plant.hpp\n'}
+[0.269335] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/core/rmppi_kernels.cu\n'}
+[0.269930] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/core/buffered_plant.hpp\n'}
+[0.270245] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/core/rmppi_kernels.cuh\n'}
+[0.270616] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/core/mppi_common.cu\n'}
+[0.271209] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/core/mppi_common.cuh\n'}
+[0.271510] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/core/buffer.hpp\n'}
+[0.271776] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/feedback_controllers\n'}
+[0.271972] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/feedback_controllers/feedback.cu\n'}
+[0.272222] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/feedback_controllers/feedback.cuh\n'}
+[0.272449] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/feedback_controllers/DDP\n'}
+[0.272635] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/feedback_controllers/DDP/ddp.cuh\n'}
+[0.272880] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/feedback_controllers/DDP/ddp.cu\n'}
+[0.273166] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/feedback_controllers/CCM\n'}
+[0.273345] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/feedback_controllers/CCM/ccm.h\n'}
+[0.273659] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils\n'}
+[0.273824] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/texture_helpers\n'}
+[0.273990] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/texture_helpers/three_d_texture_helper.cu\n'}
+[0.274345] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/texture_helpers/texture_helper.cuh\n'}
+[0.274705] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/texture_helpers/two_d_texture_helper.cuh\n'}
+[0.275012] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/texture_helpers/three_d_texture_helper.cuh\n'}
+[0.275348] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/texture_helpers/two_d_texture_helper.cu\n'}
+[0.275687] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/texture_helpers/texture_helper.cu\n'}
+[0.276066] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/numerical_integration.h\n'}
+[0.276395] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/managed.cuh\n'}
+[0.276639] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/matrix_mult_utils.cuh\n'}
+[0.276924] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/parallel_utils.cuh\n'}
+[0.277179] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/activation_functions.cuh\n'}
+[0.277523] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/test_helper.h\n'}
+[0.277867] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/eigen_type_conversions.h\n'}
+[0.278193] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/cuda_math_utils.cuh\n'}
+[0.278445] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/nn_helpers\n'}
+[0.278661] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/nn_helpers/fnn_helper.cu\n'}
+[0.278993] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/nn_helpers/lstm_helper.cu\n'}
+[0.279462] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/nn_helpers/lstm_helper.cuh\n'}
+[0.279827] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/nn_helpers/lstm_lstm_helper.cu\n'}
+[0.280172] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/nn_helpers/fnn_helper.cuh\n'}
+[0.280528] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/nn_helpers/lstm_lstm_helper.cuh\n'}
+[0.281016] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/nn_helpers/meta_math.h\n'}
+[0.281351] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/file_utils.h\n'}
+[0.281681] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/logger.hpp\n'}
+[0.281924] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/gpu_err_chk.cuh\n'}
+[0.282162] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/type_printing.h\n'}
+[0.282486] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/angle_utils.cuh\n'}
+[0.282716] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/risk_utils.cu\n'}
+[0.283042] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/math_utils.h\n'}
+[0.283332] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/utils/risk_utils.cuh\n'}
+[0.283550] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/instantiations\n'}
+[0.283766] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/instantiations/double_integrator_mppi\n'}
+[0.283980] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/instantiations/double_integrator_mppi/double_integrator_mppi.cuh\n'}
+[0.284195] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/instantiations/cartpole_mppi\n'}
+[0.284392] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/instantiations/cartpole_mppi/cartpole_mppi.cuh\n'}
+[0.284636] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/instantiations/quadrotor_mppi\n'}
+[0.284869] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/instantiations/quadrotor_mppi/quadrotor_mppi.cuh\n'}
+[0.285130] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/instantiations/autorally_mppi\n'}
+[0.285333] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/instantiations/autorally_mppi/autorally_mppi.cuh\n'}
+[0.285559] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions\n'}
+[0.285736] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/cartpole\n'}
+[0.285908] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/cartpole/cartpole_quadratic_cost.cuh\n'}
+[0.286123] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/cartpole/cartpole_quadratic_cost.cu\n'}
+[0.286424] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/quadratic_cost\n'}
+[0.286585] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/quadratic_cost/quadratic_cost.cu\n'}
+[0.286889] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/quadratic_cost/quadratic_cost.cuh\n'}
+[0.287088] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/quadrotor\n'}
+[0.287260] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/quadrotor/quadrotor_quadratic_cost.cu\n'}
+[0.287558] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/quadrotor/quadrotor_quadratic_cost.cuh\n'}
+[0.287879] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/quadrotor/quadrotor_map_cost.cuh\n'}
+[0.288367] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/quadrotor/quadrotor_map_cost.cu\n'}
+[0.288949] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/autorally\n'}
+[0.289228] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/autorally/ar_robust_cost.cu\n'}
+[0.289444] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/autorally/ar_standard_cost.cuh\n'}
+[0.289782] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/autorally/ar_standard_cost.cu\n'}
+[0.290149] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/autorally/ar_robust_cost.cuh\n'}
+[0.290466] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/cost.cuh\n'}
+[0.290690] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/cost.cu\n'}
+[0.291574] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/double_integrator\n'}
+[0.291926] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/double_integrator/double_integrator_circle_cost.cuh\n'}
+[0.292209] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/double_integrator/double_integrator_circle_cost.cu\n'}
+[0.292609] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/double_integrator/double_integrator_robust_cost.cuh\n'}
+[0.293018] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/cost_functions/double_integrator/double_integrator_robust_cost.cu\n'}
+[0.293326] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics\n'}
+[0.293540] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/dynamics.cu\n'}
+[0.293770] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/cartpole\n'}
+[0.293945] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/cartpole/cartpole_dynamics.cu\n'}
+[0.294241] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/cartpole/cartpole_dynamics.cuh\n'}
+[0.294577] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/dubins\n'}
+[0.294737] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/dubins/dubins.cuh\n'}
+[0.295085] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/dubins/dubins.cu\n'}
+[0.295374] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/quadrotor\n'}
+[0.295583] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/quadrotor/quadrotor_dynamics.cu\n'}
+[0.295842] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/quadrotor/quadrotor_dynamics.cuh\n'}
+[0.296148] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/racer_dubins\n'}
+[0.296355] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_suspension_lstm.cuh\n'}
+[0.296668] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_suspension_lstm.cu\n'}
+[0.297166] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/racer_dubins/racer_dubins.cuh\n'}
+[0.297486] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_unc.cuh\n'}
+[0.297824] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_steering.cuh\n'}
+[0.298159] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/racer_dubins/racer_dubins_elevation.cu\n'}
+[0.298714] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_steering.cu\n'}
+[0.299078] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/racer_dubins/racer_dubins_elevation.cuh\n'}
+[0.299427] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/racer_dubins/racer_dubins.cu\n'}
+[0.299579] (-) TimerEvent: {}
+[0.300398] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_unc.cu\n'}
+[0.300711] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/linear\n'}
+[0.300956] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/linear/linear.cu\n'}
+[0.301234] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/linear/linear.cuh\n'}
+[0.301518] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/autorally\n'}
+[0.301694] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/autorally/ar_nn_model.cu\n'}
+[0.301980] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/autorally/ar_nn_model.cuh\n'}
+[0.302298] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/bicycle_slip\n'}
+[0.302462] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/bicycle_slip/bicycle_slip_parametric.cuh\n'}
+[0.302780] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/bicycle_slip/bicycle_slip_parametric.cu\n'}
+[0.303304] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/dynamics.cuh\n'}
+[0.303520] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/racer_suspension\n'}
+[0.303688] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/racer_suspension/racer_suspension.cuh\n'}
+[0.303995] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/racer_suspension/racer_suspension.cu\n'}
+[0.304436] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/double_integrator\n'}
+[0.304598] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/double_integrator/di_dynamics.cuh\n'}
+[0.304915] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/dynamics/double_integrator/di_dynamics.cu\n'}
+[0.305206] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/ddp\n'}
+[0.305369] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/ddp/boxqp.h\n'}
+[0.305572] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/ddp/util.h\n'}
+[0.306332] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/ddp/ddp_model_wrapper.h\n'}
+[0.306605] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/ddp/ddp_costs.h\n'}
+[0.306811] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/ddp/ddp_tracking_costs.h\n'}
+[0.306984] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/ddp/result.h\n'}
+[0.307154] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/ddp/ddp.h\n'}
+[0.307332] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/ddp/ddp_dynamics.h\n'}
+[0.307640] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/controllers\n'}
+[0.307851] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/controllers/MPPI\n'}
+[0.308024] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/controllers/MPPI/mppi_controller.cuh\n'}
+[0.308297] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/controllers/MPPI/mppi_controller.cu\n'}
+[0.308474] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/controllers/Primitives\n'}
+[0.308636] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/controllers/Primitives/primitives_controller.cu\n'}
+[0.309119] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/controllers/Primitives/primitives_controller.cuh\n'}
+[0.309460] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/controllers/controller.cuh\n'}
+[0.309724] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/controllers/controller.cu\n'}
+[0.310074] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/controllers/ColoredMPPI\n'}
+[0.310232] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/controllers/ColoredMPPI/colored_mppi_controller.cuh\n'}
+[0.310538] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/controllers/ColoredMPPI/colored_mppi_controller.cu\n'}
+[0.310875] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/controllers/R-MPPI\n'}
+[0.311087] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/controllers/R-MPPI/robust_mppi_controller.cu\n'}
+[0.311591] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/controllers/R-MPPI/robust_mppi_controller.cuh\n'}
+[0.311936] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/controllers/Tube-MPPI\n'}
+[0.312091] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/controllers/Tube-MPPI/tube_mppi_controller.cuh\n'}
+[0.312338] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/controllers/Tube-MPPI/tube_mppi_controller.cu\n'}
+[0.312648] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/shaping_functions\n'}
+[0.312929] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/shaping_functions/CEM\n'}
+[0.313150] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/shaping_functions/CEM/cem_shaping_function.cu\n'}
+[0.313359] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/shaping_functions/CEM/cem_shaping_function.cuh\n'}
+[0.313604] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/shaping_functions/shaping_function.cu\n'}
+[0.313940] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/shaping_functions/shaping_function.cuh\n'}
+[0.314230] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/sampling_distributions\n'}
+[0.314426] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/sampling_distributions/sampling_distribution.cuh\n'}
+[0.314624] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/sampling_distributions/smooth-MPPI\n'}
+[0.314810] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/sampling_distributions/smooth-MPPI/smooth-MPPI.cu\n'}
+[0.315095] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/sampling_distributions/smooth-MPPI/smooth-MPPI.cuh\n'}
+[0.315421] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/sampling_distributions/piecewise_linear\n'}
+[0.315614] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/sampling_distributions/piecewise_linear/piecewise_linear_noise.cuh\n'}
+[0.315915] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/sampling_distributions/colored_noise\n'}
+[0.316101] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/sampling_distributions/colored_noise/colored_noise.cuh\n'}
+[0.317124] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/sampling_distributions/colored_noise/colored_noise.cu\n'}
+[0.317681] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/sampling_distributions/nln\n'}
+[0.317887] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/sampling_distributions/nln/nln.cuh\n'}
+[0.318227] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/sampling_distributions/nln/nln.cu\n'}
+[0.318581] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/sampling_distributions/sampling_distribution.cu\n'}
+[0.318986] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/sampling_distributions/gaussian\n'}
+[0.319176] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/sampling_distributions/gaussian/gaussian.cuh\n'}
+[0.319402] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/include/mppi/sampling_distributions/gaussian/gaussian.cu\n'}
+[0.320311] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/lib/cmake/MPPI-Generic/MPPI-GenericTargets.cmake\n'}
+[0.320729] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/lib/cmake/MPPI-Generic/MPPI-GenericTargetsNoNamespace.cmake\n'}
+[0.321227] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/lib/cmake/MPPI-Generic/MPPI-GenericConfig.cmake\n'}
+[0.321430] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/lib/cmake/MPPI-Generic/MPPI-GenericConfigVersion.cmake\n'}
+[0.321626] (MPPI-Generic) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/MPPI-Generic/lib/cmake/MPPI-Generic/MPPIGenericToolsConfig.cmake\n'}
+[0.326759] (MPPI-Generic) CommandEnded: {'returncode': 0}
+[0.362232] (MPPI-Generic) JobEnded: {'identifier': 'MPPI-Generic', 'rc': 0}
+[0.399808] (-) TimerEvent: {}
+[0.424326] (mppi) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.425096] (mppi) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.500008] (-) TimerEvent: {}
+[0.572248] (mppi) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.572979] (mppi) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.600179] (-) TimerEvent: {}
+[0.700909] (-) TimerEvent: {}
+[0.727842] (mppi) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.730815] (mppi) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.779191] (mppi) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda (found version "11.4") \n'}
+[0.801075] (-) TimerEvent: {}
+[0.901746] (-) TimerEvent: {}
+[1.002455] (-) TimerEvent: {}
+[1.103141] (-) TimerEvent: {}
+[1.203824] (-) TimerEvent: {}
+[1.304531] (-) TimerEvent: {}
+[1.405233] (-) TimerEvent: {}
+[1.505930] (-) TimerEvent: {}
+[1.606651] (-) TimerEvent: {}
+[1.707362] (-) TimerEvent: {}
+[1.808087] (-) TimerEvent: {}
+[1.908769] (-) TimerEvent: {}
+[1.960766] (mppi) StdoutLine: {'line': b'-- Autodetected CUDA architecture(s):  8.7\n'}
+[1.961557] (mppi) StdoutLine: {'line': b'-- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87\n'}
+[1.961964] (mppi) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.005796] (mppi) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.009705] (-) TimerEvent: {}
+[2.110304] (-) TimerEvent: {}
+[2.211082] (-) TimerEvent: {}
+[2.311872] (-) TimerEvent: {}
+[2.403523] (mppi) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.404519] (mppi) StderrLine: {'line': b'CMake Error: File /home/kt/repos/mppi/src/mppi/package.xml does not exist.\n'}
+[2.405335] (mppi) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):\n'}
+[2.405662] (mppi) StderrLine: {'line': b'  configure_file Problem configuring file\n'}
+[2.405961] (mppi) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.406236] (mppi) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:73 (stamp)\n'}
+[2.406501] (mppi) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[2.406759] (mppi) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[2.407013] (mppi) StderrLine: {'line': b'  CMakeLists.txt:47 (ament_lint_auto_find_test_dependencies)\n'}
+[2.407265] (mppi) StderrLine: {'line': b'\n'}
+[2.407506] (mppi) StderrLine: {'line': b'\n'}
+[2.407741] (mppi) StderrLine: {'line': b'CMake Error: File /home/kt/repos/mppi/src/mppi/package.xml does not exist.\n'}
+[2.407980] (mppi) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):\n'}
+[2.408216] (mppi) StderrLine: {'line': b'  configure_file Problem configuring file\n'}
+[2.408453] (mppi) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.408690] (mppi) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:73 (stamp)\n'}
+[2.408981] (mppi) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[2.409225] (mppi) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[2.409462] (mppi) StderrLine: {'line': b'  CMakeLists.txt:50 (ament_package)\n'}
+[2.409696] (mppi) StderrLine: {'line': b'\n'}
+[2.409932] (mppi) StderrLine: {'line': b'\n'}
+[2.411810] (mppi) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.412312] (-) TimerEvent: {}
+[2.412693] (mppi) StdoutLine: {'line': b'See also "/home/kt/repos/mppi/build/mppi/CMakeFiles/CMakeOutput.log".\n'}
+[2.413104] (mppi) StdoutLine: {'line': b'See also "/home/kt/repos/mppi/build/mppi/CMakeFiles/CMakeError.log".\n'}
+[2.425485] (mppi) CommandEnded: {'returncode': 1}
+[2.427944] (mppi) JobEnded: {'identifier': 'mppi', 'rc': 1}
+[2.446366] (-) EventReactorShutdown: {}

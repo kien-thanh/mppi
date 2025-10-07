@@ -1,0 +1,46 @@
+[0.022s] Invoking command in '/home/kt/repos/mppi/build/mppi': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kt/repos/mppi/src/mppi -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/mppi
+[1.279s] -- Autodetected CUDA architecture(s):  8.7
+[1.279s] -- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+[2.541s] -- Autodetected CUDA architecture(s):  8.7
+[2.542s] -- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+[2.542s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.590s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.958s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.981s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.122s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.158s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.158s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kt/repos/mppi/src/mppi/include>
+[3.158s] -- Configured cppcheck exclude dirs and/or files: 
+[3.191s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.191s] -- Configured cpplint exclude dirs and/or files: 
+[3.195s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.204s] -- Added test 'lint_cmake' to check CMake code style
+[3.208s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.241s] -- Added test 'uncrustify' to check C / C++ code style
+[3.241s] -- Configured uncrustify additional arguments: 
+[3.245s] -- Added test 'xmllint' to check XML markup files
+[3.250s] -- Configuring done
+[3.271s] -- Generating done
+[3.277s] -- Build files have been written to: /home/kt/repos/mppi/build/mppi
+[3.292s] Invoked command in '/home/kt/repos/mppi/build/mppi' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kt/repos/mppi/src/mppi -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/mppi
+[3.302s] Invoking command in '/home/kt/repos/mppi/build/mppi': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kt/repos/mppi/build/mppi -- -j6 -l6
+[3.379s] [35m[1mScanning dependencies of target cnpy[0m
+[3.380s] [35m[1mScanning dependencies of target cnpy-static[0m
+[3.404s] [ 25%] [32mBuilding CXX object submodules/MPPI-Generic/submodules/cnpy/CMakeFiles/cnpy-static.dir/cnpy.cpp.o[0m
+[3.404s] [ 25%] [32mBuilding CXX object submodules/MPPI-Generic/submodules/cnpy/CMakeFiles/cnpy.dir/cnpy.cpp.o[0m
+[12.935s] [ 37%] [32m[1mLinking CXX static library libcnpy.a[0m
+[12.952s] [ 50%] [32m[1mLinking CXX shared library ../../lib/libcnpy.so[0m
+[13.006s] [ 50%] Built target cnpy-static
+[13.099s] [ 50%] Built target cnpy
+[13.119s] [35m[1mScanning dependencies of target mppi_node[0m
+[13.120s] [35m[1mScanning dependencies of target example1[0m
+[13.141s] [ 62%] [32mBuilding CXX object submodules/MPPI-Generic/submodules/cnpy/CMakeFiles/example1.dir/example1.cpp.o[0m
+[13.198s] [ 75%] [32mBuilding CUDA object CMakeFiles/mppi_node.dir/src/mppi_node.cu.o[0m
+[13.203s] nvcc fatal   : Unknown option '-Wall'
+[13.203s] make[2]: *** [CMakeFiles/mppi_node.dir/build.make:63: CMakeFiles/mppi_node.dir/src/mppi_node.cu.o] Error 1
+[13.203s] make[1]: *** [CMakeFiles/Makefile2:120: CMakeFiles/mppi_node.dir/all] Error 2
+[13.204s] make[1]: *** Waiting for unfinished jobs....
+[16.079s] [ 87%] [32m[1mLinking CXX executable example1[0m
+[16.219s] [ 87%] Built target example1
+[16.222s] make: *** [Makefile:141: all] Error 2
+[16.230s] Invoked command in '/home/kt/repos/mppi/build/mppi' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kt/repos/mppi/build/mppi -- -j6 -l6

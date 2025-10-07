@@ -1,0 +1,13 @@
+[0.037s] Invoking command in '/home/kt/repos/mppi/build/MPPI-Generic': /usr/bin/cmake --build /home/kt/repos/mppi/build/MPPI-Generic -- -j6 -l6
+[0.121s] [35m[1mScanning dependencies of target cnpy[0m
+[0.121s] [35m[1mScanning dependencies of target cnpy-static[0m
+[0.144s] [ 33%] [32mBuilding CXX object submodules/cnpy/CMakeFiles/cnpy-static.dir/cnpy.cpp.o[0m
+[0.144s] [ 33%] [32mBuilding CXX object submodules/cnpy/CMakeFiles/cnpy.dir/cnpy.cpp.o[0m
+[9.422s] [ 50%] [32m[1mLinking CXX shared library ../../lib/libcnpy.so[0m
+[9.480s] [ 66%] [32m[1mLinking CXX static library libcnpy.a[0m
+[9.557s] [ 66%] Built target cnpy-static
+[9.567s] [ 66%] Built target cnpy
+[9.588s] [35m[1mScanning dependencies of target example1[0m
+[9.610s] [ 83%] [32mBuilding CXX object submodules/cnpy/CMakeFiles/example1.dir/example1.cpp.o[0m
+[12.538s] [100%] [32m[1mLinking CXX executable example1[0m
+[12.675s] [100%] Built target example1

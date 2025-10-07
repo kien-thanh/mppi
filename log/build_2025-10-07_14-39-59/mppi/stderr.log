@@ -1,0 +1,5 @@
+nvcc fatal   : Unknown option '-Wall'
+make[2]: *** [CMakeFiles/mppi_node.dir/build.make:63: CMakeFiles/mppi_node.dir/src/mppi_node.cu.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:120: CMakeFiles/mppi_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

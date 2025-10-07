@@ -1,0 +1,38 @@
+[0.026s] Invoking command in '/home/kt/repos/mppi/build/mppi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kt/repos/mppi/build/mppi -- -j6 -l6
+[1.289s] -- Autodetected CUDA architecture(s):  8.7
+[1.289s] -- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+[2.542s] -- Autodetected CUDA architecture(s):  8.7
+[2.542s] -- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+[2.543s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.588s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.957s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.971s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.024s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.031s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.353s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.356s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.611s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[3.673s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.813s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.846s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.846s] -- Configured cppcheck include dirs: /home/kt/repos/mppi/src/mppi/include/mppi;/home/kt/repos/mppi/src/mppi/src;$<BUILD_INTERFACE:/home/kt/repos/mppi/src/mppi/include>
+[3.846s] -- Configured cppcheck exclude dirs and/or files: 
+[3.878s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.878s] -- Configured cpplint exclude dirs and/or files: 
+[3.882s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.891s] -- Added test 'lint_cmake' to check CMake code style
+[3.896s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.928s] -- Added test 'uncrustify' to check C / C++ code style
+[3.929s] -- Configured uncrustify additional arguments: 
+[3.933s] -- Added test 'xmllint' to check XML markup files
+[3.941s] -- Configuring done
+[3.949s] CMake Error in CMakeLists.txt:
+[3.949s]   Target "mppi_node" requires the language dialect "CUDA17" (with compiler
+[3.949s]   extensions), but CMake does not know the compile flags to use to enable it.
+[3.949s] 
+[3.949s] 
+[3.971s] -- Generating done
+[3.975s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[3.996s] make: *** [Makefile:308: cmake_check_build_system] Error 1
+[4.003s] Invoked command in '/home/kt/repos/mppi/build/mppi' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kt/repos/mppi/build/mppi -- -j6 -l6

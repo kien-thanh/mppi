@@ -1,0 +1,45 @@
+[0.021s] Invoking command in '/home/kt/repos/mppi/build/MyProject': /usr/bin/cmake /home/kt/repos/mppi -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/MyProject
+[1.341s] -- The CUDA compiler identification is NVIDIA 11.4.315
+[1.357s] -- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc
+[2.496s] -- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc -- works
+[2.499s] -- Detecting CUDA compiler ABI info
+[3.646s] -- Detecting CUDA compiler ABI info - done
+[3.823s] -- The C compiler identification is GNU 9.4.0
+[3.831s] -- Check for working C compiler: /usr/bin/cc
+[3.968s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.970s] -- Detecting C compiler ABI info
+[4.112s] -- Detecting C compiler ABI info - done
+[4.149s] -- Detecting C compile features
+[4.150s] -- Detecting C compile features - done
+[4.151s] -- Setting Build Type to Release by default
+[4.167s] -- Looking for pthread.h
+[4.307s] -- Looking for pthread.h - found
+[4.308s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.470s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.470s] -- Looking for pthread_create in pthreads
+[4.597s] -- Looking for pthread_create in pthreads - not found
+[4.597s] -- Looking for pthread_create in pthread
+[4.742s] -- Looking for pthread_create in pthread - found
+[4.747s] -- Found Threads: TRUE  
+[4.782s] -- Found CUDA: /usr/local/cuda (found version "11.4") 
+[5.970s] -- Autodetected CUDA architecture(s):  8.7
+[5.970s] -- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+[6.008s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[7.223s] -- Autodetected CUDA architecture(s):  8.7
+[7.223s] -- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+[7.227s] -- Configuring done
+[7.231s] CMake Error at CMakeLists.txt:16 (add_executable):
+[7.231s]   Cannot find source file:
+[7.231s] 
+[7.231s]     src/main.cu
+[7.231s] 
+[7.232s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[7.232s]   .hpp .hxx .in .txx
+[7.232s] 
+[7.232s] 
+[7.232s] CMake Error at CMakeLists.txt:16 (add_executable):
+[7.232s]   No SOURCES given to target: myprogram
+[7.232s] 
+[7.233s] 
+[7.233s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[7.253s] Invoked command in '/home/kt/repos/mppi/build/MyProject' returned '1': /usr/bin/cmake /home/kt/repos/mppi -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/MyProject

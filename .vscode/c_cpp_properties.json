@@ -3,11 +3,12 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/include",
+                "${workspaceFolder}/src/mppi/include/mppi",
                 "${workspaceFolder}/src",
-                "${workspaceFolder}/submodules/MPPI-Generic/include",
+                "${workspaceFolder}/src/mppi/submodules/MPPI-Generic/include",
                 "/usr/local/cuda/include",
-                "/usr/include/eigen3"
+                "/usr/include/eigen3",
+                "/opt/ros/foxy/include/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",

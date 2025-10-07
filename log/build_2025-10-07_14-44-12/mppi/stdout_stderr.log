@@ -1,0 +1,606 @@
+-- Autodetected CUDA architecture(s):  8.7
+-- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+-- Autodetected CUDA architecture(s):  8.7
+-- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/kt/repos/mppi/src/mppi/include/mppi;/home/kt/repos/mppi/src/mppi/src;$<BUILD_INTERFACE:/home/kt/repos/mppi/src/mppi/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kt/repos/mppi/build/mppi
+[ 25%] Built target cnpy-static
+[ 50%] Built target cnpy
+[35m[1mScanning dependencies of target mppi_node[0m
+[ 75%] Built target example1
+[ 87%] [32mBuilding CUDA object CMakeFiles/mppi_node.dir/src/mppi_node.cu.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:257[m[K,
+                 from [01m[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/controller.cuh:9[m[K,
+                 from [01m[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/MPPI/mppi_controller.cuh:11[m[K,
+                 from [01m[K/home/kt/repos/mppi/src/mppi/src/mppi_node.cu:2[m[K:
+[01m[K/usr/local/cuda/bin/../targets/aarch64-linux/include/host_defines.h:54:2:[m[K [01;35m[Kwarning: [m[K#warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [[01;35m[K-Wcpp[m[K]
+   54 | #[01;35m[Kwarning[m[K "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+      |  [01;35m[K^~~~~~~[m[K
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(94)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(94)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~no_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~no_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/DenseBase.h(590)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mDenseBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/DenseBase.h(590)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mDenseBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(467)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(467)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~MatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~MatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(156)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(156)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~ArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~ArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(70)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mCwiseUnaryView[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(70)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mCwiseUnaryView[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(110)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(110)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~CwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~CwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(185)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(185)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(300)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(300)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Map.h(162)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Map.h(162)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(89)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mRefBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(89)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mRefBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(229)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mRef[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(229)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mRef[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(111)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlock[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(111)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlock[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(161)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlockImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(161)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlockImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(181)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(181)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(341)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(341)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(66)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTranspose[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(66)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTranspose[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(123)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(123)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~TransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~TransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Diagonal.h(78)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mDiagonal[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Diagonal.h(78)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mDiagonal[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(220)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTriangularView[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(220)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTriangularView[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(546)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(546)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~TriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~TriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Reverse.h(90)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mReverse[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Reverse.h(90)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mReverse[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(47)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mArrayWrapper[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(47)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mArrayWrapper[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(145)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMatrixWrapper[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(145)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMatrixWrapper[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(187)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(187)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~QuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~QuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(243)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mQuaternion[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(243)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mQuaternion[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(359)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(359)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(396)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(396)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:257[m[K,
+                 from [01m[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/controller.cuh:9[m[K,
+                 from [01m[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/MPPI/mppi_controller.cuh:11[m[K,
+                 from [01m[K/home/kt/repos/mppi/src/mppi/src/mppi_node.cu:2[m[K:
+[01m[K/usr/local/cuda/bin/../targets/aarch64-linux/include/host_defines.h:54:2:[m[K [01;35m[Kwarning: [m[K#warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [[01;35m[K-Wcpp[m[K]
+   54 | #[01;35m[Kwarning[m[K "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+      |  [01;35m[K^~~~~~~[m[K
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(94)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(94)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~no_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~no_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/DenseBase.h(590)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mDenseBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/DenseBase.h(590)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mDenseBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(467)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(467)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~MatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~MatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(156)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(156)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~ArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~ArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(70)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mCwiseUnaryView[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(70)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mCwiseUnaryView[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(110)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(110)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~CwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~CwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(185)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(185)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(300)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(300)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Map.h(162)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Map.h(162)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(89)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mRefBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(89)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mRefBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(229)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mRef[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(229)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mRef[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(111)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlock[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(111)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlock[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(161)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlockImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(161)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlockImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(181)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(181)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(341)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(341)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(66)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTranspose[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(66)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTranspose[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(123)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(123)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~TransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~TransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Diagonal.h(78)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mDiagonal[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Diagonal.h(78)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mDiagonal[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(220)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTriangularView[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(220)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTriangularView[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(546)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(546)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~TriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~TriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Reverse.h(90)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mReverse[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Reverse.h(90)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mReverse[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(47)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mArrayWrapper[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(47)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mArrayWrapper[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(145)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMatrixWrapper[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(145)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMatrixWrapper[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(187)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(187)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~QuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~QuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(243)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mQuaternion[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(243)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mQuaternion[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(359)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(359)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(396)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(396)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[100%] [32m[1mLinking CUDA executable mppi_node[0m
+[100%] Built target mppi_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/kt/repos/mppi/install/mppi/lib/mppi/mppi_node
+-- Symlinking: /home/kt/repos/mppi/install/mppi/share/ament_index/resource_index/package_run_dependencies/mppi
+-- Symlinking: /home/kt/repos/mppi/install/mppi/share/ament_index/resource_index/parent_prefix_path/mppi
+-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/environment/ament_prefix_path.sh
+-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/environment/ament_prefix_path.dsv
+-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/environment/path.sh
+-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/environment/path.dsv
+-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/local_setup.bash
+-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/local_setup.sh
+-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/local_setup.zsh
+-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/local_setup.dsv
+-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/package.dsv
+-- Symlinking: /home/kt/repos/mppi/install/mppi/share/ament_index/resource_index/packages/mppi
+-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/cmake/mppiConfig.cmake
+-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/cmake/mppiConfig-version.cmake
+-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/package.xml
+-- Installing: /home/kt/repos/mppi/install/mppi/lib/cnpy/libcnpy.so
+-- Installing: /home/kt/repos/mppi/install/mppi/lib/cnpy/libcnpy.a
+-- Installing: /home/kt/repos/mppi/install/mppi/include/cnpy/cnpy.h
+-- Installing: /home/kt/repos/mppi/install/mppi/bin/mat2npz
+-- Installing: /home/kt/repos/mppi/install/mppi/bin/npy2mat
+-- Installing: /home/kt/repos/mppi/install/mppi/bin/npz2mat
+-- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/cnpy/cnpy-targets.cmake
+-- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/cnpy/cnpy-targets-release.cmake
+-- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/cnpy/cnpy-config.cmake
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/core
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/core/base_plant.hpp
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/core/rmppi_kernels.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/core/buffered_plant.hpp
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/core/rmppi_kernels.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/core/mppi_common.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/core/mppi_common.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/core/buffer.hpp
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/feedback.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/feedback.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/DDP
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/DDP/ddp.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/DDP/ddp.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/CCM
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/CCM/ccm.h
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/three_d_texture_helper.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/texture_helper.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/two_d_texture_helper.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/three_d_texture_helper.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/two_d_texture_helper.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/texture_helper.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/numerical_integration.h
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/managed.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/matrix_mult_utils.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/parallel_utils.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/activation_functions.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/test_helper.h
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/eigen_type_conversions.h
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/cuda_math_utils.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/fnn_helper.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/lstm_helper.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/lstm_helper.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/lstm_lstm_helper.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/fnn_helper.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/lstm_lstm_helper.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/meta_math.h
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/file_utils.h
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/logger.hpp
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/gpu_err_chk.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/type_printing.h
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/angle_utils.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/risk_utils.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/math_utils.h
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/risk_utils.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/double_integrator_mppi
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/double_integrator_mppi/double_integrator_mppi.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/cartpole_mppi
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/cartpole_mppi/cartpole_mppi.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/quadrotor_mppi
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/quadrotor_mppi/quadrotor_mppi.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/autorally_mppi
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/autorally_mppi/autorally_mppi.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cartpole
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cartpole/cartpole_quadratic_cost.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cartpole/cartpole_quadratic_cost.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadratic_cost
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadratic_cost/quadratic_cost.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadratic_cost/quadratic_cost.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor/quadrotor_quadratic_cost.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor/quadrotor_quadratic_cost.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor/quadrotor_map_cost.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor/quadrotor_map_cost.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally/ar_robust_cost.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally/ar_standard_cost.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally/ar_standard_cost.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally/ar_robust_cost.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cost.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cost.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator/double_integrator_circle_cost.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator/double_integrator_circle_cost.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator/double_integrator_robust_cost.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator/double_integrator_robust_cost.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dynamics.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/cartpole
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/cartpole/cartpole_dynamics.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/cartpole/cartpole_dynamics.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dubins
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dubins/dubins.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dubins/dubins.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/quadrotor
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/quadrotor/quadrotor_dynamics.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/quadrotor/quadrotor_dynamics.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_suspension_lstm.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_suspension_lstm.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_unc.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_steering.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_steering.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_unc.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/linear
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/linear/linear.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/linear/linear.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/autorally
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/autorally/ar_nn_model.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/autorally/ar_nn_model.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/bicycle_slip
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/bicycle_slip/bicycle_slip_parametric.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/bicycle_slip/bicycle_slip_parametric.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dynamics.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_suspension
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_suspension/racer_suspension.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_suspension/racer_suspension.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/double_integrator
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/double_integrator/di_dynamics.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/double_integrator/di_dynamics.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/ddp
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/boxqp.h
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/util.h
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp_model_wrapper.h
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp_costs.h
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp_tracking_costs.h
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/result.h
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp.h
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp_dynamics.h
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/MPPI
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/MPPI/mppi_controller.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/MPPI/mppi_controller.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Primitives
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Primitives/primitives_controller.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Primitives/primitives_controller.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/controller.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/controller.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/ColoredMPPI
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/ColoredMPPI/colored_mppi_controller.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/ColoredMPPI/colored_mppi_controller.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/R-MPPI
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/R-MPPI/robust_mppi_controller.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/R-MPPI/robust_mppi_controller.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Tube-MPPI
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Tube-MPPI/tube_mppi_controller.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Tube-MPPI/tube_mppi_controller.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/CEM
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/CEM/cem_shaping_function.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/CEM/cem_shaping_function.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/shaping_function.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/shaping_function.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/sampling_distribution.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/smooth-MPPI
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/smooth-MPPI/smooth-MPPI.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/smooth-MPPI/smooth-MPPI.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/piecewise_linear
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/piecewise_linear/piecewise_linear_noise.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/colored_noise
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/colored_noise/colored_noise.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/colored_noise/colored_noise.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/nln
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/nln/nln.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/nln/nln.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/sampling_distribution.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/gaussian
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/gaussian/gaussian.cuh
+-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/gaussian/gaussian.cu
+-- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPI-GenericTargets.cmake
+-- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPI-GenericTargetsNoNamespace.cmake
+-- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPI-GenericConfig.cmake
+-- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPI-GenericConfigVersion.cmake
+-- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPIGenericToolsConfig.cmake

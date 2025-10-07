@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.001246] (MPPI-Generic) JobQueued: {'identifier': 'MPPI-Generic', 'dependencies': OrderedDict()}
+[0.001734] (mppi) JobQueued: {'identifier': 'mppi', 'dependencies': OrderedDict()}
+[0.001870] (MPPI-Generic) JobStarted: {'identifier': 'MPPI-Generic'}
+[0.018506] (mppi) JobStarted: {'identifier': 'mppi'}
+[0.033644] (MPPI-Generic) JobProgress: {'identifier': 'MPPI-Generic', 'progress': 'cmake'}
+[0.035038] (MPPI-Generic) JobProgress: {'identifier': 'MPPI-Generic', 'progress': 'build'}
+[0.036563] (MPPI-Generic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kt/repos/mppi/build/MPPI-Generic', '--', '-j6', '-l6'], 'cwd': '/home/kt/repos/mppi/build/MPPI-Generic', 'env': OrderedDict([('USER', 'kt'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_CLIENT', '100.94.52.62 53525 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/helpers/browser.sh'), ('HOME', '/home/kt'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/kt/repos/mppi/src'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.104.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1002/vscode-ipc-f35fbbc2-57f0-4977-895b-ba7a2c413999.sock'), ('ZSH', '/home/kt/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('P9K_TTY', 'old'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kt'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/kt'), ('XDG_SESSION_ID', '226'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda/bin:/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1002/vscode-git-ae61417ce1.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'de_DE.UTF-8'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('P9K_SSH', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dd506eb9-29a0-4e44-8b89-d441484a0145'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/kt/repos/mppi/build/MPPI-Generic'), ('SSH_CONNECTION', '100.94.52.62 53525 100.117.96.76 22'), ('ZDOTDIR', '/home/kt'), ('_P9K_TTY', '/dev/pts/4'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.051579] (mppi) JobProgress: {'identifier': 'mppi', 'progress': 'cmake'}
+[0.052943] (mppi) Command: {'cmd': ['/usr/bin/cmake', '/home/kt/repos/mppi/src/mppi', '-DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/mppi'], 'cwd': '/home/kt/repos/mppi/build/mppi', 'env': OrderedDict([('USER', 'kt'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_CLIENT', '100.94.52.62 53525 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/helpers/browser.sh'), ('HOME', '/home/kt'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/kt/repos/mppi/src'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.104.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1002/vscode-ipc-f35fbbc2-57f0-4977-895b-ba7a2c413999.sock'), ('ZSH', '/home/kt/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('P9K_TTY', 'old'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kt'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/kt'), ('XDG_SESSION_ID', '226'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda/bin:/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1002/vscode-git-ae61417ce1.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'de_DE.UTF-8'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('P9K_SSH', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dd506eb9-29a0-4e44-8b89-d441484a0145'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/kt/repos/mppi/build/mppi'), ('SSH_CONNECTION', '100.94.52.62 53525 100.117.96.76 22'), ('ZDOTDIR', '/home/kt'), ('_P9K_TTY', '/dev/pts/4'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.082035] (mppi) StderrLine: {'line': b'CMake Error at CMakeLists.txt:8 (add_subdirectory):\n'}
+[0.082661] (mppi) StderrLine: {'line': b'  Syntax error in cmake code at\n'}
+[0.082841] (mppi) StderrLine: {'line': b'\n'}
+[0.082994] (mppi) StderrLine: {'line': b'    /home/kt/repos/mppi/src/mppi/CMakeLists.txt:8\n'}
+[0.083140] (mppi) StderrLine: {'line': b'\n'}
+[0.083279] (mppi) StderrLine: {'line': b'  when parsing string\n'}
+[0.083416] (mppi) StderrLine: {'line': b'\n'}
+[0.083548] (mppi) StderrLine: {'line': b'    ${CMAKE_CURRENT_SOURCE_DIR/../../submodules/MPPI-Generic\n'}
+[0.083678] (mppi) StderrLine: {'line': b'\n'}
+[0.083805] (mppi) StderrLine: {'line': b'  There is an unterminated variable reference.\n'}
+[0.083933] (mppi) StderrLine: {'line': b'\n'}
+[0.084059] (mppi) StderrLine: {'line': b'\n'}
+[0.084189] (mppi) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.084380] (mppi) StdoutLine: {'line': b'See also "/home/kt/repos/mppi/build/mppi/CMakeFiles/CMakeOutput.log".\n'}
+[0.086977] (mppi) CommandEnded: {'returncode': 1}
+[0.088506] (mppi) JobEnded: {'identifier': 'mppi', 'rc': 1}
+[0.099214] (-) TimerEvent: {}
+[0.122382] (MPPI-Generic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cnpy\x1b[0m\n'}
+[0.122949] (MPPI-Generic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cnpy-static\x1b[0m\n'}
+[0.145180] (MPPI-Generic) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object submodules/cnpy/CMakeFiles/cnpy-static.dir/cnpy.cpp.o\x1b[0m\n'}
+[0.145674] (MPPI-Generic) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object submodules/cnpy/CMakeFiles/cnpy.dir/cnpy.cpp.o\x1b[0m\n'}
+[0.199391] (-) TimerEvent: {}
+[0.300108] (-) TimerEvent: {}
+[0.400844] (-) TimerEvent: {}
+[0.501585] (-) TimerEvent: {}
+[0.602295] (-) TimerEvent: {}
+[0.703011] (-) TimerEvent: {}
+[0.803733] (-) TimerEvent: {}
+[0.904460] (-) TimerEvent: {}
+[1.005232] (-) TimerEvent: {}
+[1.105966] (-) TimerEvent: {}
+[1.206704] (-) TimerEvent: {}
+[1.307443] (-) TimerEvent: {}
+[1.408508] (-) TimerEvent: {}
+[1.509256] (-) TimerEvent: {}
+[1.609989] (-) TimerEvent: {}
+[1.710716] (-) TimerEvent: {}
+[1.811450] (-) TimerEvent: {}
+[1.912179] (-) TimerEvent: {}
+[2.012902] (-) TimerEvent: {}
+[2.113654] (-) TimerEvent: {}
+[2.214384] (-) TimerEvent: {}
+[2.315123] (-) TimerEvent: {}
+[2.415888] (-) TimerEvent: {}
+[2.516629] (-) TimerEvent: {}
+[2.617370] (-) TimerEvent: {}
+[2.718103] (-) TimerEvent: {}
+[2.818852] (-) TimerEvent: {}
+[2.919572] (-) TimerEvent: {}
+[3.020328] (-) TimerEvent: {}
+[3.121116] (-) TimerEvent: {}
+[3.221867] (-) TimerEvent: {}
+[3.322580] (-) TimerEvent: {}
+[3.423288] (-) TimerEvent: {}
+[3.523987] (-) TimerEvent: {}
+[3.624712] (-) TimerEvent: {}
+[3.725449] (-) TimerEvent: {}
+[3.826153] (-) TimerEvent: {}
+[3.926870] (-) TimerEvent: {}
+[4.027582] (-) TimerEvent: {}
+[4.128311] (-) TimerEvent: {}
+[4.229048] (-) TimerEvent: {}
+[4.329747] (-) TimerEvent: {}
+[4.430476] (-) TimerEvent: {}
+[4.531189] (-) TimerEvent: {}
+[4.631906] (-) TimerEvent: {}
+[4.732623] (-) TimerEvent: {}
+[4.833338] (-) TimerEvent: {}
+[4.934032] (-) TimerEvent: {}
+[5.034734] (-) TimerEvent: {}
+[5.135393] (-) TimerEvent: {}
+[5.236121] (-) TimerEvent: {}
+[5.336826] (-) TimerEvent: {}
+[5.437542] (-) TimerEvent: {}
+[5.538264] (-) TimerEvent: {}
+[5.638974] (-) TimerEvent: {}
+[5.739684] (-) TimerEvent: {}
+[5.840387] (-) TimerEvent: {}
+[5.941119] (-) TimerEvent: {}
+[6.041825] (-) TimerEvent: {}
+[6.142516] (-) TimerEvent: {}
+[6.243210] (-) TimerEvent: {}
+[6.343919] (-) TimerEvent: {}
+[6.444831] (-) TimerEvent: {}
+[6.545573] (-) TimerEvent: {}
+[6.646291] (-) TimerEvent: {}
+[6.747449] (-) TimerEvent: {}
+[6.848138] (-) TimerEvent: {}
+[6.948856] (-) TimerEvent: {}
+[7.049572] (-) TimerEvent: {}
+[7.150313] (-) TimerEvent: {}
+[7.251047] (-) TimerEvent: {}
+[7.351755] (-) TimerEvent: {}
+[7.452474] (-) TimerEvent: {}
+[7.553213] (-) TimerEvent: {}
+[7.653942] (-) TimerEvent: {}
+[7.754654] (-) TimerEvent: {}
+[7.855367] (-) TimerEvent: {}
+[7.956083] (-) TimerEvent: {}
+[8.056785] (-) TimerEvent: {}
+[8.157528] (-) TimerEvent: {}
+[8.258223] (-) TimerEvent: {}
+[8.358918] (-) TimerEvent: {}
+[8.459624] (-) TimerEvent: {}
+[8.560336] (-) TimerEvent: {}
+[8.661090] (-) TimerEvent: {}
+[8.762026] (-) TimerEvent: {}
+[8.862747] (-) TimerEvent: {}
+[8.963483] (-) TimerEvent: {}
+[9.064157] (-) TimerEvent: {}
+[9.164874] (-) TimerEvent: {}
+[9.266377] (-) TimerEvent: {}
+[9.367110] (-) TimerEvent: {}
+[9.423558] (MPPI-Generic) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library ../../lib/libcnpy.so\x1b[0m\n'}
+[9.467301] (-) TimerEvent: {}
+[9.481492] (MPPI-Generic) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX static library libcnpy.a\x1b[0m\n'}
+[9.558414] (MPPI-Generic) StdoutLine: {'line': b'[ 66%] Built target cnpy-static\n'}
+[9.567453] (-) TimerEvent: {}
+[9.568795] (MPPI-Generic) StdoutLine: {'line': b'[ 66%] Built target cnpy\n'}
+[9.589360] (MPPI-Generic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target example1\x1b[0m\n'}
+[9.611383] (MPPI-Generic) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object submodules/cnpy/CMakeFiles/example1.dir/example1.cpp.o\x1b[0m\n'}
+[9.667640] (-) TimerEvent: {}
+[9.768351] (-) TimerEvent: {}
+[9.869063] (-) TimerEvent: {}
+[9.969749] (-) TimerEvent: {}
+[10.070434] (-) TimerEvent: {}
+[10.171133] (-) TimerEvent: {}
+[10.271850] (-) TimerEvent: {}
+[10.372560] (-) TimerEvent: {}
+[10.473271] (-) TimerEvent: {}
+[10.573966] (-) TimerEvent: {}
+[10.674678] (-) TimerEvent: {}
+[10.775382] (-) TimerEvent: {}
+[10.876083] (-) TimerEvent: {}
+[10.976795] (-) TimerEvent: {}
+[11.077485] (-) TimerEvent: {}
+[11.178190] (-) TimerEvent: {}
+[11.278891] (-) TimerEvent: {}
+[11.379605] (-) TimerEvent: {}
+[11.480306] (-) TimerEvent: {}
+[11.581058] (-) TimerEvent: {}
+[11.681756] (-) TimerEvent: {}
+[11.782466] (-) TimerEvent: {}
+[11.883173] (-) TimerEvent: {}
+[11.983891] (-) TimerEvent: {}
+[12.084591] (-) TimerEvent: {}
+[12.185318] (-) TimerEvent: {}
+[12.286034] (-) TimerEvent: {}
+[12.386696] (-) TimerEvent: {}
+[12.487365] (-) TimerEvent: {}
+[12.539044] (MPPI-Generic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable example1\x1b[0m\n'}
+[12.587554] (-) TimerEvent: {}
+[12.676036] (MPPI-Generic) StdoutLine: {'line': b'[100%] Built target example1\n'}
+[12.687686] (-) TimerEvent: {}
+[12.699716] (MPPI-Generic) JobEnded: {'identifier': 'MPPI-Generic', 'rc': 'SIGINT'}
+[12.711098] (-) EventReactorShutdown: {}

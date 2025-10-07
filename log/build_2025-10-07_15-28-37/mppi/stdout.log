@@ -1,0 +1,5 @@
+[ 25%] Built target cnpy-static
+[ 50%] Built target cnpy
+[35m[1mScanning dependencies of target mppi_node[0m
+[ 75%] Built target example1
+[ 87%] [32mBuilding CUDA object CMakeFiles/mppi_node.dir/src/mppi_node.cu.o[0m

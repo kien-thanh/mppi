@@ -1,0 +1,16 @@
+-- Autodetected CUDA architecture(s):  8.7
+-- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+-- Autodetected CUDA architecture(s):  8.7
+-- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Configuring incomplete, errors occurred!
+See also "/home/kt/repos/mppi/build/mppi/CMakeFiles/CMakeOutput.log".
+See also "/home/kt/repos/mppi/build/mppi/CMakeFiles/CMakeError.log".

@@ -1,0 +1,4 @@
+[0.033s] Invoking command in '/home/kt/repos/mppi/build/MPPI-Generic': /usr/bin/cmake --build /home/kt/repos/mppi/build/MPPI-Generic -- -j6 -l6
+[0.135s] [ 33%] Built target cnpy-static
+[0.139s] [ 66%] Built target cnpy
+[0.183s] [100%] Built target example1

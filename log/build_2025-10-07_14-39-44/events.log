@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.000618] (mppi) JobQueued: {'identifier': 'mppi', 'dependencies': OrderedDict()}
+[0.001155] (mppi) JobStarted: {'identifier': 'mppi'}
+[0.020237] (mppi) JobProgress: {'identifier': 'mppi', 'progress': 'cmake'}
+[0.021795] (mppi) Command: {'cmd': ['/usr/bin/cmake', '/home/kt/repos/mppi/src/mppi', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/mppi'], 'cwd': '/home/kt/repos/mppi/build/mppi', 'env': OrderedDict([('USER', 'kt'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_CLIENT', '100.94.52.62 53525 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/helpers/browser.sh'), ('HOME', '/home/kt'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/kt/repos/mppi/src'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.104.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1002/vscode-ipc-f35fbbc2-57f0-4977-895b-ba7a2c413999.sock'), ('ZSH', '/home/kt/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('P9K_TTY', 'old'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kt'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/kt'), ('XDG_SESSION_ID', '226'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda/bin:/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1002/vscode-git-ae61417ce1.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'de_DE.UTF-8'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('P9K_SSH', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dd506eb9-29a0-4e44-8b89-d441484a0145'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/kt/repos/mppi/build/mppi'), ('SSH_CONNECTION', '100.94.52.62 53525 100.117.96.76 22'), ('ZDOTDIR', '/home/kt'), ('_P9K_TTY', '/dev/pts/4'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099416] (-) TimerEvent: {}
+[0.200215] (-) TimerEvent: {}
+[0.300959] (-) TimerEvent: {}
+[0.401785] (-) TimerEvent: {}
+[0.502656] (-) TimerEvent: {}
+[0.603510] (-) TimerEvent: {}
+[0.704168] (-) TimerEvent: {}
+[0.804854] (-) TimerEvent: {}
+[0.905540] (-) TimerEvent: {}
+[1.006210] (-) TimerEvent: {}
+[1.106885] (-) TimerEvent: {}
+[1.207583] (-) TimerEvent: {}
+[1.275759] (mppi) StdoutLine: {'line': b'-- Autodetected CUDA architecture(s):  8.7\n'}
+[1.276710] (mppi) StdoutLine: {'line': b'-- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87\n'}
+[1.307734] (-) TimerEvent: {}
+[1.408383] (-) TimerEvent: {}
+[1.509057] (-) TimerEvent: {}
+[1.609836] (-) TimerEvent: {}
+[1.710539] (-) TimerEvent: {}
+[1.811242] (-) TimerEvent: {}
+[1.911970] (-) TimerEvent: {}
+[2.012658] (-) TimerEvent: {}
+[2.113370] (-) TimerEvent: {}
+[2.214050] (-) TimerEvent: {}
+[2.314758] (-) TimerEvent: {}
+[2.415491] (-) TimerEvent: {}
+[2.516215] (-) TimerEvent: {}
+[2.522349] (mppi) StdoutLine: {'line': b'-- Autodetected CUDA architecture(s):  8.7\n'}
+[2.522909] (mppi) StdoutLine: {'line': b'-- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87\n'}
+[2.524126] (mppi) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.570640] (mppi) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.616335] (-) TimerEvent: {}
+[2.717031] (-) TimerEvent: {}
+[2.817789] (-) TimerEvent: {}
+[2.918479] (-) TimerEvent: {}
+[2.936346] (mppi) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.963166] (mppi) StderrLine: {'line': b'CMake Error at CMakeLists.txt:37 (target_link_libraries):\n'}
+[2.963986] (mppi) StderrLine: {'line': b'  Cannot specify link libraries for target "myprogram" which is not built by\n'}
+[2.964350] (mppi) StderrLine: {'line': b'  this project.\n'}
+[2.964646] (mppi) StderrLine: {'line': b'\n'}
+[2.964923] (mppi) StderrLine: {'line': b'\n'}
+[2.966660] (mppi) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.967044] (mppi) StdoutLine: {'line': b'See also "/home/kt/repos/mppi/build/mppi/CMakeFiles/CMakeOutput.log".\n'}
+[2.967306] (mppi) StdoutLine: {'line': b'See also "/home/kt/repos/mppi/build/mppi/CMakeFiles/CMakeError.log".\n'}
+[2.983671] (mppi) CommandEnded: {'returncode': 1}
+[3.018681] (-) TimerEvent: {}
+[3.046036] (mppi) JobEnded: {'identifier': 'mppi', 'rc': 1}
+[3.057334] (-) EventReactorShutdown: {}

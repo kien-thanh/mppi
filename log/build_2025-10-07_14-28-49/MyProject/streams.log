@@ -1,0 +1,21 @@
+[0.026s] Invoking command in '/home/kt/repos/mppi/build/MyProject': /usr/bin/cmake /home/kt/repos/mppi -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/MyProject
+[0.244s] -- The CXX compiler identification is GNU 9.4.0
+[0.295s] -- The CUDA compiler identification is unknown
+[0.307s] -- Check for working CXX compiler: /usr/bin/c++
+[0.465s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.471s] -- Detecting CXX compiler ABI info
+[0.636s] -- Detecting CXX compiler ABI info - done
+[0.670s] -- Detecting CXX compile features
+[0.671s] -- Detecting CXX compile features - done
+[0.673s] CMake Error at CMakeLists.txt:5 (project):
+[0.674s]   No CMAKE_CUDA_COMPILER could be found.
+[0.674s] 
+[0.674s]   Tell CMake where to find the compiler by setting either the environment
+[0.674s]   variable "CUDACXX" or the CMake cache entry CMAKE_CUDA_COMPILER to the full
+[0.674s]   path to the compiler, or to the compiler name if it is in the PATH.
+[0.674s] 
+[0.675s] 
+[0.677s] -- Configuring incomplete, errors occurred!
+[0.678s] See also "/home/kt/repos/mppi/build/MyProject/CMakeFiles/CMakeOutput.log".
+[0.678s] See also "/home/kt/repos/mppi/build/MyProject/CMakeFiles/CMakeError.log".
+[0.687s] Invoked command in '/home/kt/repos/mppi/build/MyProject' returned '1': /usr/bin/cmake /home/kt/repos/mppi -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/MyProject

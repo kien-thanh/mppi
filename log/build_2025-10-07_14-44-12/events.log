@@ -1,0 +1,1416 @@
+[0.000000] (-) TimerEvent: {}
+[0.000620] (mppi) JobQueued: {'identifier': 'mppi', 'dependencies': OrderedDict()}
+[0.001180] (mppi) JobStarted: {'identifier': 'mppi'}
+[0.019805] (mppi) JobProgress: {'identifier': 'mppi', 'progress': 'cmake'}
+[0.021357] (mppi) JobProgress: {'identifier': 'mppi', 'progress': 'build'}
+[0.022830] (mppi) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kt/repos/mppi/build/mppi', '--', '-j6', '-l6'], 'cwd': '/home/kt/repos/mppi/build/mppi', 'env': OrderedDict([('USER', 'kt'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_CLIENT', '100.94.52.62 53525 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/helpers/browser.sh'), ('HOME', '/home/kt'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/kt/repos/mppi/src'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.104.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1002/vscode-ipc-f35fbbc2-57f0-4977-895b-ba7a2c413999.sock'), ('ZSH', '/home/kt/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('P9K_TTY', 'old'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kt'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/kt'), ('XDG_SESSION_ID', '226'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda/bin:/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1002/vscode-git-ae61417ce1.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'de_DE.UTF-8'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('P9K_SSH', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dd506eb9-29a0-4e44-8b89-d441484a0145'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/kt/repos/mppi/build/mppi'), ('SSH_CONNECTION', '100.94.52.62 53525 100.117.96.76 22'), ('ZDOTDIR', '/home/kt'), ('_P9K_TTY', '/dev/pts/4'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099464] (-) TimerEvent: {}
+[0.200281] (-) TimerEvent: {}
+[0.301204] (-) TimerEvent: {}
+[0.401910] (-) TimerEvent: {}
+[0.502658] (-) TimerEvent: {}
+[0.603403] (-) TimerEvent: {}
+[0.704179] (-) TimerEvent: {}
+[0.804882] (-) TimerEvent: {}
+[0.905592] (-) TimerEvent: {}
+[1.006312] (-) TimerEvent: {}
+[1.106999] (-) TimerEvent: {}
+[1.207700] (-) TimerEvent: {}
+[1.308383] (-) TimerEvent: {}
+[1.330351] (mppi) StdoutLine: {'line': b'-- Autodetected CUDA architecture(s):  8.7\n'}
+[1.331036] (mppi) StdoutLine: {'line': b'-- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87\n'}
+[1.408555] (-) TimerEvent: {}
+[1.509199] (-) TimerEvent: {}
+[1.609891] (-) TimerEvent: {}
+[1.710595] (-) TimerEvent: {}
+[1.811309] (-) TimerEvent: {}
+[1.912003] (-) TimerEvent: {}
+[2.012725] (-) TimerEvent: {}
+[2.113505] (-) TimerEvent: {}
+[2.214208] (-) TimerEvent: {}
+[2.314914] (-) TimerEvent: {}
+[2.415630] (-) TimerEvent: {}
+[2.516322] (-) TimerEvent: {}
+[2.572785] (mppi) StdoutLine: {'line': b'-- Autodetected CUDA architecture(s):  8.7\n'}
+[2.573699] (mppi) StdoutLine: {'line': b'-- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87\n'}
+[2.574330] (mppi) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.616457] (-) TimerEvent: {}
+[2.621134] (mppi) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.716606] (-) TimerEvent: {}
+[2.817196] (-) TimerEvent: {}
+[2.917797] (-) TimerEvent: {}
+[2.990940] (mppi) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.017905] (-) TimerEvent: {}
+[3.019544] (mppi) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.118078] (-) TimerEvent: {}
+[3.158800] (mppi) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.193539] (mppi) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.194098] (mppi) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/kt/repos/mppi/src/mppi/include/mppi;/home/kt/repos/mppi/src/mppi/src;$<BUILD_INTERFACE:/home/kt/repos/mppi/src/mppi/include>\n'}
+[3.194306] (mppi) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.218177] (-) TimerEvent: {}
+[3.226098] (mppi) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.226758] (mppi) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.230746] (mppi) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.238990] (mppi) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.243378] (mppi) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[3.275195] (mppi) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.275763] (mppi) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.279473] (mppi) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.284327] (mppi) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.304771] (mppi) StdoutLine: {'line': b'-- Generating done\n'}
+[3.312378] (mppi) StdoutLine: {'line': b'-- Build files have been written to: /home/kt/repos/mppi/build/mppi\n'}
+[3.318330] (-) TimerEvent: {}
+[3.386624] (mppi) StdoutLine: {'line': b'[ 25%] Built target cnpy-static\n'}
+[3.390158] (mppi) StdoutLine: {'line': b'[ 50%] Built target cnpy\n'}
+[3.411179] (mppi) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mppi_node\x1b[0m\n'}
+[3.418465] (-) TimerEvent: {}
+[3.437573] (mppi) StdoutLine: {'line': b'[ 75%] Built target example1\n'}
+[3.439434] (mppi) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CUDA object CMakeFiles/mppi_node.dir/src/mppi_node.cu.o\x1b[0m\n'}
+[3.518658] (-) TimerEvent: {}
+[3.615888] (mppi) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:257\x1b[m\x1b[K,\n'}
+[3.616691] (mppi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/controller.cuh:9\x1b[m\x1b[K,\n'}
+[3.617054] (mppi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/MPPI/mppi_controller.cuh:11\x1b[m\x1b[K,\n'}
+[3.617353] (mppi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kt/repos/mppi/src/mppi/src/mppi_node.cu:2\x1b[m\x1b[K:\n'}
+[3.617684] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/cuda/bin/../targets/aarch64-linux/include/host_defines.h:54:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [\x1b[01;35m\x1b[K-Wcpp\x1b[m\x1b[K]\n'}
+[3.618005] (mppi) StderrLine: {'line': b'   54 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."\n'}
+[3.618287] (mppi) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.618739] (-) TimerEvent: {}
+[3.719361] (-) TimerEvent: {}
+[3.820119] (-) TimerEvent: {}
+[3.920858] (-) TimerEvent: {}
+[4.021714] (-) TimerEvent: {}
+[4.122469] (-) TimerEvent: {}
+[4.223186] (-) TimerEvent: {}
+[4.323892] (-) TimerEvent: {}
+[4.424585] (-) TimerEvent: {}
+[4.525251] (-) TimerEvent: {}
+[4.625949] (-) TimerEvent: {}
+[4.654399] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(94)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mno_assignment_operator\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.654936] (mppi) StderrLine: {'line': b'\n'}
+[4.655384] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(94)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mno_assignment_operator\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.655544] (mppi) StderrLine: {'line': b'\n'}
+[4.655763] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mno_assignment_operator\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.655961] (mppi) StderrLine: {'line': b'\n'}
+[4.656105] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mno_assignment_operator\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.656271] (mppi) StderrLine: {'line': b'\n'}
+[4.656404] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01m~no_assignment_operator\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.656550] (mppi) StderrLine: {'line': b'\n'}
+[4.656676] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01m~no_assignment_operator\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.656820] (mppi) StderrLine: {'line': b'\n'}
+[4.726088] (-) TimerEvent: {}
+[4.764399] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/DenseBase.h(590)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mDenseBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.764965] (mppi) StderrLine: {'line': b'\n'}
+[4.765157] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/DenseBase.h(590)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mDenseBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.765313] (mppi) StderrLine: {'line': b'\n'}
+[4.774985] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(467)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMatrixBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.775289] (mppi) StderrLine: {'line': b'\n'}
+[4.775525] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(467)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMatrixBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.775681] (mppi) StderrLine: {'line': b'\n'}
+[4.776176] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMatrixBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.776411] (mppi) StderrLine: {'line': b'\n'}
+[4.776663] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMatrixBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.776830] (mppi) StderrLine: {'line': b'\n'}
+[4.777225] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01m~MatrixBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.777386] (mppi) StderrLine: {'line': b'\n'}
+[4.777782] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01m~MatrixBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.777980] (mppi) StderrLine: {'line': b'\n'}
+[4.820664] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(156)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mArrayBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.821172] (mppi) StderrLine: {'line': b'\n'}
+[4.821400] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(156)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mArrayBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.821582] (mppi) StderrLine: {'line': b'\n'}
+[4.822181] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mArrayBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.822376] (mppi) StderrLine: {'line': b'\n'}
+[4.822968] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mArrayBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.823127] (mppi) StderrLine: {'line': b'\n'}
+[4.823778] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01m~ArrayBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.823924] (mppi) StderrLine: {'line': b'\n'}
+[4.824571] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01m~ArrayBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.824719] (mppi) StderrLine: {'line': b'\n'}
+[4.826144] (-) TimerEvent: {}
+[4.873297] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(70)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mCwiseUnaryView\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.873904] (mppi) StderrLine: {'line': b'\n'}
+[4.874231] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(70)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mCwiseUnaryView\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.874458] (mppi) StderrLine: {'line': b'\n'}
+[4.874655] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(110)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mCwiseUnaryViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.874801] (mppi) StderrLine: {'line': b'\n'}
+[4.874935] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(110)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mCwiseUnaryViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.875090] (mppi) StderrLine: {'line': b'\n'}
+[4.875223] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mCwiseUnaryViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.875354] (mppi) StderrLine: {'line': b'\n'}
+[4.875479] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mCwiseUnaryViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.875604] (mppi) StderrLine: {'line': b'\n'}
+[4.875729] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01m~CwiseUnaryViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.875855] (mppi) StderrLine: {'line': b'\n'}
+[4.875979] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01m~CwiseUnaryViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.876123] (mppi) StderrLine: {'line': b'\n'}
+[4.879680] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(185)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.879927] (mppi) StderrLine: {'line': b'\n'}
+[4.880068] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(185)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.880234] (mppi) StderrLine: {'line': b'\n'}
+[4.880389] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.880523] (mppi) StderrLine: {'line': b'\n'}
+[4.880682] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.880833] (mppi) StderrLine: {'line': b'\n'}
+[4.880997] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01m~MapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.881127] (mppi) StderrLine: {'line': b'\n'}
+[4.881262] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01m~MapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.881392] (mppi) StderrLine: {'line': b'\n'}
+[4.882243] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(300)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.882388] (mppi) StderrLine: {'line': b'\n'}
+[4.882556] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(300)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.882688] (mppi) StderrLine: {'line': b'\n'}
+[4.882842] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.882987] (mppi) StderrLine: {'line': b'\n'}
+[4.883141] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.883269] (mppi) StderrLine: {'line': b'\n'}
+[4.883420] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01m~MapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.883546] (mppi) StderrLine: {'line': b'\n'}
+[4.883703] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01m~MapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.883831] (mppi) StderrLine: {'line': b'\n'}
+[4.885239] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Map.h(162)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMap\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.885488] (mppi) StderrLine: {'line': b'\n'}
+[4.885681] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Map.h(162)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMap\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.885826] (mppi) StderrLine: {'line': b'\n'}
+[4.887458] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(89)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mRefBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.887638] (mppi) StderrLine: {'line': b'\n'}
+[4.887801] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(89)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mRefBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.887941] (mppi) StderrLine: {'line': b'\n'}
+[4.889186] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(229)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mRef\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.889352] (mppi) StderrLine: {'line': b'\n'}
+[4.889559] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(229)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mRef\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.889701] (mppi) StderrLine: {'line': b'\n'}
+[4.892076] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Block.h(111)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mBlock\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.892241] (mppi) StderrLine: {'line': b'\n'}
+[4.892430] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Block.h(111)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mBlock\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.892569] (mppi) StderrLine: {'line': b'\n'}
+[4.893395] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Block.h(161)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mBlockImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.893562] (mppi) StderrLine: {'line': b'\n'}
+[4.893803] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Block.h(161)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mBlockImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.893963] (mppi) StderrLine: {'line': b'\n'}
+[4.895159] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Block.h(181)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mBlockImpl_dense\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.895308] (mppi) StderrLine: {'line': b'\n'}
+[4.895555] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Block.h(181)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mBlockImpl_dense\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.895691] (mppi) StderrLine: {'line': b'\n'}
+[4.897675] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Block.h(341)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mBlockImpl_dense\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.897866] (mppi) StderrLine: {'line': b'\n'}
+[4.898112] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Block.h(341)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mBlockImpl_dense\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.898252] (mppi) StderrLine: {'line': b'\n'}
+[4.900819] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(66)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mTranspose\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.901003] (mppi) StderrLine: {'line': b'\n'}
+[4.901311] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(66)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mTranspose\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.901473] (mppi) StderrLine: {'line': b'\n'}
+[4.902963] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(123)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mTransposeImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.903116] (mppi) StderrLine: {'line': b'\n'}
+[4.903465] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(123)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mTransposeImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.903608] (mppi) StderrLine: {'line': b'\n'}
+[4.904200] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mTransposeImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.904341] (mppi) StderrLine: {'line': b'\n'}
+[4.904723] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mTransposeImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.904865] (mppi) StderrLine: {'line': b'\n'}
+[4.905274] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01m~TransposeImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.905434] (mppi) StderrLine: {'line': b'\n'}
+[4.905820] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01m~TransposeImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.905965] (mppi) StderrLine: {'line': b'\n'}
+[4.912262] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Diagonal.h(78)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mDiagonal\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.912542] (mppi) StderrLine: {'line': b'\n'}
+[4.912816] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Diagonal.h(78)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mDiagonal\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.912982] (mppi) StderrLine: {'line': b'\n'}
+[4.926272] (-) TimerEvent: {}
+[4.940046] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(220)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mTriangularView\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.940496] (mppi) StderrLine: {'line': b'\n'}
+[4.940657] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(220)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mTriangularView\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.940801] (mppi) StderrLine: {'line': b'\n'}
+[4.943171] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(546)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mTriangularViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.943352] (mppi) StderrLine: {'line': b'\n'}
+[4.943648] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(546)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mTriangularViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.943827] (mppi) StderrLine: {'line': b'\n'}
+[4.944157] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mTriangularViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.944306] (mppi) StderrLine: {'line': b'\n'}
+[4.944645] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mTriangularViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.944792] (mppi) StderrLine: {'line': b'\n'}
+[4.945149] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01m~TriangularViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.945307] (mppi) StderrLine: {'line': b'\n'}
+[4.945674] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01m~TriangularViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[4.945824] (mppi) StderrLine: {'line': b'\n'}
+[5.026448] (-) TimerEvent: {}
+[5.027280] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Reverse.h(90)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mReverse\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[5.027937] (mppi) StderrLine: {'line': b'\n'}
+[5.028414] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Reverse.h(90)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mReverse\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[5.028737] (mppi) StderrLine: {'line': b'\n'}
+[5.030288] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(47)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mArrayWrapper\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[5.030620] (mppi) StderrLine: {'line': b'\n'}
+[5.031034] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(47)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mArrayWrapper\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[5.031336] (mppi) StderrLine: {'line': b'\n'}
+[5.033071] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(145)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMatrixWrapper\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[5.033399] (mppi) StderrLine: {'line': b'\n'}
+[5.033900] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(145)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMatrixWrapper\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[5.034290] (mppi) StderrLine: {'line': b'\n'}
+[5.126627] (-) TimerEvent: {}
+[5.227310] (-) TimerEvent: {}
+[5.328008] (-) TimerEvent: {}
+[5.337661] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(187)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mQuaternionBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[5.338217] (mppi) StderrLine: {'line': b'\n'}
+[5.338487] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(187)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mQuaternionBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[5.338651] (mppi) StderrLine: {'line': b'\n'}
+[5.339038] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mQuaternionBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[5.339190] (mppi) StderrLine: {'line': b'\n'}
+[5.339794] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mQuaternionBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[5.339938] (mppi) StderrLine: {'line': b'\n'}
+[5.340591] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01m~QuaternionBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[5.340737] (mppi) StderrLine: {'line': b'\n'}
+[5.341342] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01m~QuaternionBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[5.341510] (mppi) StderrLine: {'line': b'\n'}
+[5.343076] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(243)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mQuaternion\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[5.343222] (mppi) StderrLine: {'line': b'\n'}
+[5.343840] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(243)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mQuaternion\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[5.344006] (mppi) StderrLine: {'line': b'\n'}
+[5.346914] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(359)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMap\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[5.347113] (mppi) StderrLine: {'line': b'\n'}
+[5.347692] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(359)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMap\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[5.347866] (mppi) StderrLine: {'line': b'\n'}
+[5.348975] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(396)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMap\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[5.349124] (mppi) StderrLine: {'line': b'\n'}
+[5.349920] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(396)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMap\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[5.350194] (mppi) StderrLine: {'line': b'\n'}
+[5.428168] (-) TimerEvent: {}
+[5.528826] (-) TimerEvent: {}
+[5.629548] (-) TimerEvent: {}
+[5.730250] (-) TimerEvent: {}
+[5.830975] (-) TimerEvent: {}
+[5.931666] (-) TimerEvent: {}
+[6.032372] (-) TimerEvent: {}
+[6.133056] (-) TimerEvent: {}
+[6.233775] (-) TimerEvent: {}
+[6.334495] (-) TimerEvent: {}
+[6.435284] (-) TimerEvent: {}
+[6.536112] (-) TimerEvent: {}
+[6.636933] (-) TimerEvent: {}
+[6.737777] (-) TimerEvent: {}
+[6.838589] (-) TimerEvent: {}
+[6.939371] (-) TimerEvent: {}
+[7.040129] (-) TimerEvent: {}
+[7.140838] (-) TimerEvent: {}
+[7.241540] (-) TimerEvent: {}
+[7.342317] (-) TimerEvent: {}
+[7.443123] (-) TimerEvent: {}
+[7.543844] (-) TimerEvent: {}
+[7.644554] (-) TimerEvent: {}
+[7.745273] (-) TimerEvent: {}
+[7.846010] (-) TimerEvent: {}
+[7.946714] (-) TimerEvent: {}
+[8.047407] (-) TimerEvent: {}
+[8.148119] (-) TimerEvent: {}
+[8.248829] (-) TimerEvent: {}
+[8.349553] (-) TimerEvent: {}
+[8.450263] (-) TimerEvent: {}
+[8.551009] (-) TimerEvent: {}
+[8.651744] (-) TimerEvent: {}
+[8.752575] (-) TimerEvent: {}
+[8.853374] (-) TimerEvent: {}
+[8.954220] (-) TimerEvent: {}
+[9.055040] (-) TimerEvent: {}
+[9.155866] (-) TimerEvent: {}
+[9.256734] (-) TimerEvent: {}
+[9.357599] (-) TimerEvent: {}
+[9.458439] (-) TimerEvent: {}
+[9.559279] (-) TimerEvent: {}
+[9.660353] (-) TimerEvent: {}
+[9.761204] (-) TimerEvent: {}
+[9.862024] (-) TimerEvent: {}
+[9.962817] (-) TimerEvent: {}
+[10.063587] (-) TimerEvent: {}
+[10.164359] (-) TimerEvent: {}
+[10.265090] (-) TimerEvent: {}
+[10.365869] (-) TimerEvent: {}
+[10.466639] (-) TimerEvent: {}
+[10.567400] (-) TimerEvent: {}
+[10.668233] (-) TimerEvent: {}
+[10.769071] (-) TimerEvent: {}
+[10.869798] (-) TimerEvent: {}
+[10.970568] (-) TimerEvent: {}
+[11.071260] (-) TimerEvent: {}
+[11.171956] (-) TimerEvent: {}
+[11.272666] (-) TimerEvent: {}
+[11.373375] (-) TimerEvent: {}
+[11.474099] (-) TimerEvent: {}
+[11.574802] (-) TimerEvent: {}
+[11.675536] (-) TimerEvent: {}
+[11.776263] (-) TimerEvent: {}
+[11.876968] (-) TimerEvent: {}
+[11.977695] (-) TimerEvent: {}
+[12.078394] (-) TimerEvent: {}
+[12.179089] (-) TimerEvent: {}
+[12.279795] (-) TimerEvent: {}
+[12.380495] (-) TimerEvent: {}
+[12.481201] (-) TimerEvent: {}
+[12.581927] (-) TimerEvent: {}
+[12.682617] (-) TimerEvent: {}
+[12.783332] (-) TimerEvent: {}
+[12.884032] (-) TimerEvent: {}
+[12.984732] (-) TimerEvent: {}
+[13.085416] (-) TimerEvent: {}
+[13.186126] (-) TimerEvent: {}
+[13.286842] (-) TimerEvent: {}
+[13.387537] (-) TimerEvent: {}
+[13.488265] (-) TimerEvent: {}
+[13.588976] (-) TimerEvent: {}
+[13.689702] (-) TimerEvent: {}
+[13.790398] (-) TimerEvent: {}
+[13.891102] (-) TimerEvent: {}
+[13.991803] (-) TimerEvent: {}
+[14.092538] (-) TimerEvent: {}
+[14.193253] (-) TimerEvent: {}
+[14.293995] (-) TimerEvent: {}
+[14.394689] (-) TimerEvent: {}
+[14.495387] (-) TimerEvent: {}
+[14.596091] (-) TimerEvent: {}
+[14.696802] (-) TimerEvent: {}
+[14.797553] (-) TimerEvent: {}
+[14.898264] (-) TimerEvent: {}
+[14.998975] (-) TimerEvent: {}
+[15.099675] (-) TimerEvent: {}
+[15.200370] (-) TimerEvent: {}
+[15.301093] (-) TimerEvent: {}
+[15.401825] (-) TimerEvent: {}
+[15.502518] (-) TimerEvent: {}
+[15.603218] (-) TimerEvent: {}
+[15.703945] (-) TimerEvent: {}
+[15.804675] (-) TimerEvent: {}
+[15.905413] (-) TimerEvent: {}
+[16.006179] (-) TimerEvent: {}
+[16.106872] (-) TimerEvent: {}
+[16.207569] (-) TimerEvent: {}
+[16.308257] (-) TimerEvent: {}
+[16.408996] (-) TimerEvent: {}
+[16.509717] (-) TimerEvent: {}
+[16.610482] (-) TimerEvent: {}
+[16.711267] (-) TimerEvent: {}
+[16.812002] (-) TimerEvent: {}
+[16.912726] (-) TimerEvent: {}
+[17.013494] (-) TimerEvent: {}
+[17.114234] (-) TimerEvent: {}
+[17.214950] (-) TimerEvent: {}
+[17.315658] (-) TimerEvent: {}
+[17.416382] (-) TimerEvent: {}
+[17.517098] (-) TimerEvent: {}
+[17.617852] (-) TimerEvent: {}
+[17.718589] (-) TimerEvent: {}
+[17.819287] (-) TimerEvent: {}
+[17.919981] (-) TimerEvent: {}
+[18.020705] (-) TimerEvent: {}
+[18.121411] (-) TimerEvent: {}
+[18.222118] (-) TimerEvent: {}
+[18.322813] (-) TimerEvent: {}
+[18.423551] (-) TimerEvent: {}
+[18.524261] (-) TimerEvent: {}
+[18.624972] (-) TimerEvent: {}
+[18.725685] (-) TimerEvent: {}
+[18.826438] (-) TimerEvent: {}
+[18.927129] (-) TimerEvent: {}
+[19.027824] (-) TimerEvent: {}
+[19.128494] (-) TimerEvent: {}
+[19.229147] (-) TimerEvent: {}
+[19.329835] (-) TimerEvent: {}
+[19.430498] (-) TimerEvent: {}
+[19.531155] (-) TimerEvent: {}
+[19.631820] (-) TimerEvent: {}
+[19.732485] (-) TimerEvent: {}
+[19.833141] (-) TimerEvent: {}
+[19.933802] (-) TimerEvent: {}
+[20.034436] (-) TimerEvent: {}
+[20.135217] (-) TimerEvent: {}
+[20.235862] (-) TimerEvent: {}
+[20.336475] (-) TimerEvent: {}
+[20.437105] (-) TimerEvent: {}
+[20.537738] (-) TimerEvent: {}
+[20.638357] (-) TimerEvent: {}
+[20.739010] (-) TimerEvent: {}
+[20.839690] (-) TimerEvent: {}
+[20.940383] (-) TimerEvent: {}
+[21.041099] (-) TimerEvent: {}
+[21.141872] (-) TimerEvent: {}
+[21.242716] (-) TimerEvent: {}
+[21.343526] (-) TimerEvent: {}
+[21.444329] (-) TimerEvent: {}
+[21.545089] (-) TimerEvent: {}
+[21.645867] (-) TimerEvent: {}
+[21.746625] (-) TimerEvent: {}
+[21.847334] (-) TimerEvent: {}
+[21.948070] (-) TimerEvent: {}
+[22.048758] (-) TimerEvent: {}
+[22.149577] (-) TimerEvent: {}
+[22.250386] (-) TimerEvent: {}
+[22.351116] (-) TimerEvent: {}
+[22.451812] (-) TimerEvent: {}
+[22.552537] (-) TimerEvent: {}
+[22.653137] (-) TimerEvent: {}
+[22.753802] (-) TimerEvent: {}
+[22.854454] (-) TimerEvent: {}
+[22.955081] (-) TimerEvent: {}
+[23.055667] (-) TimerEvent: {}
+[23.156302] (-) TimerEvent: {}
+[23.256969] (-) TimerEvent: {}
+[23.357634] (-) TimerEvent: {}
+[23.458250] (-) TimerEvent: {}
+[23.558878] (-) TimerEvent: {}
+[23.659527] (-) TimerEvent: {}
+[23.760175] (-) TimerEvent: {}
+[23.860826] (-) TimerEvent: {}
+[23.961500] (-) TimerEvent: {}
+[24.062227] (-) TimerEvent: {}
+[24.162868] (-) TimerEvent: {}
+[24.263699] (-) TimerEvent: {}
+[24.364382] (-) TimerEvent: {}
+[24.465060] (-) TimerEvent: {}
+[24.565768] (-) TimerEvent: {}
+[24.666497] (-) TimerEvent: {}
+[24.767197] (-) TimerEvent: {}
+[24.867935] (-) TimerEvent: {}
+[24.968622] (-) TimerEvent: {}
+[25.069307] (-) TimerEvent: {}
+[25.170012] (-) TimerEvent: {}
+[25.270707] (-) TimerEvent: {}
+[25.371465] (-) TimerEvent: {}
+[25.472362] (-) TimerEvent: {}
+[25.573215] (-) TimerEvent: {}
+[25.673951] (-) TimerEvent: {}
+[25.774647] (-) TimerEvent: {}
+[25.875339] (-) TimerEvent: {}
+[25.976038] (-) TimerEvent: {}
+[26.076729] (-) TimerEvent: {}
+[26.177417] (-) TimerEvent: {}
+[26.278122] (-) TimerEvent: {}
+[26.378820] (-) TimerEvent: {}
+[26.479507] (-) TimerEvent: {}
+[26.580200] (-) TimerEvent: {}
+[26.680892] (-) TimerEvent: {}
+[26.781645] (-) TimerEvent: {}
+[26.882503] (-) TimerEvent: {}
+[26.983257] (-) TimerEvent: {}
+[27.084001] (-) TimerEvent: {}
+[27.184769] (-) TimerEvent: {}
+[27.285424] (-) TimerEvent: {}
+[27.386264] (-) TimerEvent: {}
+[27.486947] (-) TimerEvent: {}
+[27.587641] (-) TimerEvent: {}
+[27.688350] (-) TimerEvent: {}
+[27.789079] (-) TimerEvent: {}
+[27.889835] (-) TimerEvent: {}
+[27.990557] (-) TimerEvent: {}
+[28.091280] (-) TimerEvent: {}
+[28.191992] (-) TimerEvent: {}
+[28.292709] (-) TimerEvent: {}
+[28.393472] (-) TimerEvent: {}
+[28.494200] (-) TimerEvent: {}
+[28.594864] (-) TimerEvent: {}
+[28.665215] (mppi) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:257\x1b[m\x1b[K,\n'}
+[28.666110] (mppi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/controller.cuh:9\x1b[m\x1b[K,\n'}
+[28.666329] (mppi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/MPPI/mppi_controller.cuh:11\x1b[m\x1b[K,\n'}
+[28.666489] (mppi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kt/repos/mppi/src/mppi/src/mppi_node.cu:2\x1b[m\x1b[K:\n'}
+[28.666635] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/cuda/bin/../targets/aarch64-linux/include/host_defines.h:54:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [\x1b[01;35m\x1b[K-Wcpp\x1b[m\x1b[K]\n'}
+[28.666789] (mppi) StderrLine: {'line': b'   54 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."\n'}
+[28.666933] (mppi) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[28.694997] (-) TimerEvent: {}
+[28.795622] (-) TimerEvent: {}
+[28.896278] (-) TimerEvent: {}
+[28.996934] (-) TimerEvent: {}
+[29.097617] (-) TimerEvent: {}
+[29.198289] (-) TimerEvent: {}
+[29.298986] (-) TimerEvent: {}
+[29.399678] (-) TimerEvent: {}
+[29.500362] (-) TimerEvent: {}
+[29.601083] (-) TimerEvent: {}
+[29.701790] (-) TimerEvent: {}
+[29.802470] (-) TimerEvent: {}
+[29.903160] (-) TimerEvent: {}
+[29.904636] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(94)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mno_assignment_operator\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[29.905109] (mppi) StderrLine: {'line': b'\n'}
+[29.905286] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(94)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mno_assignment_operator\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[29.905516] (mppi) StderrLine: {'line': b'\n'}
+[29.905668] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mno_assignment_operator\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[29.905810] (mppi) StderrLine: {'line': b'\n'}
+[29.905942] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mno_assignment_operator\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[29.906078] (mppi) StderrLine: {'line': b'\n'}
+[29.906219] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01m~no_assignment_operator\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[29.906351] (mppi) StderrLine: {'line': b'\n'}
+[29.906476] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01m~no_assignment_operator\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[29.906604] (mppi) StderrLine: {'line': b'\n'}
+[30.003332] (-) TimerEvent: {}
+[30.036177] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/DenseBase.h(590)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mDenseBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.036856] (mppi) StderrLine: {'line': b'\n'}
+[30.037057] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/DenseBase.h(590)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mDenseBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.037253] (mppi) StderrLine: {'line': b'\n'}
+[30.051706] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(467)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMatrixBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.052348] (mppi) StderrLine: {'line': b'\n'}
+[30.052552] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(467)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMatrixBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.052709] (mppi) StderrLine: {'line': b'\n'}
+[30.052846] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMatrixBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.052985] (mppi) StderrLine: {'line': b'\n'}
+[30.053113] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMatrixBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.053249] (mppi) StderrLine: {'line': b'\n'}
+[30.053375] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01m~MatrixBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.053541] (mppi) StderrLine: {'line': b'\n'}
+[30.053673] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01m~MatrixBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.053805] (mppi) StderrLine: {'line': b'\n'}
+[30.103488] (-) TimerEvent: {}
+[30.121104] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(156)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mArrayBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.121784] (mppi) StderrLine: {'line': b'\n'}
+[30.122003] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(156)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mArrayBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.122151] (mppi) StderrLine: {'line': b'\n'}
+[30.122283] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mArrayBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.122455] (mppi) StderrLine: {'line': b'\n'}
+[30.122591] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mArrayBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.122759] (mppi) StderrLine: {'line': b'\n'}
+[30.122887] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01m~ArrayBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.123015] (mppi) StderrLine: {'line': b'\n'}
+[30.123177] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01m~ArrayBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.123321] (mppi) StderrLine: {'line': b'\n'}
+[30.203653] (-) TimerEvent: {}
+[30.205980] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(70)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mCwiseUnaryView\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.206414] (mppi) StderrLine: {'line': b'\n'}
+[30.206583] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(70)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mCwiseUnaryView\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.206733] (mppi) StderrLine: {'line': b'\n'}
+[30.207880] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(110)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mCwiseUnaryViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.208043] (mppi) StderrLine: {'line': b'\n'}
+[30.208345] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(110)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mCwiseUnaryViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.208490] (mppi) StderrLine: {'line': b'\n'}
+[30.208931] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mCwiseUnaryViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.209074] (mppi) StderrLine: {'line': b'\n'}
+[30.209400] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mCwiseUnaryViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.209611] (mppi) StderrLine: {'line': b'\n'}
+[30.209939] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01m~CwiseUnaryViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.210099] (mppi) StderrLine: {'line': b'\n'}
+[30.210397] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01m~CwiseUnaryViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.210539] (mppi) StderrLine: {'line': b'\n'}
+[30.222603] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(185)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.222948] (mppi) StderrLine: {'line': b'\n'}
+[30.223151] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(185)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.223296] (mppi) StderrLine: {'line': b'\n'}
+[30.223753] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.223934] (mppi) StderrLine: {'line': b'\n'}
+[30.224348] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.224488] (mppi) StderrLine: {'line': b'\n'}
+[30.224968] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01m~MapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.225130] (mppi) StderrLine: {'line': b'\n'}
+[30.225601] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01m~MapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.225757] (mppi) StderrLine: {'line': b'\n'}
+[30.228382] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(300)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.228597] (mppi) StderrLine: {'line': b'\n'}
+[30.229151] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(300)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.229306] (mppi) StderrLine: {'line': b'\n'}
+[30.229831] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.229984] (mppi) StderrLine: {'line': b'\n'}
+[30.230450] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.230613] (mppi) StderrLine: {'line': b'\n'}
+[30.231111] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01m~MapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.231253] (mppi) StderrLine: {'line': b'\n'}
+[30.231740] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01m~MapBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.231882] (mppi) StderrLine: {'line': b'\n'}
+[30.234803] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Map.h(162)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMap\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.234981] (mppi) StderrLine: {'line': b'\n'}
+[30.235184] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Map.h(162)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMap\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.235324] (mppi) StderrLine: {'line': b'\n'}
+[30.238166] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(89)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mRefBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.238363] (mppi) StderrLine: {'line': b'\n'}
+[30.238826] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(89)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mRefBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.238975] (mppi) StderrLine: {'line': b'\n'}
+[30.241538] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(229)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mRef\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.241709] (mppi) StderrLine: {'line': b'\n'}
+[30.242244] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(229)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mRef\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.242411] (mppi) StderrLine: {'line': b'\n'}
+[30.245961] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Block.h(111)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mBlock\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.246139] (mppi) StderrLine: {'line': b'\n'}
+[30.246696] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Block.h(111)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mBlock\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.246845] (mppi) StderrLine: {'line': b'\n'}
+[30.248350] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Block.h(161)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mBlockImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.248500] (mppi) StderrLine: {'line': b'\n'}
+[30.249115] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Block.h(161)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mBlockImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.249259] (mppi) StderrLine: {'line': b'\n'}
+[30.251042] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Block.h(181)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mBlockImpl_dense\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.251206] (mppi) StderrLine: {'line': b'\n'}
+[30.251954] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Block.h(181)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mBlockImpl_dense\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.252121] (mppi) StderrLine: {'line': b'\n'}
+[30.255938] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Block.h(341)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mBlockImpl_dense\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.256213] (mppi) StderrLine: {'line': b'\n'}
+[30.256717] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Block.h(341)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mBlockImpl_dense\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.256874] (mppi) StderrLine: {'line': b'\n'}
+[30.261134] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(66)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mTranspose\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.261337] (mppi) StderrLine: {'line': b'\n'}
+[30.262050] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(66)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mTranspose\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.262244] (mppi) StderrLine: {'line': b'\n'}
+[30.263590] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(123)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mTransposeImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.263819] (mppi) StderrLine: {'line': b'\n'}
+[30.264110] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(123)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mTransposeImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.264306] (mppi) StderrLine: {'line': b'\n'}
+[30.264438] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mTransposeImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.264573] (mppi) StderrLine: {'line': b'\n'}
+[30.264701] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mTransposeImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.264842] (mppi) StderrLine: {'line': b'\n'}
+[30.264968] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01m~TransposeImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.265092] (mppi) StderrLine: {'line': b'\n'}
+[30.265212] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01m~TransposeImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.265334] (mppi) StderrLine: {'line': b'\n'}
+[30.273721] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Diagonal.h(78)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mDiagonal\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.274021] (mppi) StderrLine: {'line': b'\n'}
+[30.274163] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Diagonal.h(78)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mDiagonal\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.274318] (mppi) StderrLine: {'line': b'\n'}
+[30.303778] (-) TimerEvent: {}
+[30.325948] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(220)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mTriangularView\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.326430] (mppi) StderrLine: {'line': b'\n'}
+[30.326695] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(220)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mTriangularView\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.326853] (mppi) StderrLine: {'line': b'\n'}
+[30.330417] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(546)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mTriangularViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.331336] (mppi) StderrLine: {'line': b'\n'}
+[30.331621] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(546)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mTriangularViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.331888] (mppi) StderrLine: {'line': b'\n'}
+[30.332120] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mTriangularViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.332351] (mppi) StderrLine: {'line': b'\n'}
+[30.332562] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mTriangularViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.332774] (mppi) StderrLine: {'line': b'\n'}
+[30.332978] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01m~TriangularViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.333185] (mppi) StderrLine: {'line': b'\n'}
+[30.333383] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01m~TriangularViewImpl\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.333794] (mppi) StderrLine: {'line': b'\n'}
+[30.403884] (-) TimerEvent: {}
+[30.504510] (-) TimerEvent: {}
+[30.527869] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Reverse.h(90)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mReverse\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.528476] (mppi) StderrLine: {'line': b'\n'}
+[30.528800] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/Reverse.h(90)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mReverse\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.529146] (mppi) StderrLine: {'line': b'\n'}
+[30.531200] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(47)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mArrayWrapper\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.531801] (mppi) StderrLine: {'line': b'\n'}
+[30.532108] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(47)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mArrayWrapper\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.532424] (mppi) StderrLine: {'line': b'\n'}
+[30.533547] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(145)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMatrixWrapper\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.533932] (mppi) StderrLine: {'line': b'\n'}
+[30.534210] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(145)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMatrixWrapper\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[30.534477] (mppi) StderrLine: {'line': b'\n'}
+[30.604601] (-) TimerEvent: {}
+[30.705249] (-) TimerEvent: {}
+[30.806066] (-) TimerEvent: {}
+[30.906770] (-) TimerEvent: {}
+[31.007490] (-) TimerEvent: {}
+[31.108338] (-) TimerEvent: {}
+[31.131456] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(187)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mQuaternionBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[31.132126] (mppi) StderrLine: {'line': b'\n'}
+[31.132508] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(187)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mQuaternionBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[31.132861] (mppi) StderrLine: {'line': b'\n'}
+[31.133200] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mQuaternionBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[31.133494] (mppi) StderrLine: {'line': b'\n'}
+[31.133761] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mQuaternionBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[31.134059] (mppi) StderrLine: {'line': b'\n'}
+[31.134302] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01m~QuaternionBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[31.134542] (mppi) StderrLine: {'line': b'\n'}
+[31.134772] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01m~QuaternionBase\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[31.135007] (mppi) StderrLine: {'line': b'\n'}
+[31.135790] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(243)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mQuaternion\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[31.136224] (mppi) StderrLine: {'line': b'\n'}
+[31.136523] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(243)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mQuaternion\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[31.136800] (mppi) StderrLine: {'line': b'\n'}
+[31.139293] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(359)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMap\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[31.139723] (mppi) StderrLine: {'line': b'\n'}
+[31.139912] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(359)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMap\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[31.140069] (mppi) StderrLine: {'line': b'\n'}
+[31.140653] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(396)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __host__ annotation is ignored on a function("\x1b[01mMap\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[31.140807] (mppi) StderrLine: {'line': b'\n'}
+[31.141070] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[0m\x1b[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(396)\x1b[0m: \x1b[01;35mwarning\x1b[0m #20012-D: __device__ annotation is ignored on a function("\x1b[01mMap\x1b[0m") that is explicitly defaulted on its first declaration\n'}
+[31.141248] (mppi) StderrLine: {'line': b'\n'}
+[31.208487] (-) TimerEvent: {}
+[31.309135] (-) TimerEvent: {}
+[31.409825] (-) TimerEvent: {}
+[31.510512] (-) TimerEvent: {}
+[31.611196] (-) TimerEvent: {}
+[31.712263] (-) TimerEvent: {}
+[31.812986] (-) TimerEvent: {}
+[31.913691] (-) TimerEvent: {}
+[32.014412] (-) TimerEvent: {}
+[32.115096] (-) TimerEvent: {}
+[32.215774] (-) TimerEvent: {}
+[32.316478] (-) TimerEvent: {}
+[32.417170] (-) TimerEvent: {}
+[32.517886] (-) TimerEvent: {}
+[32.618574] (-) TimerEvent: {}
+[32.719269] (-) TimerEvent: {}
+[32.819970] (-) TimerEvent: {}
+[32.920672] (-) TimerEvent: {}
+[33.021367] (-) TimerEvent: {}
+[33.122087] (-) TimerEvent: {}
+[33.222773] (-) TimerEvent: {}
+[33.323474] (-) TimerEvent: {}
+[33.424177] (-) TimerEvent: {}
+[33.524873] (-) TimerEvent: {}
+[33.625611] (-) TimerEvent: {}
+[33.726315] (-) TimerEvent: {}
+[33.827026] (-) TimerEvent: {}
+[33.927740] (-) TimerEvent: {}
+[34.028427] (-) TimerEvent: {}
+[34.129120] (-) TimerEvent: {}
+[34.229857] (-) TimerEvent: {}
+[34.330552] (-) TimerEvent: {}
+[34.431389] (-) TimerEvent: {}
+[34.532192] (-) TimerEvent: {}
+[34.632881] (-) TimerEvent: {}
+[34.733737] (-) TimerEvent: {}
+[34.834419] (-) TimerEvent: {}
+[34.935109] (-) TimerEvent: {}
+[35.035790] (-) TimerEvent: {}
+[35.136474] (-) TimerEvent: {}
+[35.237154] (-) TimerEvent: {}
+[35.337873] (-) TimerEvent: {}
+[35.438577] (-) TimerEvent: {}
+[35.539272] (-) TimerEvent: {}
+[35.639965] (-) TimerEvent: {}
+[35.740675] (-) TimerEvent: {}
+[35.841409] (-) TimerEvent: {}
+[35.942280] (-) TimerEvent: {}
+[36.043243] (-) TimerEvent: {}
+[36.144077] (-) TimerEvent: {}
+[36.244902] (-) TimerEvent: {}
+[36.345733] (-) TimerEvent: {}
+[36.446567] (-) TimerEvent: {}
+[36.547410] (-) TimerEvent: {}
+[36.648265] (-) TimerEvent: {}
+[36.749106] (-) TimerEvent: {}
+[36.850039] (-) TimerEvent: {}
+[36.950895] (-) TimerEvent: {}
+[37.051738] (-) TimerEvent: {}
+[37.152577] (-) TimerEvent: {}
+[37.253417] (-) TimerEvent: {}
+[37.354294] (-) TimerEvent: {}
+[37.455122] (-) TimerEvent: {}
+[37.556035] (-) TimerEvent: {}
+[37.656765] (-) TimerEvent: {}
+[37.757604] (-) TimerEvent: {}
+[37.858434] (-) TimerEvent: {}
+[37.959257] (-) TimerEvent: {}
+[38.060094] (-) TimerEvent: {}
+[38.160940] (-) TimerEvent: {}
+[38.261803] (-) TimerEvent: {}
+[38.362644] (-) TimerEvent: {}
+[38.463512] (-) TimerEvent: {}
+[38.564351] (-) TimerEvent: {}
+[38.665157] (-) TimerEvent: {}
+[38.766044] (-) TimerEvent: {}
+[38.866881] (-) TimerEvent: {}
+[38.967729] (-) TimerEvent: {}
+[39.068585] (-) TimerEvent: {}
+[39.169465] (-) TimerEvent: {}
+[39.270283] (-) TimerEvent: {}
+[39.371113] (-) TimerEvent: {}
+[39.471969] (-) TimerEvent: {}
+[39.572809] (-) TimerEvent: {}
+[39.673904] (-) TimerEvent: {}
+[39.774758] (-) TimerEvent: {}
+[39.875606] (-) TimerEvent: {}
+[39.976453] (-) TimerEvent: {}
+[40.077230] (-) TimerEvent: {}
+[40.178117] (-) TimerEvent: {}
+[40.278964] (-) TimerEvent: {}
+[40.379818] (-) TimerEvent: {}
+[40.480653] (-) TimerEvent: {}
+[40.581521] (-) TimerEvent: {}
+[40.682354] (-) TimerEvent: {}
+[40.783169] (-) TimerEvent: {}
+[40.883847] (-) TimerEvent: {}
+[40.984567] (-) TimerEvent: {}
+[41.085396] (-) TimerEvent: {}
+[41.186232] (-) TimerEvent: {}
+[41.287030] (-) TimerEvent: {}
+[41.387877] (-) TimerEvent: {}
+[41.488730] (-) TimerEvent: {}
+[41.589622] (-) TimerEvent: {}
+[41.690453] (-) TimerEvent: {}
+[41.791287] (-) TimerEvent: {}
+[41.892128] (-) TimerEvent: {}
+[41.992974] (-) TimerEvent: {}
+[42.093825] (-) TimerEvent: {}
+[42.194535] (-) TimerEvent: {}
+[42.295366] (-) TimerEvent: {}
+[42.396143] (-) TimerEvent: {}
+[42.496991] (-) TimerEvent: {}
+[42.597852] (-) TimerEvent: {}
+[42.698673] (-) TimerEvent: {}
+[42.799501] (-) TimerEvent: {}
+[42.900334] (-) TimerEvent: {}
+[43.001157] (-) TimerEvent: {}
+[43.102022] (-) TimerEvent: {}
+[43.202848] (-) TimerEvent: {}
+[43.303649] (-) TimerEvent: {}
+[43.404442] (-) TimerEvent: {}
+[43.505221] (-) TimerEvent: {}
+[43.605971] (-) TimerEvent: {}
+[43.706803] (-) TimerEvent: {}
+[43.807618] (-) TimerEvent: {}
+[43.908423] (-) TimerEvent: {}
+[44.009242] (-) TimerEvent: {}
+[44.110114] (-) TimerEvent: {}
+[44.210941] (-) TimerEvent: {}
+[44.311707] (-) TimerEvent: {}
+[44.412553] (-) TimerEvent: {}
+[44.513397] (-) TimerEvent: {}
+[44.614296] (-) TimerEvent: {}
+[44.715149] (-) TimerEvent: {}
+[44.815987] (-) TimerEvent: {}
+[44.916824] (-) TimerEvent: {}
+[45.017646] (-) TimerEvent: {}
+[45.118481] (-) TimerEvent: {}
+[45.219282] (-) TimerEvent: {}
+[45.319977] (-) TimerEvent: {}
+[45.420794] (-) TimerEvent: {}
+[45.521758] (-) TimerEvent: {}
+[45.622560] (-) TimerEvent: {}
+[45.723349] (-) TimerEvent: {}
+[45.824133] (-) TimerEvent: {}
+[45.924941] (-) TimerEvent: {}
+[46.025784] (-) TimerEvent: {}
+[46.126719] (-) TimerEvent: {}
+[46.227519] (-) TimerEvent: {}
+[46.328253] (-) TimerEvent: {}
+[46.429112] (-) TimerEvent: {}
+[46.530023] (-) TimerEvent: {}
+[46.630894] (-) TimerEvent: {}
+[46.731719] (-) TimerEvent: {}
+[46.832536] (-) TimerEvent: {}
+[46.933392] (-) TimerEvent: {}
+[47.034239] (-) TimerEvent: {}
+[47.135071] (-) TimerEvent: {}
+[47.235874] (-) TimerEvent: {}
+[47.336592] (-) TimerEvent: {}
+[47.437402] (-) TimerEvent: {}
+[47.538228] (-) TimerEvent: {}
+[47.638924] (-) TimerEvent: {}
+[47.739778] (-) TimerEvent: {}
+[47.840615] (-) TimerEvent: {}
+[47.941490] (-) TimerEvent: {}
+[48.042330] (-) TimerEvent: {}
+[48.143163] (-) TimerEvent: {}
+[48.243981] (-) TimerEvent: {}
+[48.344735] (-) TimerEvent: {}
+[48.445642] (-) TimerEvent: {}
+[48.547770] (-) TimerEvent: {}
+[48.648503] (-) TimerEvent: {}
+[48.749261] (-) TimerEvent: {}
+[48.850024] (-) TimerEvent: {}
+[48.950745] (-) TimerEvent: {}
+[49.051521] (-) TimerEvent: {}
+[49.152329] (-) TimerEvent: {}
+[49.253132] (-) TimerEvent: {}
+[49.353959] (-) TimerEvent: {}
+[49.454767] (-) TimerEvent: {}
+[49.555531] (-) TimerEvent: {}
+[49.656318] (-) TimerEvent: {}
+[49.757147] (-) TimerEvent: {}
+[49.858008] (-) TimerEvent: {}
+[49.958823] (-) TimerEvent: {}
+[50.059618] (-) TimerEvent: {}
+[50.160441] (-) TimerEvent: {}
+[50.261237] (-) TimerEvent: {}
+[50.362050] (-) TimerEvent: {}
+[50.462859] (-) TimerEvent: {}
+[50.563624] (-) TimerEvent: {}
+[50.664469] (-) TimerEvent: {}
+[50.765298] (-) TimerEvent: {}
+[50.866309] (-) TimerEvent: {}
+[50.967006] (-) TimerEvent: {}
+[51.067704] (-) TimerEvent: {}
+[51.168400] (-) TimerEvent: {}
+[51.269091] (-) TimerEvent: {}
+[51.369778] (-) TimerEvent: {}
+[51.470446] (-) TimerEvent: {}
+[51.571106] (-) TimerEvent: {}
+[51.671774] (-) TimerEvent: {}
+[51.772436] (-) TimerEvent: {}
+[51.873118] (-) TimerEvent: {}
+[51.973833] (-) TimerEvent: {}
+[52.074661] (-) TimerEvent: {}
+[52.175476] (-) TimerEvent: {}
+[52.276419] (-) TimerEvent: {}
+[52.377264] (-) TimerEvent: {}
+[52.478114] (-) TimerEvent: {}
+[52.578890] (-) TimerEvent: {}
+[52.679611] (-) TimerEvent: {}
+[52.780471] (-) TimerEvent: {}
+[52.881327] (-) TimerEvent: {}
+[52.982190] (-) TimerEvent: {}
+[53.082993] (-) TimerEvent: {}
+[53.183828] (-) TimerEvent: {}
+[53.284649] (-) TimerEvent: {}
+[53.385503] (-) TimerEvent: {}
+[53.486281] (-) TimerEvent: {}
+[53.586985] (-) TimerEvent: {}
+[53.687831] (-) TimerEvent: {}
+[53.788654] (-) TimerEvent: {}
+[53.889445] (-) TimerEvent: {}
+[53.990190] (-) TimerEvent: {}
+[54.091001] (-) TimerEvent: {}
+[54.191802] (-) TimerEvent: {}
+[54.292503] (-) TimerEvent: {}
+[54.393352] (-) TimerEvent: {}
+[54.494208] (-) TimerEvent: {}
+[54.595034] (-) TimerEvent: {}
+[54.695850] (-) TimerEvent: {}
+[54.796569] (-) TimerEvent: {}
+[54.897409] (-) TimerEvent: {}
+[54.998246] (-) TimerEvent: {}
+[55.099066] (-) TimerEvent: {}
+[55.199869] (-) TimerEvent: {}
+[55.300673] (-) TimerEvent: {}
+[55.401497] (-) TimerEvent: {}
+[55.502295] (-) TimerEvent: {}
+[55.603140] (-) TimerEvent: {}
+[55.703964] (-) TimerEvent: {}
+[55.804782] (-) TimerEvent: {}
+[55.905624] (-) TimerEvent: {}
+[56.006458] (-) TimerEvent: {}
+[56.107282] (-) TimerEvent: {}
+[56.208106] (-) TimerEvent: {}
+[56.308929] (-) TimerEvent: {}
+[56.409791] (-) TimerEvent: {}
+[56.510626] (-) TimerEvent: {}
+[56.611491] (-) TimerEvent: {}
+[56.712345] (-) TimerEvent: {}
+[56.813202] (-) TimerEvent: {}
+[56.914161] (-) TimerEvent: {}
+[57.015002] (-) TimerEvent: {}
+[57.115868] (-) TimerEvent: {}
+[57.216690] (-) TimerEvent: {}
+[57.317559] (-) TimerEvent: {}
+[57.418377] (-) TimerEvent: {}
+[57.519232] (-) TimerEvent: {}
+[57.619972] (-) TimerEvent: {}
+[57.720808] (-) TimerEvent: {}
+[57.821622] (-) TimerEvent: {}
+[57.922437] (-) TimerEvent: {}
+[58.023255] (-) TimerEvent: {}
+[58.124077] (-) TimerEvent: {}
+[58.224891] (-) TimerEvent: {}
+[58.325747] (-) TimerEvent: {}
+[58.426573] (-) TimerEvent: {}
+[58.527366] (-) TimerEvent: {}
+[58.628094] (-) TimerEvent: {}
+[58.728933] (-) TimerEvent: {}
+[58.829825] (-) TimerEvent: {}
+[58.930664] (-) TimerEvent: {}
+[59.031480] (-) TimerEvent: {}
+[59.132258] (-) TimerEvent: {}
+[59.233063] (-) TimerEvent: {}
+[59.333958] (-) TimerEvent: {}
+[59.434789] (-) TimerEvent: {}
+[59.535621] (-) TimerEvent: {}
+[59.636492] (-) TimerEvent: {}
+[59.737356] (-) TimerEvent: {}
+[59.838222] (-) TimerEvent: {}
+[59.939047] (-) TimerEvent: {}
+[60.039883] (-) TimerEvent: {}
+[60.140717] (-) TimerEvent: {}
+[60.241564] (-) TimerEvent: {}
+[60.342384] (-) TimerEvent: {}
+[60.443207] (-) TimerEvent: {}
+[60.544041] (-) TimerEvent: {}
+[60.644896] (-) TimerEvent: {}
+[60.745786] (-) TimerEvent: {}
+[60.846580] (-) TimerEvent: {}
+[60.947274] (-) TimerEvent: {}
+[61.047998] (-) TimerEvent: {}
+[61.148850] (-) TimerEvent: {}
+[61.249711] (-) TimerEvent: {}
+[61.350423] (-) TimerEvent: {}
+[61.451265] (-) TimerEvent: {}
+[61.552090] (-) TimerEvent: {}
+[61.652941] (-) TimerEvent: {}
+[61.753834] (-) TimerEvent: {}
+[61.854675] (-) TimerEvent: {}
+[61.955518] (-) TimerEvent: {}
+[62.056361] (-) TimerEvent: {}
+[62.157250] (-) TimerEvent: {}
+[62.258115] (-) TimerEvent: {}
+[62.358806] (-) TimerEvent: {}
+[62.459628] (-) TimerEvent: {}
+[62.560431] (-) TimerEvent: {}
+[62.661223] (-) TimerEvent: {}
+[62.762036] (-) TimerEvent: {}
+[62.862835] (-) TimerEvent: {}
+[62.963637] (-) TimerEvent: {}
+[63.064425] (-) TimerEvent: {}
+[63.165141] (-) TimerEvent: {}
+[63.266016] (-) TimerEvent: {}
+[63.366757] (-) TimerEvent: {}
+[63.467587] (-) TimerEvent: {}
+[63.568453] (-) TimerEvent: {}
+[63.669286] (-) TimerEvent: {}
+[63.770145] (-) TimerEvent: {}
+[63.870977] (-) TimerEvent: {}
+[63.971816] (-) TimerEvent: {}
+[64.072644] (-) TimerEvent: {}
+[64.173514] (-) TimerEvent: {}
+[64.274238] (-) TimerEvent: {}
+[64.374953] (-) TimerEvent: {}
+[64.475778] (-) TimerEvent: {}
+[64.576595] (-) TimerEvent: {}
+[64.677412] (-) TimerEvent: {}
+[64.778271] (-) TimerEvent: {}
+[64.879087] (-) TimerEvent: {}
+[64.979996] (-) TimerEvent: {}
+[65.080768] (-) TimerEvent: {}
+[65.181605] (-) TimerEvent: {}
+[65.282290] (-) TimerEvent: {}
+[65.383017] (-) TimerEvent: {}
+[65.483842] (-) TimerEvent: {}
+[65.584636] (-) TimerEvent: {}
+[65.685445] (-) TimerEvent: {}
+[65.786277] (-) TimerEvent: {}
+[65.887093] (-) TimerEvent: {}
+[65.987915] (-) TimerEvent: {}
+[66.088726] (-) TimerEvent: {}
+[66.189582] (-) TimerEvent: {}
+[66.290395] (-) TimerEvent: {}
+[66.391171] (-) TimerEvent: {}
+[66.492017] (-) TimerEvent: {}
+[66.592832] (-) TimerEvent: {}
+[66.693644] (-) TimerEvent: {}
+[66.794454] (-) TimerEvent: {}
+[66.895263] (-) TimerEvent: {}
+[66.996101] (-) TimerEvent: {}
+[67.096919] (-) TimerEvent: {}
+[67.197798] (-) TimerEvent: {}
+[67.298613] (-) TimerEvent: {}
+[67.399315] (-) TimerEvent: {}
+[67.500159] (-) TimerEvent: {}
+[67.600854] (-) TimerEvent: {}
+[67.701556] (-) TimerEvent: {}
+[67.802248] (-) TimerEvent: {}
+[67.902942] (-) TimerEvent: {}
+[68.003641] (-) TimerEvent: {}
+[68.104326] (-) TimerEvent: {}
+[68.205020] (-) TimerEvent: {}
+[68.305732] (-) TimerEvent: {}
+[68.406426] (-) TimerEvent: {}
+[68.507130] (-) TimerEvent: {}
+[68.607841] (-) TimerEvent: {}
+[68.708536] (-) TimerEvent: {}
+[68.809229] (-) TimerEvent: {}
+[68.909938] (-) TimerEvent: {}
+[69.010627] (-) TimerEvent: {}
+[69.111329] (-) TimerEvent: {}
+[69.212022] (-) TimerEvent: {}
+[69.312708] (-) TimerEvent: {}
+[69.413420] (-) TimerEvent: {}
+[69.514213] (-) TimerEvent: {}
+[69.614930] (-) TimerEvent: {}
+[69.715641] (-) TimerEvent: {}
+[69.816357] (-) TimerEvent: {}
+[69.917051] (-) TimerEvent: {}
+[70.017768] (-) TimerEvent: {}
+[70.118472] (-) TimerEvent: {}
+[70.219171] (-) TimerEvent: {}
+[70.319853] (-) TimerEvent: {}
+[70.420559] (-) TimerEvent: {}
+[70.521251] (-) TimerEvent: {}
+[70.621970] (-) TimerEvent: {}
+[70.722650] (-) TimerEvent: {}
+[70.823335] (-) TimerEvent: {}
+[70.924069] (-) TimerEvent: {}
+[71.024773] (-) TimerEvent: {}
+[71.125483] (-) TimerEvent: {}
+[71.226166] (-) TimerEvent: {}
+[71.326875] (-) TimerEvent: {}
+[71.427621] (-) TimerEvent: {}
+[71.528451] (-) TimerEvent: {}
+[71.629226] (-) TimerEvent: {}
+[71.730122] (-) TimerEvent: {}
+[71.830969] (-) TimerEvent: {}
+[71.931811] (-) TimerEvent: {}
+[72.032638] (-) TimerEvent: {}
+[72.133498] (-) TimerEvent: {}
+[72.234328] (-) TimerEvent: {}
+[72.335180] (-) TimerEvent: {}
+[72.436012] (-) TimerEvent: {}
+[72.536862] (-) TimerEvent: {}
+[72.637714] (-) TimerEvent: {}
+[72.738536] (-) TimerEvent: {}
+[72.839373] (-) TimerEvent: {}
+[72.940190] (-) TimerEvent: {}
+[73.041011] (-) TimerEvent: {}
+[73.141856] (-) TimerEvent: {}
+[73.242697] (-) TimerEvent: {}
+[73.343510] (-) TimerEvent: {}
+[73.444361] (-) TimerEvent: {}
+[73.545177] (-) TimerEvent: {}
+[73.645971] (-) TimerEvent: {}
+[73.746719] (-) TimerEvent: {}
+[73.847571] (-) TimerEvent: {}
+[73.948402] (-) TimerEvent: {}
+[74.049218] (-) TimerEvent: {}
+[74.150023] (-) TimerEvent: {}
+[74.250724] (-) TimerEvent: {}
+[74.351560] (-) TimerEvent: {}
+[74.452394] (-) TimerEvent: {}
+[74.553200] (-) TimerEvent: {}
+[74.653935] (-) TimerEvent: {}
+[74.754753] (-) TimerEvent: {}
+[74.855596] (-) TimerEvent: {}
+[74.956444] (-) TimerEvent: {}
+[75.057293] (-) TimerEvent: {}
+[75.158165] (-) TimerEvent: {}
+[75.259021] (-) TimerEvent: {}
+[75.359878] (-) TimerEvent: {}
+[75.460747] (-) TimerEvent: {}
+[75.561619] (-) TimerEvent: {}
+[75.662443] (-) TimerEvent: {}
+[75.763290] (-) TimerEvent: {}
+[75.864014] (-) TimerEvent: {}
+[75.964835] (-) TimerEvent: {}
+[76.065701] (-) TimerEvent: {}
+[76.166515] (-) TimerEvent: {}
+[76.267359] (-) TimerEvent: {}
+[76.368202] (-) TimerEvent: {}
+[76.469052] (-) TimerEvent: {}
+[76.570935] (-) TimerEvent: {}
+[76.671764] (-) TimerEvent: {}
+[76.772589] (-) TimerEvent: {}
+[76.873396] (-) TimerEvent: {}
+[76.974239] (-) TimerEvent: {}
+[77.075020] (-) TimerEvent: {}
+[77.175825] (-) TimerEvent: {}
+[77.276641] (-) TimerEvent: {}
+[77.377487] (-) TimerEvent: {}
+[77.478215] (-) TimerEvent: {}
+[77.578960] (-) TimerEvent: {}
+[77.679805] (-) TimerEvent: {}
+[77.780643] (-) TimerEvent: {}
+[77.881538] (-) TimerEvent: {}
+[77.982368] (-) TimerEvent: {}
+[78.083194] (-) TimerEvent: {}
+[78.184023] (-) TimerEvent: {}
+[78.284844] (-) TimerEvent: {}
+[78.385639] (-) TimerEvent: {}
+[78.486452] (-) TimerEvent: {}
+[78.587160] (-) TimerEvent: {}
+[78.688010] (-) TimerEvent: {}
+[78.788863] (-) TimerEvent: {}
+[78.889729] (-) TimerEvent: {}
+[78.990544] (-) TimerEvent: {}
+[79.091379] (-) TimerEvent: {}
+[79.192209] (-) TimerEvent: {}
+[79.293010] (-) TimerEvent: {}
+[79.393778] (-) TimerEvent: {}
+[79.494599] (-) TimerEvent: {}
+[79.595415] (-) TimerEvent: {}
+[79.696098] (-) TimerEvent: {}
+[79.729894] (mppi) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CUDA executable mppi_node\x1b[0m\n'}
+[79.796310] (-) TimerEvent: {}
+[79.897094] (-) TimerEvent: {}
+[79.920948] (mppi) StdoutLine: {'line': b'[100%] Built target mppi_node\n'}
+[79.947272] (mppi) CommandEnded: {'returncode': 0}
+[79.949611] (mppi) JobProgress: {'identifier': 'mppi', 'progress': 'install'}
+[79.974534] (mppi) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kt/repos/mppi/build/mppi'], 'cwd': '/home/kt/repos/mppi/build/mppi', 'env': OrderedDict([('USER', 'kt'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_CLIENT', '100.94.52.62 53525 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/helpers/browser.sh'), ('HOME', '/home/kt'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/kt/repos/mppi/src'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.104.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1002/vscode-ipc-f35fbbc2-57f0-4977-895b-ba7a2c413999.sock'), ('ZSH', '/home/kt/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('P9K_TTY', 'old'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kt'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/kt'), ('XDG_SESSION_ID', '226'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda/bin:/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1002/vscode-git-ae61417ce1.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'de_DE.UTF-8'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('P9K_SSH', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dd506eb9-29a0-4e44-8b89-d441484a0145'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/kt/repos/mppi/build/mppi'), ('SSH_CONNECTION', '100.94.52.62 53525 100.117.96.76 22'), ('ZDOTDIR', '/home/kt'), ('_P9K_TTY', '/dev/pts/4'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[79.996773] (mppi) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[79.997246] (-) TimerEvent: {}
+[79.997876] (mppi) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[79.998930] (mppi) StdoutLine: {'line': b'-- Symlinking: /home/kt/repos/mppi/install/mppi/lib/mppi/mppi_node\n'}
+[80.018136] (mppi) StdoutLine: {'line': b'-- Symlinking: /home/kt/repos/mppi/install/mppi/share/ament_index/resource_index/package_run_dependencies/mppi\n'}
+[80.036977] (mppi) StdoutLine: {'line': b'-- Symlinking: /home/kt/repos/mppi/install/mppi/share/ament_index/resource_index/parent_prefix_path/mppi\n'}
+[80.058290] (mppi) StdoutLine: {'line': b'-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/environment/ament_prefix_path.sh\n'}
+[80.077390] (mppi) StdoutLine: {'line': b'-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/environment/ament_prefix_path.dsv\n'}
+[80.096242] (mppi) StdoutLine: {'line': b'-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/environment/path.sh\n'}
+[80.097358] (-) TimerEvent: {}
+[80.114536] (mppi) StdoutLine: {'line': b'-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/environment/path.dsv\n'}
+[80.133315] (mppi) StdoutLine: {'line': b'-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/local_setup.bash\n'}
+[80.153094] (mppi) StdoutLine: {'line': b'-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/local_setup.sh\n'}
+[80.172490] (mppi) StdoutLine: {'line': b'-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/local_setup.zsh\n'}
+[80.191708] (mppi) StdoutLine: {'line': b'-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/local_setup.dsv\n'}
+[80.197493] (-) TimerEvent: {}
+[80.210132] (mppi) StdoutLine: {'line': b'-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/package.dsv\n'}
+[80.229376] (mppi) StdoutLine: {'line': b'-- Symlinking: /home/kt/repos/mppi/install/mppi/share/ament_index/resource_index/packages/mppi\n'}
+[80.249963] (mppi) StdoutLine: {'line': b'-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/cmake/mppiConfig.cmake\n'}
+[80.268245] (mppi) StdoutLine: {'line': b'-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/cmake/mppiConfig-version.cmake\n'}
+[80.288944] (mppi) StdoutLine: {'line': b'-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/package.xml\n'}
+[80.297596] (-) TimerEvent: {}
+[80.312474] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/lib/cnpy/libcnpy.so\n'}
+[80.314147] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/lib/cnpy/libcnpy.a\n'}
+[80.317000] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/cnpy/cnpy.h\n'}
+[80.317786] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/bin/mat2npz\n'}
+[80.318354] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/bin/npy2mat\n'}
+[80.318892] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/bin/npz2mat\n'}
+[80.320100] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/cnpy/cnpy-targets.cmake\n'}
+[80.320809] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/cnpy/cnpy-targets-release.cmake\n'}
+[80.321591] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/cnpy/cnpy-config.cmake\n'}
+[80.322085] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi\n'}
+[80.322356] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/core\n'}
+[80.322546] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/core/base_plant.hpp\n'}
+[80.322749] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/core/rmppi_kernels.cu\n'}
+[80.322973] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/core/buffered_plant.hpp\n'}
+[80.323162] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/core/rmppi_kernels.cuh\n'}
+[80.323371] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/core/mppi_common.cu\n'}
+[80.323714] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/core/mppi_common.cuh\n'}
+[80.323955] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/core/buffer.hpp\n'}
+[80.324182] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers\n'}
+[80.324368] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/feedback.cu\n'}
+[80.324542] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/feedback.cuh\n'}
+[80.324733] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/DDP\n'}
+[80.324921] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/DDP/ddp.cuh\n'}
+[80.325096] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/DDP/ddp.cu\n'}
+[80.325285] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/CCM\n'}
+[80.325661] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/CCM/ccm.h\n'}
+[80.326048] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils\n'}
+[80.326271] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers\n'}
+[80.326644] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/three_d_texture_helper.cu\n'}
+[80.327078] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/texture_helper.cuh\n'}
+[80.327450] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/two_d_texture_helper.cuh\n'}
+[80.327797] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/three_d_texture_helper.cuh\n'}
+[80.328184] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/two_d_texture_helper.cu\n'}
+[80.328427] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/texture_helper.cu\n'}
+[80.328662] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/numerical_integration.h\n'}
+[80.328855] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/managed.cuh\n'}
+[80.329061] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/matrix_mult_utils.cuh\n'}
+[80.329276] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/parallel_utils.cuh\n'}
+[80.329568] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/activation_functions.cuh\n'}
+[80.329772] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/test_helper.h\n'}
+[80.329950] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/eigen_type_conversions.h\n'}
+[80.330153] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/cuda_math_utils.cuh\n'}
+[80.330400] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers\n'}
+[80.330808] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/fnn_helper.cu\n'}
+[80.331243] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/lstm_helper.cu\n'}
+[80.331690] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/lstm_helper.cuh\n'}
+[80.332487] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/lstm_lstm_helper.cu\n'}
+[80.332726] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/fnn_helper.cuh\n'}
+[80.332965] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/lstm_lstm_helper.cuh\n'}
+[80.333169] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/meta_math.h\n'}
+[80.333370] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/file_utils.h\n'}
+[80.333640] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/logger.hpp\n'}
+[80.333826] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/gpu_err_chk.cuh\n'}
+[80.334046] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/type_printing.h\n'}
+[80.334248] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/angle_utils.cuh\n'}
+[80.334472] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/risk_utils.cu\n'}
+[80.334812] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/math_utils.h\n'}
+[80.335251] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/utils/risk_utils.cuh\n'}
+[80.335575] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations\n'}
+[80.335960] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/double_integrator_mppi\n'}
+[80.336165] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/double_integrator_mppi/double_integrator_mppi.cuh\n'}
+[80.336481] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/cartpole_mppi\n'}
+[80.336824] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/cartpole_mppi/cartpole_mppi.cuh\n'}
+[80.337033] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/quadrotor_mppi\n'}
+[80.337290] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/quadrotor_mppi/quadrotor_mppi.cuh\n'}
+[80.337498] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/autorally_mppi\n'}
+[80.337749] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/autorally_mppi/autorally_mppi.cuh\n'}
+[80.337944] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions\n'}
+[80.338118] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cartpole\n'}
+[80.338307] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cartpole/cartpole_quadratic_cost.cuh\n'}
+[80.338522] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cartpole/cartpole_quadratic_cost.cu\n'}
+[80.338720] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadratic_cost\n'}
+[80.338883] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadratic_cost/quadratic_cost.cu\n'}
+[80.339054] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadratic_cost/quadratic_cost.cuh\n'}
+[80.339248] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor\n'}
+[80.339479] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor/quadrotor_quadratic_cost.cu\n'}
+[80.339694] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor/quadrotor_quadratic_cost.cuh\n'}
+[80.339901] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor/quadrotor_map_cost.cuh\n'}
+[80.340120] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor/quadrotor_map_cost.cu\n'}
+[80.340363] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally\n'}
+[80.340599] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally/ar_robust_cost.cu\n'}
+[80.340828] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally/ar_standard_cost.cuh\n'}
+[80.341044] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally/ar_standard_cost.cu\n'}
+[80.341281] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally/ar_robust_cost.cuh\n'}
+[80.341535] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cost.cuh\n'}
+[80.341831] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cost.cu\n'}
+[80.342072] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator\n'}
+[80.342366] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator/double_integrator_circle_cost.cuh\n'}
+[80.342643] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator/double_integrator_circle_cost.cu\n'}
+[80.342915] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator/double_integrator_robust_cost.cuh\n'}
+[80.343184] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator/double_integrator_robust_cost.cu\n'}
+[80.343430] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics\n'}
+[80.343612] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dynamics.cu\n'}
+[80.343882] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/cartpole\n'}
+[80.344060] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/cartpole/cartpole_dynamics.cu\n'}
+[80.344343] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/cartpole/cartpole_dynamics.cuh\n'}
+[80.344594] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dubins\n'}
+[80.344861] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dubins/dubins.cuh\n'}
+[80.345094] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dubins/dubins.cu\n'}
+[80.345292] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/quadrotor\n'}
+[80.345585] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/quadrotor/quadrotor_dynamics.cu\n'}
+[80.345819] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/quadrotor/quadrotor_dynamics.cuh\n'}
+[80.346011] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins\n'}
+[80.346259] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_suspension_lstm.cuh\n'}
+[80.346490] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_suspension_lstm.cu\n'}
+[80.346748] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins.cuh\n'}
+[80.346964] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_unc.cuh\n'}
+[80.347181] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_steering.cuh\n'}
+[80.347391] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation.cu\n'}
+[80.347675] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_steering.cu\n'}
+[80.347912] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation.cuh\n'}
+[80.348136] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins.cu\n'}
+[80.348392] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_unc.cu\n'}
+[80.348649] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/linear\n'}
+[80.348914] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/linear/linear.cu\n'}
+[80.349129] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/linear/linear.cuh\n'}
+[80.349322] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/autorally\n'}
+[80.349611] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/autorally/ar_nn_model.cu\n'}
+[80.349871] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/autorally/ar_nn_model.cuh\n'}
+[80.350100] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/bicycle_slip\n'}
+[80.350381] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/bicycle_slip/bicycle_slip_parametric.cuh\n'}
+[80.350630] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/bicycle_slip/bicycle_slip_parametric.cu\n'}
+[80.350912] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dynamics.cuh\n'}
+[80.351181] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_suspension\n'}
+[80.351443] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_suspension/racer_suspension.cuh\n'}
+[80.351692] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_suspension/racer_suspension.cu\n'}
+[80.351944] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/double_integrator\n'}
+[80.352107] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/double_integrator/di_dynamics.cuh\n'}
+[80.352335] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/double_integrator/di_dynamics.cu\n'}
+[80.352544] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/ddp\n'}
+[80.352731] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/boxqp.h\n'}
+[80.352977] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/util.h\n'}
+[80.353191] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp_model_wrapper.h\n'}
+[80.353404] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp_costs.h\n'}
+[80.353650] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp_tracking_costs.h\n'}
+[80.353863] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/result.h\n'}
+[80.354054] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp.h\n'}
+[80.354255] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp_dynamics.h\n'}
+[80.354438] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers\n'}
+[80.354601] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/MPPI\n'}
+[80.354766] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/MPPI/mppi_controller.cuh\n'}
+[80.354924] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/MPPI/mppi_controller.cu\n'}
+[80.355111] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Primitives\n'}
+[80.355362] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Primitives/primitives_controller.cu\n'}
+[80.355641] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Primitives/primitives_controller.cuh\n'}
+[80.355862] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/controller.cuh\n'}
+[80.356122] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/controller.cu\n'}
+[80.356334] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/ColoredMPPI\n'}
+[80.356575] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/ColoredMPPI/colored_mppi_controller.cuh\n'}
+[80.356805] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/ColoredMPPI/colored_mppi_controller.cu\n'}
+[80.357027] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/R-MPPI\n'}
+[80.357183] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/R-MPPI/robust_mppi_controller.cu\n'}
+[80.357461] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/R-MPPI/robust_mppi_controller.cuh\n'}
+[80.357680] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Tube-MPPI\n'}
+[80.357919] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Tube-MPPI/tube_mppi_controller.cuh\n'}
+[80.358151] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Tube-MPPI/tube_mppi_controller.cu\n'}
+[80.358387] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions\n'}
+[80.358547] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/CEM\n'}
+[80.358765] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/CEM/cem_shaping_function.cu\n'}
+[80.358978] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/CEM/cem_shaping_function.cuh\n'}
+[80.359182] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/shaping_function.cu\n'}
+[80.359393] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/shaping_function.cuh\n'}
+[80.359577] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions\n'}
+[80.359750] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/sampling_distribution.cuh\n'}
+[80.359951] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/smooth-MPPI\n'}
+[80.360187] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/smooth-MPPI/smooth-MPPI.cu\n'}
+[80.360420] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/smooth-MPPI/smooth-MPPI.cuh\n'}
+[80.360629] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/piecewise_linear\n'}
+[80.360866] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/piecewise_linear/piecewise_linear_noise.cuh\n'}
+[80.361088] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/colored_noise\n'}
+[80.361325] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/colored_noise/colored_noise.cuh\n'}
+[80.361666] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/colored_noise/colored_noise.cu\n'}
+[80.361915] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/nln\n'}
+[80.362086] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/nln/nln.cuh\n'}
+[80.362264] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/nln/nln.cu\n'}
+[80.362462] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/sampling_distribution.cu\n'}
+[80.362676] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/gaussian\n'}
+[80.362839] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/gaussian/gaussian.cuh\n'}
+[80.363034] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/gaussian/gaussian.cu\n'}
+[80.363757] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPI-GenericTargets.cmake\n'}
+[80.364298] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPI-GenericTargetsNoNamespace.cmake\n'}
+[80.364739] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPI-GenericConfig.cmake\n'}
+[80.365059] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPI-GenericConfigVersion.cmake\n'}
+[80.365500] (mppi) StdoutLine: {'line': b'-- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPIGenericToolsConfig.cmake\n'}
+[80.369997] (mppi) CommandEnded: {'returncode': 0}
+[80.399225] (-) TimerEvent: {}
+[80.426933] (mppi) JobEnded: {'identifier': 'mppi', 'rc': 0}
+[80.429018] (-) EventReactorShutdown: {}

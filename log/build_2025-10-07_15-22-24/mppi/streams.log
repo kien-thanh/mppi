@@ -1,0 +1,26 @@
+[0.029s] Invoking command in '/home/kt/repos/mppi/build/mppi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kt/repos/mppi/build/mppi -- -j6 -l6
+[1.437s] -- Autodetected CUDA architecture(s):  8.7
+[1.438s] -- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+[2.681s] -- Autodetected CUDA architecture(s):  8.7
+[2.681s] -- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+[2.685s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.737s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.132s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.160s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[3.219s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.235s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.419s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.471s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.795s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[3.796s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[3.796s]   before
+[3.796s] Call Stack (most recent call first):
+[3.796s]   CMakeLists.txt:34 (ament_target_dependencies)
+[3.796s] 
+[3.797s] 
+[3.799s] -- Configuring incomplete, errors occurred!
+[3.799s] See also "/home/kt/repos/mppi/build/mppi/CMakeFiles/CMakeOutput.log".
+[3.799s] See also "/home/kt/repos/mppi/build/mppi/CMakeFiles/CMakeError.log".
+[3.817s] make: *** [Makefile:308: cmake_check_build_system] Error 1
+[3.826s] Invoked command in '/home/kt/repos/mppi/build/mppi' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kt/repos/mppi/build/mppi -- -j6 -l6

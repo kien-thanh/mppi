@@ -1,0 +1,37 @@
+[0.035s] Invoking command in '/home/kt/repos/mppi/build/MPPI-Generic': /usr/bin/cmake /home/kt/repos/mppi/submodules/MPPI-Generic -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/MPPI-Generic
+[0.152s] -- The C compiler identification is GNU 9.4.0
+[0.252s] -- The CXX compiler identification is GNU 9.4.0
+[1.427s] -- The CUDA compiler identification is NVIDIA 11.4.315
+[1.438s] -- Check for working C compiler: /usr/bin/cc
+[1.570s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.572s] -- Detecting C compiler ABI info
+[1.710s] -- Detecting C compiler ABI info - done
+[1.730s] -- Detecting C compile features
+[1.730s] -- Detecting C compile features - done
+[1.735s] -- Check for working CXX compiler: /usr/bin/c++
+[1.885s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.887s] -- Detecting CXX compiler ABI info
+[2.041s] -- Detecting CXX compiler ABI info - done
+[2.060s] -- Detecting CXX compile features
+[2.061s] -- Detecting CXX compile features - done
+[2.065s] -- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc
+[3.223s] -- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc -- works
+[3.225s] -- Detecting CUDA compiler ABI info
+[4.368s] -- Detecting CUDA compiler ABI info - done
+[4.426s] -- Setting Build Type to Release by default
+[4.438s] -- Looking for pthread.h
+[4.583s] -- Looking for pthread.h - found
+[4.584s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.732s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.733s] -- Looking for pthread_create in pthreads
+[4.864s] -- Looking for pthread_create in pthreads - not found
+[4.864s] -- Looking for pthread_create in pthread
+[5.011s] -- Looking for pthread_create in pthread - found
+[5.014s] -- Found Threads: TRUE  
+[5.063s] -- Found CUDA: /usr/local/cuda (found version "11.4") 
+[6.249s] -- Autodetected CUDA architecture(s):  8.7
+[6.249s] -- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+[6.272s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[6.283s] -- Configuring done
+[6.297s] -- Generating done
+[6.302s] -- Build files have been written to: /home/kt/repos/mppi/build/MPPI-Generic

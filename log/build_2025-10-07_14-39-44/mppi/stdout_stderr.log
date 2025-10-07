@@ -1,0 +1,15 @@
+-- Autodetected CUDA architecture(s):  8.7
+-- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+-- Autodetected CUDA architecture(s):  8.7
+-- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+CMake Error at CMakeLists.txt:37 (target_link_libraries):
+  Cannot specify link libraries for target "myprogram" which is not built by
+  this project.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/kt/repos/mppi/build/mppi/CMakeFiles/CMakeOutput.log".
+See also "/home/kt/repos/mppi/build/mppi/CMakeFiles/CMakeError.log".

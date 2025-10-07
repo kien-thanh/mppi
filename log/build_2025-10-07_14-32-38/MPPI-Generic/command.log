@@ -1,0 +1,4 @@
+Invoking command in '/home/kt/repos/mppi/build/MPPI-Generic': /usr/bin/cmake --build /home/kt/repos/mppi/build/MPPI-Generic -- -j6 -l6
+Invoked command in '/home/kt/repos/mppi/build/MPPI-Generic' returned '0': /usr/bin/cmake --build /home/kt/repos/mppi/build/MPPI-Generic -- -j6 -l6
+Invoking command in '/home/kt/repos/mppi/build/MPPI-Generic': /usr/bin/cmake --install /home/kt/repos/mppi/build/MPPI-Generic
+Invoked command in '/home/kt/repos/mppi/build/MPPI-Generic' returned '0': /usr/bin/cmake --install /home/kt/repos/mppi/build/MPPI-Generic

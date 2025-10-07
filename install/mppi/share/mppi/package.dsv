@@ -1,0 +1,14 @@
+source;share/mppi/hook/cmake_prefix_path.ps1
+source;share/mppi/hook/cmake_prefix_path.dsv
+source;share/mppi/hook/cmake_prefix_path.sh
+source;share/mppi/hook/path.ps1
+source;share/mppi/hook/path.dsv
+source;share/mppi/hook/path.sh
+source;share/mppi/hook/pythonscriptspath.ps1
+source;share/mppi/hook/pythonscriptspath.dsv
+source;share/mppi/hook/pythonscriptspath.sh
+source;share/mppi/local_setup.bash
+source;share/mppi/local_setup.dsv
+source;share/mppi/local_setup.ps1
+source;share/mppi/local_setup.sh
+source;share/mppi/local_setup.zsh

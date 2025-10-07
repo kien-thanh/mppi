@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.000580] (MyProject) JobQueued: {'identifier': 'MyProject', 'dependencies': OrderedDict()}
+[0.001114] (MyProject) JobStarted: {'identifier': 'MyProject'}
+[0.019764] (MyProject) JobProgress: {'identifier': 'MyProject', 'progress': 'cmake'}
+[0.021056] (MyProject) Command: {'cmd': ['/usr/bin/cmake', '/home/kt/repos/mppi', '-DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/MyProject'], 'cwd': '/home/kt/repos/mppi/build/MyProject', 'env': OrderedDict([('USER', 'kt'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_CLIENT', '100.94.52.62 53525 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/helpers/browser.sh'), ('HOME', '/home/kt'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/kt/repos/mppi/src'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.104.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1002/vscode-ipc-f35fbbc2-57f0-4977-895b-ba7a2c413999.sock'), ('ZSH', '/home/kt/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('P9K_TTY', 'old'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kt'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/kt'), ('XDG_SESSION_ID', '226'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda/bin:/home/kt/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kt/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1002/vscode-git-ae61417ce1.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'de_DE.UTF-8'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('P9K_SSH', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dd506eb9-29a0-4e44-8b89-d441484a0145'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/kt/repos/mppi/build/MyProject'), ('SSH_CONNECTION', '100.94.52.62 53525 100.117.96.76 22'), ('ZDOTDIR', '/home/kt'), ('_P9K_TTY', '/dev/pts/4'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.099537] (-) TimerEvent: {}
+[0.200303] (-) TimerEvent: {}
+[0.301014] (-) TimerEvent: {}
+[0.402064] (-) TimerEvent: {}
+[0.502913] (-) TimerEvent: {}
+[0.603611] (-) TimerEvent: {}
+[0.704290] (-) TimerEvent: {}
+[0.804961] (-) TimerEvent: {}
+[0.905662] (-) TimerEvent: {}
+[1.006354] (-) TimerEvent: {}
+[1.107046] (-) TimerEvent: {}
+[1.207743] (-) TimerEvent: {}
+[1.308434] (-) TimerEvent: {}
+[1.341521] (MyProject) StdoutLine: {'line': b'-- The CUDA compiler identification is NVIDIA 11.4.315\n'}
+[1.357998] (MyProject) StdoutLine: {'line': b'-- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc\n'}
+[1.408604] (-) TimerEvent: {}
+[1.509272] (-) TimerEvent: {}
+[1.609946] (-) TimerEvent: {}
+[1.710690] (-) TimerEvent: {}
+[1.811379] (-) TimerEvent: {}
+[1.912052] (-) TimerEvent: {}
+[2.012775] (-) TimerEvent: {}
+[2.113534] (-) TimerEvent: {}
+[2.214364] (-) TimerEvent: {}
+[2.315187] (-) TimerEvent: {}
+[2.415932] (-) TimerEvent: {}
+[2.496559] (MyProject) StdoutLine: {'line': b'-- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc -- works\n'}
+[2.499820] (MyProject) StdoutLine: {'line': b'-- Detecting CUDA compiler ABI info\n'}
+[2.516017] (-) TimerEvent: {}
+[2.616682] (-) TimerEvent: {}
+[2.717507] (-) TimerEvent: {}
+[2.818282] (-) TimerEvent: {}
+[2.919116] (-) TimerEvent: {}
+[3.019926] (-) TimerEvent: {}
+[3.120624] (-) TimerEvent: {}
+[3.221303] (-) TimerEvent: {}
+[3.322009] (-) TimerEvent: {}
+[3.422807] (-) TimerEvent: {}
+[3.523650] (-) TimerEvent: {}
+[3.624335] (-) TimerEvent: {}
+[3.646688] (MyProject) StdoutLine: {'line': b'-- Detecting CUDA compiler ABI info - done\n'}
+[3.724522] (-) TimerEvent: {}
+[3.824078] (MyProject) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[3.824599] (-) TimerEvent: {}
+[3.831944] (MyProject) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.924812] (-) TimerEvent: {}
+[3.968396] (MyProject) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.971054] (MyProject) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.024976] (-) TimerEvent: {}
+[4.113321] (MyProject) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.125080] (-) TimerEvent: {}
+[4.149965] (MyProject) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.150743] (MyProject) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.152505] (MyProject) StdoutLine: {'line': b'-- Setting Build Type to Release by default\n'}
+[4.167927] (MyProject) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.225275] (-) TimerEvent: {}
+[4.307550] (MyProject) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.308615] (MyProject) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.325430] (-) TimerEvent: {}
+[4.426144] (-) TimerEvent: {}
+[4.470352] (MyProject) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.471066] (MyProject) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.526328] (-) TimerEvent: {}
+[4.597462] (MyProject) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.598401] (MyProject) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.626489] (-) TimerEvent: {}
+[4.727125] (-) TimerEvent: {}
+[4.743309] (MyProject) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.747806] (MyProject) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.783390] (MyProject) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda (found version "11.4") \n'}
+[4.827302] (-) TimerEvent: {}
+[4.927969] (-) TimerEvent: {}
+[5.028811] (-) TimerEvent: {}
+[5.129602] (-) TimerEvent: {}
+[5.230340] (-) TimerEvent: {}
+[5.331066] (-) TimerEvent: {}
+[5.431909] (-) TimerEvent: {}
+[5.532760] (-) TimerEvent: {}
+[5.633595] (-) TimerEvent: {}
+[5.734309] (-) TimerEvent: {}
+[5.835019] (-) TimerEvent: {}
+[5.935755] (-) TimerEvent: {}
+[5.970665] (MyProject) StdoutLine: {'line': b'-- Autodetected CUDA architecture(s):  8.7\n'}
+[5.971435] (MyProject) StdoutLine: {'line': b'-- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87\n'}
+[6.009374] (MyProject) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[6.035864] (-) TimerEvent: {}
+[6.136530] (-) TimerEvent: {}
+[6.237218] (-) TimerEvent: {}
+[6.338157] (-) TimerEvent: {}
+[6.438876] (-) TimerEvent: {}
+[6.539566] (-) TimerEvent: {}
+[6.640253] (-) TimerEvent: {}
+[6.740931] (-) TimerEvent: {}
+[6.841628] (-) TimerEvent: {}
+[6.942354] (-) TimerEvent: {}
+[7.043081] (-) TimerEvent: {}
+[7.143787] (-) TimerEvent: {}
+[7.223397] (MyProject) StdoutLine: {'line': b'-- Autodetected CUDA architecture(s):  8.7\n'}
+[7.224329] (MyProject) StdoutLine: {'line': b'-- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87\n'}
+[7.228449] (MyProject) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.231550] (MyProject) StderrLine: {'line': b'CMake Error at CMakeLists.txt:16 (add_executable):\n'}
+[7.232053] (MyProject) StderrLine: {'line': b'  Cannot find source file:\n'}
+[7.232243] (MyProject) StderrLine: {'line': b'\n'}
+[7.232407] (MyProject) StderrLine: {'line': b'    src/main.cu\n'}
+[7.232724] (MyProject) StderrLine: {'line': b'\n'}
+[7.232873] (MyProject) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[7.233022] (MyProject) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[7.233160] (MyProject) StderrLine: {'line': b'\n'}
+[7.233291] (MyProject) StderrLine: {'line': b'\n'}
+[7.233421] (MyProject) StderrLine: {'line': b'CMake Error at CMakeLists.txt:16 (add_executable):\n'}
+[7.233548] (MyProject) StderrLine: {'line': b'  No SOURCES given to target: myprogram\n'}
+[7.233680] (MyProject) StderrLine: {'line': b'\n'}
+[7.233803] (MyProject) StderrLine: {'line': b'\n'}
+[7.233925] (MyProject) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[7.243898] (-) TimerEvent: {}
+[7.253377] (MyProject) CommandEnded: {'returncode': 1}
+[7.255116] (MyProject) JobEnded: {'identifier': 'MyProject', 'rc': 1}
+[7.266316] (-) EventReactorShutdown: {}

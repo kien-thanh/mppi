@@ -1,0 +1,12 @@
+CMake Error at CMakeLists.txt:8 (add_subdirectory):
+  Syntax error in cmake code at
+
+    /home/kt/repos/mppi/src/mppi/CMakeLists.txt:8
+
+  when parsing string
+
+    ${CMAKE_CURRENT_SOURCE_DIR/../../submodules/MPPI-Generic
+
+  There is an unterminated variable reference.
+
+

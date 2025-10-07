@@ -1,0 +1,616 @@
+[0.023s] Invoking command in '/home/kt/repos/mppi/build/mppi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kt/repos/mppi/build/mppi -- -j6 -l6
+[1.291s] -- Autodetected CUDA architecture(s):  8.7
+[1.292s] -- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+[2.540s] -- Autodetected CUDA architecture(s):  8.7
+[2.541s] -- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+[2.541s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.587s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.954s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.972s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.028s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.034s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.353s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.355s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.618s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[3.681s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.815s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.849s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.849s] -- Configured cppcheck include dirs: /home/kt/repos/mppi/src/mppi/include/mppi;/home/kt/repos/mppi/src/mppi/src;$<BUILD_INTERFACE:/home/kt/repos/mppi/src/mppi/include>
+[3.850s] -- Configured cppcheck exclude dirs and/or files: 
+[3.883s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.883s] -- Configured cpplint exclude dirs and/or files: 
+[3.887s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.896s] -- Added test 'lint_cmake' to check CMake code style
+[3.901s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.934s] -- Added test 'uncrustify' to check C / C++ code style
+[3.934s] -- Configured uncrustify additional arguments: 
+[3.939s] -- Added test 'xmllint' to check XML markup files
+[3.947s] -- Configuring done
+[3.977s] -- Generating done
+[3.988s] -- Build files have been written to: /home/kt/repos/mppi/build/mppi
+[4.062s] [ 25%] Built target cnpy-static
+[4.067s] [ 50%] Built target cnpy
+[4.113s] [ 75%] Built target example1
+[4.123s] [ 87%] [32mBuilding CUDA object CMakeFiles/mppi_node.dir/src/mppi_node.cu.o[0m
+[4.443s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:257[m[K,
+[4.444s]                  from [01m[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/controller.cuh:9[m[K,
+[4.444s]                  from [01m[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/MPPI/mppi_controller.cuh:11[m[K,
+[4.444s]                  from [01m[K/home/kt/repos/mppi/src/mppi/src/mppi_node.cu:7[m[K:
+[4.444s] [01m[K/usr/local/cuda/bin/../targets/aarch64-linux/include/host_defines.h:54:2:[m[K [01;35m[Kwarning: [m[K#warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [[01;35m[K-Wcpp[m[K]
+[4.444s]    54 | #[01;35m[Kwarning[m[K "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[4.444s]       |  [01;35m[K^~~~~~~[m[K
+[7.182s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(94)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+[7.183s] 
+[7.183s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(94)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+[7.183s] 
+[7.184s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+[7.184s] 
+[7.184s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+[7.185s] 
+[7.185s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~no_assignment_operator[0m") that is explicitly defaulted on its first declaration
+[7.185s] 
+[7.186s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~no_assignment_operator[0m") that is explicitly defaulted on its first declaration
+[7.186s] 
+[7.298s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/DenseBase.h(590)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mDenseBase[0m") that is explicitly defaulted on its first declaration
+[7.298s] 
+[7.299s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/DenseBase.h(590)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mDenseBase[0m") that is explicitly defaulted on its first declaration
+[7.299s] 
+[7.309s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(467)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+[7.310s] 
+[7.310s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(467)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+[7.311s] 
+[7.311s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+[7.311s] 
+[7.311s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+[7.312s] 
+[7.312s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~MatrixBase[0m") that is explicitly defaulted on its first declaration
+[7.312s] 
+[7.313s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~MatrixBase[0m") that is explicitly defaulted on its first declaration
+[7.313s] 
+[7.353s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(156)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+[7.354s] 
+[7.354s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(156)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+[7.355s] 
+[7.355s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+[7.355s] 
+[7.355s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+[7.356s] 
+[7.356s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~ArrayBase[0m") that is explicitly defaulted on its first declaration
+[7.356s] 
+[7.356s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~ArrayBase[0m") that is explicitly defaulted on its first declaration
+[7.357s] 
+[7.404s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(70)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mCwiseUnaryView[0m") that is explicitly defaulted on its first declaration
+[7.405s] 
+[7.405s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(70)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mCwiseUnaryView[0m") that is explicitly defaulted on its first declaration
+[7.406s] 
+[7.407s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(110)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+[7.407s] 
+[7.408s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(110)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+[7.408s] 
+[7.409s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+[7.410s] 
+[7.410s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+[7.411s] 
+[7.412s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~CwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+[7.412s] 
+[7.413s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~CwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+[7.413s] 
+[7.418s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(185)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+[7.418s] 
+[7.419s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(185)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+[7.419s] 
+[7.419s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+[7.419s] 
+[7.420s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+[7.420s] 
+[7.420s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+[7.421s] 
+[7.421s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+[7.421s] 
+[7.422s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(300)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+[7.422s] 
+[7.422s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(300)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+[7.422s] 
+[7.423s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+[7.423s] 
+[7.423s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+[7.423s] 
+[7.424s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+[7.424s] 
+[7.424s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+[7.425s] 
+[7.425s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Map.h(162)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+[7.425s] 
+[7.426s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Map.h(162)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+[7.426s] 
+[7.426s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(89)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mRefBase[0m") that is explicitly defaulted on its first declaration
+[7.426s] 
+[7.427s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(89)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mRefBase[0m") that is explicitly defaulted on its first declaration
+[7.427s] 
+[7.427s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(229)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mRef[0m") that is explicitly defaulted on its first declaration
+[7.427s] 
+[7.428s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(229)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mRef[0m") that is explicitly defaulted on its first declaration
+[7.428s] 
+[7.428s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(111)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlock[0m") that is explicitly defaulted on its first declaration
+[7.429s] 
+[7.429s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(111)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlock[0m") that is explicitly defaulted on its first declaration
+[7.429s] 
+[7.430s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(161)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlockImpl[0m") that is explicitly defaulted on its first declaration
+[7.430s] 
+[7.430s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(161)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlockImpl[0m") that is explicitly defaulted on its first declaration
+[7.430s] 
+[7.431s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(181)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+[7.431s] 
+[7.432s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(181)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+[7.432s] 
+[7.433s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(341)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+[7.434s] 
+[7.434s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(341)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+[7.434s] 
+[7.436s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(66)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTranspose[0m") that is explicitly defaulted on its first declaration
+[7.437s] 
+[7.437s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(66)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTranspose[0m") that is explicitly defaulted on its first declaration
+[7.437s] 
+[7.438s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(123)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+[7.439s] 
+[7.439s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(123)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+[7.439s] 
+[7.439s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+[7.439s] 
+[7.440s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+[7.440s] 
+[7.440s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~TransposeImpl[0m") that is explicitly defaulted on its first declaration
+[7.440s] 
+[7.440s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~TransposeImpl[0m") that is explicitly defaulted on its first declaration
+[7.441s] 
+[7.447s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Diagonal.h(78)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mDiagonal[0m") that is explicitly defaulted on its first declaration
+[7.447s] 
+[7.447s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Diagonal.h(78)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mDiagonal[0m") that is explicitly defaulted on its first declaration
+[7.448s] 
+[7.474s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(220)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTriangularView[0m") that is explicitly defaulted on its first declaration
+[7.475s] 
+[7.475s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(220)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTriangularView[0m") that is explicitly defaulted on its first declaration
+[7.475s] 
+[7.477s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(546)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+[7.477s] 
+[7.478s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(546)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+[7.478s] 
+[7.478s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+[7.478s] 
+[7.478s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+[7.478s] 
+[7.478s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~TriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+[7.479s] 
+[7.479s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~TriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+[7.479s] 
+[7.561s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Reverse.h(90)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mReverse[0m") that is explicitly defaulted on its first declaration
+[7.561s] 
+[7.562s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Reverse.h(90)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mReverse[0m") that is explicitly defaulted on its first declaration
+[7.562s] 
+[7.564s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(47)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mArrayWrapper[0m") that is explicitly defaulted on its first declaration
+[7.565s] 
+[7.566s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(47)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mArrayWrapper[0m") that is explicitly defaulted on its first declaration
+[7.566s] 
+[7.568s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(145)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMatrixWrapper[0m") that is explicitly defaulted on its first declaration
+[7.568s] 
+[7.569s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(145)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMatrixWrapper[0m") that is explicitly defaulted on its first declaration
+[7.569s] 
+[7.759s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(187)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+[7.759s] 
+[7.759s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(187)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+[7.759s] 
+[7.760s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+[7.760s] 
+[7.760s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+[7.760s] 
+[7.760s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~QuaternionBase[0m") that is explicitly defaulted on its first declaration
+[7.760s] 
+[7.760s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~QuaternionBase[0m") that is explicitly defaulted on its first declaration
+[7.761s] 
+[7.761s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(243)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mQuaternion[0m") that is explicitly defaulted on its first declaration
+[7.761s] 
+[7.761s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(243)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mQuaternion[0m") that is explicitly defaulted on its first declaration
+[7.761s] 
+[7.762s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(359)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+[7.762s] 
+[7.763s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(359)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+[7.763s] 
+[7.763s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(396)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+[7.764s] 
+[7.764s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(396)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+[7.764s] 
+[34.746s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:257[m[K,
+[34.747s]                  from [01m[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/controller.cuh:9[m[K,
+[34.748s]                  from [01m[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/MPPI/mppi_controller.cuh:11[m[K,
+[34.748s]                  from [01m[K/home/kt/repos/mppi/src/mppi/src/mppi_node.cu:7[m[K:
+[34.748s] [01m[K/usr/local/cuda/bin/../targets/aarch64-linux/include/host_defines.h:54:2:[m[K [01;35m[Kwarning: [m[K#warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [[01;35m[K-Wcpp[m[K]
+[34.748s]    54 | #[01;35m[Kwarning[m[K "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[34.749s]       |  [01;35m[K^~~~~~~[m[K
+[38.616s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(94)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+[38.616s] 
+[38.617s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(94)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+[38.617s] 
+[38.617s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+[38.618s] 
+[38.618s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+[38.618s] 
+[38.618s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~no_assignment_operator[0m") that is explicitly defaulted on its first declaration
+[38.619s] 
+[38.619s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~no_assignment_operator[0m") that is explicitly defaulted on its first declaration
+[38.619s] 
+[38.747s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/DenseBase.h(590)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mDenseBase[0m") that is explicitly defaulted on its first declaration
+[38.748s] 
+[38.748s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/DenseBase.h(590)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mDenseBase[0m") that is explicitly defaulted on its first declaration
+[38.749s] 
+[38.763s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(467)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+[38.763s] 
+[38.764s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(467)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+[38.764s] 
+[38.764s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+[38.765s] 
+[38.765s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+[38.765s] 
+[38.766s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~MatrixBase[0m") that is explicitly defaulted on its first declaration
+[38.766s] 
+[38.766s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~MatrixBase[0m") that is explicitly defaulted on its first declaration
+[38.766s] 
+[38.834s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(156)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+[38.834s] 
+[38.835s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(156)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+[38.835s] 
+[38.835s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+[38.836s] 
+[38.836s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+[38.836s] 
+[38.837s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~ArrayBase[0m") that is explicitly defaulted on its first declaration
+[38.837s] 
+[38.837s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~ArrayBase[0m") that is explicitly defaulted on its first declaration
+[38.838s] 
+[38.920s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(70)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mCwiseUnaryView[0m") that is explicitly defaulted on its first declaration
+[38.921s] 
+[38.921s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(70)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mCwiseUnaryView[0m") that is explicitly defaulted on its first declaration
+[38.921s] 
+[38.922s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(110)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+[38.922s] 
+[38.923s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(110)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+[38.923s] 
+[38.923s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+[38.923s] 
+[38.924s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+[38.924s] 
+[38.924s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~CwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+[38.925s] 
+[38.925s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~CwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+[38.925s] 
+[38.937s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(185)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+[38.937s] 
+[38.938s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(185)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+[38.938s] 
+[38.938s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+[38.939s] 
+[38.939s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+[38.939s] 
+[38.940s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+[38.940s] 
+[38.941s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+[38.941s] 
+[38.943s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(300)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+[38.944s] 
+[38.944s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(300)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+[38.944s] 
+[38.945s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+[38.945s] 
+[38.946s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+[38.946s] 
+[38.946s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+[38.947s] 
+[38.947s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+[38.947s] 
+[38.950s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Map.h(162)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+[38.950s] 
+[38.951s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Map.h(162)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+[38.951s] 
+[38.954s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(89)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mRefBase[0m") that is explicitly defaulted on its first declaration
+[38.954s] 
+[38.955s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(89)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mRefBase[0m") that is explicitly defaulted on its first declaration
+[38.955s] 
+[38.957s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(229)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mRef[0m") that is explicitly defaulted on its first declaration
+[38.958s] 
+[38.958s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(229)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mRef[0m") that is explicitly defaulted on its first declaration
+[38.958s] 
+[38.962s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(111)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlock[0m") that is explicitly defaulted on its first declaration
+[38.962s] 
+[38.963s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(111)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlock[0m") that is explicitly defaulted on its first declaration
+[38.963s] 
+[38.965s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(161)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlockImpl[0m") that is explicitly defaulted on its first declaration
+[38.965s] 
+[38.965s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(161)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlockImpl[0m") that is explicitly defaulted on its first declaration
+[38.966s] 
+[38.967s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(181)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+[38.968s] 
+[38.968s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(181)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+[38.969s] 
+[38.972s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(341)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+[38.972s] 
+[38.973s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(341)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+[38.973s] 
+[38.977s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(66)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTranspose[0m") that is explicitly defaulted on its first declaration
+[38.978s] 
+[38.978s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(66)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTranspose[0m") that is explicitly defaulted on its first declaration
+[38.979s] 
+[38.981s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(123)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+[38.981s] 
+[38.982s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(123)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+[38.982s] 
+[38.983s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+[38.984s] 
+[38.984s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+[38.984s] 
+[38.985s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~TransposeImpl[0m") that is explicitly defaulted on its first declaration
+[38.985s] 
+[38.986s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~TransposeImpl[0m") that is explicitly defaulted on its first declaration
+[38.986s] 
+[38.995s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Diagonal.h(78)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mDiagonal[0m") that is explicitly defaulted on its first declaration
+[38.996s] 
+[38.996s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Diagonal.h(78)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mDiagonal[0m") that is explicitly defaulted on its first declaration
+[38.996s] 
+[39.046s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(220)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTriangularView[0m") that is explicitly defaulted on its first declaration
+[39.046s] 
+[39.046s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(220)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTriangularView[0m") that is explicitly defaulted on its first declaration
+[39.047s] 
+[39.050s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(546)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+[39.050s] 
+[39.051s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(546)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+[39.051s] 
+[39.051s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+[39.051s] 
+[39.052s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+[39.052s] 
+[39.053s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~TriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+[39.053s] 
+[39.053s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~TriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+[39.054s] 
+[39.248s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Reverse.h(90)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mReverse[0m") that is explicitly defaulted on its first declaration
+[39.248s] 
+[39.248s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Reverse.h(90)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mReverse[0m") that is explicitly defaulted on its first declaration
+[39.249s] 
+[39.251s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(47)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mArrayWrapper[0m") that is explicitly defaulted on its first declaration
+[39.251s] 
+[39.251s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(47)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mArrayWrapper[0m") that is explicitly defaulted on its first declaration
+[39.252s] 
+[39.253s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(145)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMatrixWrapper[0m") that is explicitly defaulted on its first declaration
+[39.254s] 
+[39.254s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(145)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMatrixWrapper[0m") that is explicitly defaulted on its first declaration
+[39.254s] 
+[39.657s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(187)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+[39.657s] 
+[39.658s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(187)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+[39.658s] 
+[39.658s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+[39.658s] 
+[39.659s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+[39.659s] 
+[39.660s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~QuaternionBase[0m") that is explicitly defaulted on its first declaration
+[39.660s] 
+[39.661s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~QuaternionBase[0m") that is explicitly defaulted on its first declaration
+[39.661s] 
+[39.663s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(243)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mQuaternion[0m") that is explicitly defaulted on its first declaration
+[39.664s] 
+[39.664s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(243)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mQuaternion[0m") that is explicitly defaulted on its first declaration
+[39.664s] 
+[39.668s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(359)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+[39.668s] 
+[39.669s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(359)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+[39.669s] 
+[39.670s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(396)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+[39.670s] 
+[39.671s] [01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(396)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+[39.671s] 
+[102.121s] [100%] [32m[1mLinking CUDA executable mppi_node[0m
+[102.440s] [100%] Built target mppi_node
+[102.466s] Invoked command in '/home/kt/repos/mppi/build/mppi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kt/repos/mppi/build/mppi -- -j6 -l6
+[102.496s] Invoking command in '/home/kt/repos/mppi/build/mppi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kt/repos/mppi/build/mppi
+[102.514s] -- Install configuration: "Release"
+[102.514s] -- Execute custom install script
+[102.516s] -- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/lib/mppi/mppi_node
+[102.517s] -- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/ament_index/resource_index/package_run_dependencies/mppi
+[102.518s] -- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/ament_index/resource_index/parent_prefix_path/mppi
+[102.519s] -- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/environment/ament_prefix_path.sh
+[102.520s] -- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/environment/ament_prefix_path.dsv
+[102.520s] -- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/environment/path.sh
+[102.521s] -- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/environment/path.dsv
+[102.522s] -- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/local_setup.bash
+[102.522s] -- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/local_setup.sh
+[102.523s] -- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/local_setup.zsh
+[102.523s] -- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/local_setup.dsv
+[102.524s] -- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/package.dsv
+[102.542s] -- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/ament_index/resource_index/packages/mppi
+[102.543s] -- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/cmake/mppiConfig.cmake
+[102.543s] -- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/cmake/mppiConfig-version.cmake
+[102.544s] -- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/package.xml
+[102.547s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/lib/cnpy/libcnpy.so
+[102.547s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/lib/cnpy/libcnpy.a
+[102.547s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/cnpy/cnpy.h
+[102.548s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/bin/mat2npz
+[102.548s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/bin/npy2mat
+[102.548s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/bin/npz2mat
+[102.549s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/lib/cmake/cnpy/cnpy-targets.cmake
+[102.549s] -- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/cnpy/cnpy-targets-release.cmake
+[102.549s] -- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/cnpy/cnpy-config.cmake
+[102.550s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi
+[102.550s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/core
+[102.551s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/core/base_plant.hpp
+[102.551s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/core/rmppi_kernels.cu
+[102.551s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/core/buffered_plant.hpp
+[102.552s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/core/rmppi_kernels.cuh
+[102.552s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/core/mppi_common.cu
+[102.552s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/core/mppi_common.cuh
+[102.553s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/core/buffer.hpp
+[102.553s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers
+[102.554s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/feedback.cu
+[102.554s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/feedback.cuh
+[102.554s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/DDP
+[102.555s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/DDP/ddp.cuh
+[102.555s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/DDP/ddp.cu
+[102.555s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/CCM
+[102.555s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/CCM/ccm.h
+[102.556s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils
+[102.556s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers
+[102.556s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/three_d_texture_helper.cu
+[102.557s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/texture_helper.cuh
+[102.557s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/two_d_texture_helper.cuh
+[102.558s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/three_d_texture_helper.cuh
+[102.558s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/two_d_texture_helper.cu
+[102.558s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/texture_helper.cu
+[102.559s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/numerical_integration.h
+[102.559s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/managed.cuh
+[102.559s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/matrix_mult_utils.cuh
+[102.560s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/parallel_utils.cuh
+[102.560s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/activation_functions.cuh
+[102.560s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/test_helper.h
+[102.561s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/eigen_type_conversions.h
+[102.562s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/cuda_math_utils.cuh
+[102.562s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers
+[102.562s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/fnn_helper.cu
+[102.563s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/lstm_helper.cu
+[102.563s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/lstm_helper.cuh
+[102.563s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/lstm_lstm_helper.cu
+[102.564s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/fnn_helper.cuh
+[102.564s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/lstm_lstm_helper.cuh
+[102.564s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/meta_math.h
+[102.565s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/file_utils.h
+[102.565s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/logger.hpp
+[102.566s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/gpu_err_chk.cuh
+[102.566s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/type_printing.h
+[102.566s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/angle_utils.cuh
+[102.566s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/risk_utils.cu
+[102.567s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/math_utils.h
+[102.567s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/risk_utils.cuh
+[102.567s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations
+[102.568s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/double_integrator_mppi
+[102.568s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/double_integrator_mppi/double_integrator_mppi.cuh
+[102.568s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/cartpole_mppi
+[102.569s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/cartpole_mppi/cartpole_mppi.cuh
+[102.569s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/quadrotor_mppi
+[102.569s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/quadrotor_mppi/quadrotor_mppi.cuh
+[102.570s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/autorally_mppi
+[102.570s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/autorally_mppi/autorally_mppi.cuh
+[102.570s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions
+[102.570s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cartpole
+[102.570s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cartpole/cartpole_quadratic_cost.cuh
+[102.570s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cartpole/cartpole_quadratic_cost.cu
+[102.570s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadratic_cost
+[102.571s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadratic_cost/quadratic_cost.cu
+[102.571s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadratic_cost/quadratic_cost.cuh
+[102.571s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor
+[102.571s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor/quadrotor_quadratic_cost.cu
+[102.571s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor/quadrotor_quadratic_cost.cuh
+[102.571s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor/quadrotor_map_cost.cuh
+[102.571s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor/quadrotor_map_cost.cu
+[102.571s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally
+[102.572s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally/ar_robust_cost.cu
+[102.572s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally/ar_standard_cost.cuh
+[102.572s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally/ar_standard_cost.cu
+[102.572s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally/ar_robust_cost.cuh
+[102.572s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cost.cuh
+[102.572s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cost.cu
+[102.572s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator
+[102.573s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator/double_integrator_circle_cost.cuh
+[102.573s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator/double_integrator_circle_cost.cu
+[102.573s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator/double_integrator_robust_cost.cuh
+[102.573s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator/double_integrator_robust_cost.cu
+[102.574s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics
+[102.576s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dynamics.cu
+[102.576s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/cartpole
+[102.576s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/cartpole/cartpole_dynamics.cu
+[102.577s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/cartpole/cartpole_dynamics.cuh
+[102.577s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dubins
+[102.577s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dubins/dubins.cuh
+[102.577s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dubins/dubins.cu
+[102.578s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/quadrotor
+[102.579s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/quadrotor/quadrotor_dynamics.cu
+[102.579s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/quadrotor/quadrotor_dynamics.cuh
+[102.579s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins
+[102.580s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_suspension_lstm.cuh
+[102.580s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_suspension_lstm.cu
+[102.581s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins.cuh
+[102.581s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_unc.cuh
+[102.581s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_steering.cuh
+[102.581s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation.cu
+[102.582s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_steering.cu
+[102.582s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation.cuh
+[102.582s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins.cu
+[102.582s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_unc.cu
+[102.582s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/linear
+[102.583s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/linear/linear.cu
+[102.583s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/linear/linear.cuh
+[102.583s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/autorally
+[102.583s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/autorally/ar_nn_model.cu
+[102.584s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/autorally/ar_nn_model.cuh
+[102.584s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/bicycle_slip
+[102.584s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/bicycle_slip/bicycle_slip_parametric.cuh
+[102.585s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/bicycle_slip/bicycle_slip_parametric.cu
+[102.585s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dynamics.cuh
+[102.585s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_suspension
+[102.585s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_suspension/racer_suspension.cuh
+[102.586s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_suspension/racer_suspension.cu
+[102.586s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/double_integrator
+[102.586s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/double_integrator/di_dynamics.cuh
+[102.586s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/double_integrator/di_dynamics.cu
+[102.586s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/ddp
+[102.587s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/boxqp.h
+[102.587s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/util.h
+[102.587s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp_model_wrapper.h
+[102.587s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp_costs.h
+[102.587s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp_tracking_costs.h
+[102.588s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/result.h
+[102.588s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp.h
+[102.588s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp_dynamics.h
+[102.588s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers
+[102.589s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/MPPI
+[102.589s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/MPPI/mppi_controller.cuh
+[102.589s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/MPPI/mppi_controller.cu
+[102.589s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Primitives
+[102.589s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Primitives/primitives_controller.cu
+[102.590s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Primitives/primitives_controller.cuh
+[102.590s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/controller.cuh
+[102.590s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/controller.cu
+[102.590s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/ColoredMPPI
+[102.590s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/ColoredMPPI/colored_mppi_controller.cuh
+[102.590s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/ColoredMPPI/colored_mppi_controller.cu
+[102.591s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/R-MPPI
+[102.591s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/R-MPPI/robust_mppi_controller.cu
+[102.591s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/R-MPPI/robust_mppi_controller.cuh
+[102.592s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Tube-MPPI
+[102.592s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Tube-MPPI/tube_mppi_controller.cuh
+[102.593s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Tube-MPPI/tube_mppi_controller.cu
+[102.594s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions
+[102.594s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/CEM
+[102.594s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/CEM/cem_shaping_function.cu
+[102.594s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/CEM/cem_shaping_function.cuh
+[102.595s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/shaping_function.cu
+[102.595s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/shaping_function.cuh
+[102.595s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions
+[102.595s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/sampling_distribution.cuh
+[102.595s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/smooth-MPPI
+[102.596s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/smooth-MPPI/smooth-MPPI.cu
+[102.596s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/smooth-MPPI/smooth-MPPI.cuh
+[102.596s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/piecewise_linear
+[102.597s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/piecewise_linear/piecewise_linear_noise.cuh
+[102.597s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/colored_noise
+[102.597s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/colored_noise/colored_noise.cuh
+[102.598s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/colored_noise/colored_noise.cu
+[102.598s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/nln
+[102.600s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/nln/nln.cuh
+[102.600s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/nln/nln.cu
+[102.600s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/sampling_distribution.cu
+[102.601s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/gaussian
+[102.601s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/gaussian/gaussian.cuh
+[102.601s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/gaussian/gaussian.cu
+[102.602s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPI-GenericTargets.cmake
+[102.602s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPI-GenericTargetsNoNamespace.cmake
+[102.603s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPI-GenericConfig.cmake
+[102.604s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPI-GenericConfigVersion.cmake
+[102.604s] -- Up-to-date: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPIGenericToolsConfig.cmake
+[102.605s] Invoked command in '/home/kt/repos/mppi/build/mppi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kt/repos/mppi/build/mppi

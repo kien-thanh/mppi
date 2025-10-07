@@ -1,0 +1,238 @@
+-- Autodetected CUDA architecture(s):  8.7
+-- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+-- Autodetected CUDA architecture(s):  8.7
+-- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/kt/repos/mppi/src/mppi/include/mppi;/home/kt/repos/mppi/src/mppi/src;$<BUILD_INTERFACE:/home/kt/repos/mppi/src/mppi/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kt/repos/mppi/build/mppi
+[ 25%] Built target cnpy-static
+[ 50%] Built target cnpy
+[ 75%] Built target example1
+[ 87%] [32mBuilding CUDA object CMakeFiles/mppi_node.dir/src/mppi_node.cu.o[0m
+[100%] [32m[1mLinking CUDA executable mppi_node[0m
+[100%] Built target mppi_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/lib/mppi/mppi_node
+-- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/ament_index/resource_index/package_run_dependencies/mppi
+-- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/ament_index/resource_index/parent_prefix_path/mppi
+-- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/environment/path.sh
+-- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/environment/path.dsv
+-- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/local_setup.bash
+-- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/local_setup.sh
+-- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/local_setup.zsh
+-- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/local_setup.dsv
+-- Symlinking: /home/kt/repos/mppi/install/mppi/share/mppi/package.dsv
+-- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/ament_index/resource_index/packages/mppi
+-- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/cmake/mppiConfig.cmake
+-- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/cmake/mppiConfig-version.cmake
+-- Up-to-date symlink: /home/kt/repos/mppi/install/mppi/share/mppi/package.xml
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/lib/cnpy/libcnpy.so
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/lib/cnpy/libcnpy.a
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/cnpy/cnpy.h
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/bin/mat2npz
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/bin/npy2mat
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/bin/npz2mat
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/lib/cmake/cnpy/cnpy-targets.cmake
+-- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/cnpy/cnpy-targets-release.cmake
+-- Installing: /home/kt/repos/mppi/install/mppi/lib/cmake/cnpy/cnpy-config.cmake
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/core
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/core/base_plant.hpp
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/core/rmppi_kernels.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/core/buffered_plant.hpp
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/core/rmppi_kernels.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/core/mppi_common.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/core/mppi_common.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/core/buffer.hpp
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/feedback.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/feedback.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/DDP
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/DDP/ddp.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/DDP/ddp.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/CCM
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/feedback_controllers/CCM/ccm.h
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/three_d_texture_helper.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/texture_helper.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/two_d_texture_helper.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/three_d_texture_helper.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/two_d_texture_helper.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/texture_helpers/texture_helper.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/numerical_integration.h
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/managed.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/matrix_mult_utils.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/parallel_utils.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/activation_functions.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/test_helper.h
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/eigen_type_conversions.h
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/cuda_math_utils.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/fnn_helper.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/lstm_helper.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/lstm_helper.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/lstm_lstm_helper.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/fnn_helper.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/lstm_lstm_helper.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/nn_helpers/meta_math.h
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/file_utils.h
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/logger.hpp
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/gpu_err_chk.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/type_printing.h
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/angle_utils.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/risk_utils.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/math_utils.h
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/utils/risk_utils.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/double_integrator_mppi
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/double_integrator_mppi/double_integrator_mppi.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/cartpole_mppi
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/cartpole_mppi/cartpole_mppi.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/quadrotor_mppi
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/quadrotor_mppi/quadrotor_mppi.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/autorally_mppi
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/instantiations/autorally_mppi/autorally_mppi.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cartpole
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cartpole/cartpole_quadratic_cost.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cartpole/cartpole_quadratic_cost.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadratic_cost
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadratic_cost/quadratic_cost.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadratic_cost/quadratic_cost.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor/quadrotor_quadratic_cost.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor/quadrotor_quadratic_cost.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor/quadrotor_map_cost.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/quadrotor/quadrotor_map_cost.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally/ar_robust_cost.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally/ar_standard_cost.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally/ar_standard_cost.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/autorally/ar_robust_cost.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cost.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/cost.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator/double_integrator_circle_cost.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator/double_integrator_circle_cost.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator/double_integrator_robust_cost.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/cost_functions/double_integrator/double_integrator_robust_cost.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dynamics.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/cartpole
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/cartpole/cartpole_dynamics.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/cartpole/cartpole_dynamics.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dubins
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dubins/dubins.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dubins/dubins.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/quadrotor
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/quadrotor/quadrotor_dynamics.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/quadrotor/quadrotor_dynamics.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_suspension_lstm.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_suspension_lstm.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_unc.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_steering.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_steering.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_dubins/racer_dubins_elevation_lstm_unc.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/linear
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/linear/linear.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/linear/linear.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/autorally
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/autorally/ar_nn_model.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/autorally/ar_nn_model.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/bicycle_slip
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/bicycle_slip/bicycle_slip_parametric.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/bicycle_slip/bicycle_slip_parametric.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/dynamics.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_suspension
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_suspension/racer_suspension.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/racer_suspension/racer_suspension.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/double_integrator
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/double_integrator/di_dynamics.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/dynamics/double_integrator/di_dynamics.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/ddp
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/boxqp.h
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/util.h
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp_model_wrapper.h
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp_costs.h
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp_tracking_costs.h
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/result.h
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp.h
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/ddp/ddp_dynamics.h
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/MPPI
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/MPPI/mppi_controller.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/MPPI/mppi_controller.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Primitives
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Primitives/primitives_controller.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Primitives/primitives_controller.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/controller.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/controller.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/ColoredMPPI
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/ColoredMPPI/colored_mppi_controller.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/ColoredMPPI/colored_mppi_controller.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/R-MPPI
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/R-MPPI/robust_mppi_controller.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/R-MPPI/robust_mppi_controller.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Tube-MPPI
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Tube-MPPI/tube_mppi_controller.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/controllers/Tube-MPPI/tube_mppi_controller.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/CEM
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/CEM/cem_shaping_function.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/CEM/cem_shaping_function.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/shaping_function.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/shaping_functions/shaping_function.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/sampling_distribution.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/smooth-MPPI
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/smooth-MPPI/smooth-MPPI.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/smooth-MPPI/smooth-MPPI.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/piecewise_linear
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/piecewise_linear/piecewise_linear_noise.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/colored_noise
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/colored_noise/colored_noise.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/colored_noise/colored_noise.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/nln
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/nln/nln.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/nln/nln.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/sampling_distribution.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/gaussian
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/gaussian/gaussian.cuh
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/include/mppi/sampling_distributions/gaussian/gaussian.cu
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPI-GenericTargets.cmake
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPI-GenericTargetsNoNamespace.cmake
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPI-GenericConfig.cmake
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPI-GenericConfigVersion.cmake
+-- Up-to-date: /home/kt/repos/mppi/install/mppi/lib/cmake/MPPI-Generic/MPPIGenericToolsConfig.cmake

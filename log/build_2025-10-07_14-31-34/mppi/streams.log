@@ -1,0 +1,16 @@
+[0.038s] Invoking command in '/home/kt/repos/mppi/build/mppi': /usr/bin/cmake /home/kt/repos/mppi/src/mppi -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/mppi
+[0.063s] CMake Error at CMakeLists.txt:8 (add_subdirectory):
+[0.063s]   Syntax error in cmake code at
+[0.064s] 
+[0.064s]     /home/kt/repos/mppi/src/mppi/CMakeLists.txt:8
+[0.064s] 
+[0.064s]   when parsing string
+[0.064s] 
+[0.064s]     ${CMAKE_CURRENT_SOURCE_DIR/../../submodules/MPPI-Generic
+[0.064s] 
+[0.064s]   There is an unterminated variable reference.
+[0.065s] 
+[0.065s] 
+[0.065s] -- Configuring incomplete, errors occurred!
+[0.065s] See also "/home/kt/repos/mppi/build/mppi/CMakeFiles/CMakeOutput.log".
+[0.068s] Invoked command in '/home/kt/repos/mppi/build/mppi' returned '1': /usr/bin/cmake /home/kt/repos/mppi/src/mppi -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/mppi

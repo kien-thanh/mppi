@@ -1,0 +1,374 @@
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:257[m[K,
+                 from [01m[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/controller.cuh:9[m[K,
+                 from [01m[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/MPPI/mppi_controller.cuh:11[m[K,
+                 from [01m[K/home/kt/repos/mppi/src/mppi/src/mppi_node.cu:7[m[K:
+[01m[K/usr/local/cuda/bin/../targets/aarch64-linux/include/host_defines.h:54:2:[m[K [01;35m[Kwarning: [m[K#warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [[01;35m[K-Wcpp[m[K]
+   54 | #[01;35m[Kwarning[m[K "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+      |  [01;35m[K^~~~~~~[m[K
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(94)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(94)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~no_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~no_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/DenseBase.h(590)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mDenseBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/DenseBase.h(590)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mDenseBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(467)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(467)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~MatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~MatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(156)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(156)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~ArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~ArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(70)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mCwiseUnaryView[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(70)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mCwiseUnaryView[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(110)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(110)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~CwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~CwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(185)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(185)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(300)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(300)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Map.h(162)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Map.h(162)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(89)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mRefBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(89)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mRefBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(229)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mRef[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(229)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mRef[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(111)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlock[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(111)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlock[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(161)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlockImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(161)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlockImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(181)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(181)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(341)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(341)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(66)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTranspose[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(66)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTranspose[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(123)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(123)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~TransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~TransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Diagonal.h(78)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mDiagonal[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Diagonal.h(78)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mDiagonal[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(220)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTriangularView[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(220)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTriangularView[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(546)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(546)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~TriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~TriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Reverse.h(90)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mReverse[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Reverse.h(90)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mReverse[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(47)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mArrayWrapper[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(47)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mArrayWrapper[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(145)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMatrixWrapper[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(145)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMatrixWrapper[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(187)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(187)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~QuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~QuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(243)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mQuaternion[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(243)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mQuaternion[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(359)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(359)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(396)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(396)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:257[m[K,
+                 from [01m[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/controller.cuh:9[m[K,
+                 from [01m[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/MPPI/mppi_controller.cuh:11[m[K,
+                 from [01m[K/home/kt/repos/mppi/src/mppi/src/mppi_node.cu:7[m[K:
+[01m[K/usr/local/cuda/bin/../targets/aarch64-linux/include/host_defines.h:54:2:[m[K [01;35m[Kwarning: [m[K#warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [[01;35m[K-Wcpp[m[K]
+   54 | #[01;35m[Kwarning[m[K "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+      |  [01;35m[K^~~~~~~[m[K
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(94)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(94)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mno_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~no_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h(95)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~no_assignment_operator[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/DenseBase.h(590)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mDenseBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/DenseBase.h(590)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mDenseBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(467)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(467)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~MatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MatrixBase.h(468)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~MatrixBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(156)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(156)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~ArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayBase.h(157)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~ArrayBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(70)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mCwiseUnaryView[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(70)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mCwiseUnaryView[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(110)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(110)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mCwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~CwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h(125)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~CwiseUnaryViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(185)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(185)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(186)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(300)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(300)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/MapBase.h(301)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~MapBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Map.h(162)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Map.h(162)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(89)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mRefBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(89)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mRefBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(229)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mRef[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Ref.h(229)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mRef[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(111)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlock[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(111)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlock[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(161)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlockImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(161)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlockImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(181)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(181)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(341)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Block.h(341)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mBlockImpl_dense[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(66)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTranspose[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(66)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTranspose[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(123)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(123)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~TransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Transpose.h(150)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~TransposeImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Diagonal.h(78)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mDiagonal[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Diagonal.h(78)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mDiagonal[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(220)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTriangularView[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(220)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTriangularView[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(546)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(546)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mTriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~TriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h(547)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~TriangularViewImpl[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Reverse.h(90)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mReverse[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/Reverse.h(90)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mReverse[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(47)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mArrayWrapper[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(47)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mArrayWrapper[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(145)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMatrixWrapper[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h(145)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMatrixWrapper[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(187)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(187)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mQuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01m~QuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(188)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01m~QuaternionBase[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(243)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mQuaternion[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(243)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mQuaternion[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(359)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(359)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(396)[0m: [01;35mwarning[0m #20012-D: __host__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+
+[01m[0m[01m/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h(396)[0m: [01;35mwarning[0m #20012-D: __device__ annotation is ignored on a function("[01mMap[0m") that is explicitly defaulted on its first declaration
+

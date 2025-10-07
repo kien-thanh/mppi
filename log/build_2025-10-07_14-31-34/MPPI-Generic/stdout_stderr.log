@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target cnpy[0m
+[35m[1mScanning dependencies of target cnpy-static[0m
+[ 33%] [32mBuilding CXX object submodules/cnpy/CMakeFiles/cnpy-static.dir/cnpy.cpp.o[0m
+[ 33%] [32mBuilding CXX object submodules/cnpy/CMakeFiles/cnpy.dir/cnpy.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library ../../lib/libcnpy.so[0m
+[ 66%] [32m[1mLinking CXX static library libcnpy.a[0m
+[ 66%] Built target cnpy-static
+[ 66%] Built target cnpy
+[35m[1mScanning dependencies of target example1[0m
+[ 83%] [32mBuilding CXX object submodules/cnpy/CMakeFiles/example1.dir/example1.cpp.o[0m
+[100%] [32m[1mLinking CXX executable example1[0m
+[100%] Built target example1

@@ -1,0 +1,14 @@
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:257[m[K,
+                 from [01m[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/controller.cuh:9[m[K,
+                 from [01m[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/MPPI/mppi_controller.cuh:11[m[K,
+                 from [01m[K/home/kt/repos/mppi/src/mppi/src/mppi_node.cu:2[m[K:
+[01m[K/usr/local/cuda/bin/../targets/aarch64-linux/include/host_defines.h:54:2:[m[K [01;35m[Kwarning: [m[K#warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [[01;35m[K-Wcpp[m[K]
+   54 | #[01;35m[Kwarning[m[K "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/kt/repos/mppi/src/mppi/src/mppi_node.cu:5:10:[m[K [01;31m[Kfatal error: [m[Ksingletrack_dynamics.cuh: No such file or directory
+    5 | #include [01;31m[K<singletrack_dynamics.cuh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/mppi_node.dir/build.make:63: CMakeFiles/mppi_node.dir/src/mppi_node.cu.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:120: CMakeFiles/mppi_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,88 @@
+[0.023s] Invoking command in '/home/kt/repos/mppi/build/mppi': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kt/repos/mppi/src/mppi -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/mppi
+[0.153s] -- The CXX compiler identification is GNU 9.4.0
+[1.326s] -- The CUDA compiler identification is NVIDIA 11.4.315
+[1.338s] -- Check for working CXX compiler: /usr/bin/c++
+[1.490s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.493s] -- Detecting CXX compiler ABI info
+[1.654s] -- Detecting CXX compiler ABI info - done
+[1.688s] -- Detecting CXX compile features
+[1.689s] -- Detecting CXX compile features - done
+[1.694s] -- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc
+[2.839s] -- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc -- works
+[2.842s] -- Detecting CUDA compiler ABI info
+[3.981s] -- Detecting CUDA compiler ABI info - done
+[4.122s] -- The C compiler identification is GNU 9.4.0
+[4.128s] -- Check for working C compiler: /usr/bin/cc
+[4.262s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.266s] -- Detecting C compiler ABI info
+[4.411s] -- Detecting C compiler ABI info - done
+[4.445s] -- Detecting C compile features
+[4.446s] -- Detecting C compile features - done
+[4.448s] -- Setting Build Type to Release by default
+[4.459s] -- Looking for pthread.h
+[4.600s] -- Looking for pthread.h - found
+[4.600s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.756s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.756s] -- Looking for pthread_create in pthreads
+[4.885s] -- Looking for pthread_create in pthreads - not found
+[4.886s] -- Looking for pthread_create in pthread
+[5.033s] -- Looking for pthread_create in pthread - found
+[5.036s] -- Found Threads: TRUE  
+[5.075s] -- Found CUDA: /usr/local/cuda (found version "11.4") 
+[6.246s] -- Autodetected CUDA architecture(s):  8.7
+[6.246s] -- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+[6.285s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[7.508s] -- Autodetected CUDA architecture(s):  8.7
+[7.508s] -- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+[7.511s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[7.559s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.560s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.930s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.989s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.138s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.173s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.173s] -- Configured cppcheck include dirs: /home/kt/repos/mppi/src/mppi/src/mppi/include/mppi;/home/kt/repos/mppi/src/mppi/src/mppi/src;$<BUILD_INTERFACE:/home/kt/repos/mppi/src/mppi/include>
+[8.173s] -- Configured cppcheck exclude dirs and/or files: 
+[8.206s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.206s] -- Configured cpplint exclude dirs and/or files: 
+[8.211s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.220s] -- Added test 'lint_cmake' to check CMake code style
+[8.225s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[8.258s] -- Added test 'uncrustify' to check C / C++ code style
+[8.258s] -- Configured uncrustify additional arguments: 
+[8.263s] -- Added test 'xmllint' to check XML markup files
+[8.270s] -- Configuring done
+[8.290s] -- Generating done
+[8.297s] -- Build files have been written to: /home/kt/repos/mppi/build/mppi
+[8.316s] Invoked command in '/home/kt/repos/mppi/build/mppi' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kt/repos/mppi/src/mppi -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/mppi
+[8.322s] Invoking command in '/home/kt/repos/mppi/build/mppi': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kt/repos/mppi/build/mppi -- -j6 -l6
+[8.400s] [35m[1mScanning dependencies of target cnpy-static[0m
+[8.401s] [35m[1mScanning dependencies of target cnpy[0m
+[8.421s] [ 25%] [32mBuilding CXX object submodules/MPPI-Generic/submodules/cnpy/CMakeFiles/cnpy.dir/cnpy.cpp.o[0m
+[8.421s] [ 25%] [32mBuilding CXX object submodules/MPPI-Generic/submodules/cnpy/CMakeFiles/cnpy-static.dir/cnpy.cpp.o[0m
+[17.710s] [ 37%] [32m[1mLinking CXX static library libcnpy.a[0m
+[17.781s] [ 37%] Built target cnpy-static
+[17.872s] [ 50%] [32m[1mLinking CXX shared library ../../lib/libcnpy.so[0m
+[18.009s] [ 50%] Built target cnpy
+[18.029s] [35m[1mScanning dependencies of target mppi_node[0m
+[18.029s] [35m[1mScanning dependencies of target example1[0m
+[18.051s] [ 62%] [32mBuilding CXX object submodules/MPPI-Generic/submodules/cnpy/CMakeFiles/example1.dir/example1.cpp.o[0m
+[18.101s] [ 75%] [32mBuilding CUDA object CMakeFiles/mppi_node.dir/src/mppi_node.cu.o[0m
+[18.276s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:257[m[K,
+[18.276s]                  from [01m[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/controller.cuh:9[m[K,
+[18.277s]                  from [01m[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/MPPI/mppi_controller.cuh:11[m[K,
+[18.277s]                  from [01m[K/home/kt/repos/mppi/src/mppi/src/mppi_node.cu:2[m[K:
+[18.277s] [01m[K/usr/local/cuda/bin/../targets/aarch64-linux/include/host_defines.h:54:2:[m[K [01;35m[Kwarning: [m[K#warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [[01;35m[K-Wcpp[m[K]
+[18.277s]    54 | #[01;35m[Kwarning[m[K "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[18.277s]       |  [01;35m[K^~~~~~~[m[K
+[18.683s] [01m[K/home/kt/repos/mppi/src/mppi/src/mppi_node.cu:5:10:[m[K [01;31m[Kfatal error: [m[Ksingletrack_dynamics.cuh: No such file or directory
+[18.684s]     5 | #include [01;31m[K<singletrack_dynamics.cuh>[m[K
+[18.684s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.684s] compilation terminated.
+[18.697s] make[2]: *** [CMakeFiles/mppi_node.dir/build.make:63: CMakeFiles/mppi_node.dir/src/mppi_node.cu.o] Error 1
+[18.697s] make[1]: *** [CMakeFiles/Makefile2:120: CMakeFiles/mppi_node.dir/all] Error 2
+[18.697s] make[1]: *** Waiting for unfinished jobs....
+[21.064s] [ 87%] [32m[1mLinking CXX executable example1[0m
+[21.204s] [ 87%] Built target example1
+[21.207s] make: *** [Makefile:141: all] Error 2
+[21.214s] Invoked command in '/home/kt/repos/mppi/build/mppi' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kt/repos/mppi/build/mppi -- -j6 -l6

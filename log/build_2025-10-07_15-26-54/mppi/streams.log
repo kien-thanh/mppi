@@ -1,0 +1,251 @@
+[0.026s] Invoking command in '/home/kt/repos/mppi/build/mppi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kt/repos/mppi/build/mppi -- -j6 -l6
+[1.296s] -- Autodetected CUDA architecture(s):  8.7
+[1.297s] -- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+[2.558s] -- Autodetected CUDA architecture(s):  8.7
+[2.558s] -- CUDA Architecture(s): -gencode=arch=compute_87,code=sm_87
+[2.559s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.603s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.972s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.990s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.057s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.063s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.301s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.414s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.417s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.708s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[3.773s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.915s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.951s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.951s] -- Configured cppcheck include dirs: /home/kt/repos/mppi/src/mppi/include/mppi;/home/kt/repos/mppi/src/mppi/src;$<BUILD_INTERFACE:/home/kt/repos/mppi/src/mppi/include>
+[3.952s] -- Configured cppcheck exclude dirs and/or files: 
+[3.985s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.985s] -- Configured cpplint exclude dirs and/or files: 
+[3.989s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.999s] -- Added test 'lint_cmake' to check CMake code style
+[4.004s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.037s] -- Added test 'uncrustify' to check C / C++ code style
+[4.038s] -- Configured uncrustify additional arguments: 
+[4.042s] -- Added test 'xmllint' to check XML markup files
+[4.051s] -- Configuring done
+[4.087s] -- Generating done
+[4.098s] -- Build files have been written to: /home/kt/repos/mppi/build/mppi
+[4.176s] [ 25%] Built target cnpy-static
+[4.179s] [ 50%] Built target cnpy
+[4.202s] [35m[1mScanning dependencies of target mppi_node[0m
+[4.227s] [ 75%] Built target example1
+[4.344s] [ 87%] [32mBuilding CUDA object CMakeFiles/mppi_node.dir/src/mppi_node.cu.o[0m
+[4.690s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:257[m[K,
+[4.690s]                  from [01m[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/controller.cuh:9[m[K,
+[4.690s]                  from [01m[K/home/kt/repos/mppi/src/mppi/submodules/MPPI-Generic/include/mppi/controllers/MPPI/mppi_controller.cuh:11[m[K,
+[4.691s]                  from [01m[K/home/kt/repos/mppi/src/mppi/src/mppi_node.cu:7[m[K:
+[4.691s] [01m[K/usr/local/cuda/bin/../targets/aarch64-linux/include/host_defines.h:54:2:[m[K [01;35m[Kwarning: [m[K#warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [[01;35m[K-Wcpp[m[K]
+[4.691s]    54 | #[01;35m[Kwarning[m[K "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[4.691s]       |  [01;35m[K^~~~~~~[m[K
+[6.136s] [01m[0m[01m/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp(477)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.137s] 
+[6.140s] [01m[0m[01m/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp(60)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.140s] 
+[6.140s] [01m[0m[01m/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp(64)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.140s] 
+[6.289s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp(435)[0m: [01;31merror[0m: namespace [01m"std"[0m has no member "[01mshared_timed_mutex[0m"
+[6.290s] 
+[6.326s] [01m[0m[01m/opt/ros/foxy/include/builtin_interfaces/msg/detail/time__builder.hpp(60)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.326s] 
+[6.326s] [01m[0m[01m/opt/ros/foxy/include/builtin_interfaces/msg/detail/time__builder.hpp(64)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.326s] 
+[6.327s] [01m[0m[01m/opt/ros/foxy/include/builtin_interfaces/msg/detail/time__builder.hpp(64)[0m: [01;31merror[0m: more than one instance of overloaded function [01m"builtin_interfaces::build"[0m matches the argument list:
+[6.327s] 
+[6.401s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/subscription_traits.hpp(83)[0m: [01;31merror[0m: namespace [01m"std"[0m has no member "[01mremove_cv_t[0m"
+[6.401s] 
+[6.402s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/subscription_traits.hpp(83)[0m: [01;31merror[0m: expected a ">"
+[6.402s] 
+[6.402s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/subscription_traits.hpp(82)[0m: [01;31merror[0m: namespace [01m"std"[0m has no member "[01menable_if_t[0m"
+[6.403s] 
+[6.403s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/subscription_traits.hpp(82)[0m: [01;31merror[0m: expected a "," or ">"
+[6.403s] 
+[6.403s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/subscription_traits.hpp(83)[0m: [01;31merror[0m: expected a declaration
+[6.404s] 
+[6.404s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/subscription_traits.hpp(83)[0m: [01;31merror[0m: expected a ";"
+[6.404s] 
+[6.412s] [01m[0m[01m/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__builder.hpp(124)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.413s] 
+[6.413s] [01m[0m[01m/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__builder.hpp(128)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.413s] 
+[6.535s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp(60)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.536s] 
+[6.536s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp(64)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.536s] 
+[6.557s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp(140)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.557s] 
+[6.557s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp(144)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.558s] 
+[6.558s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp(144)[0m: [01;31merror[0m: more than one instance of overloaded function [01m"rcl_interfaces::build"[0m matches the argument list:
+[6.558s] 
+[6.569s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_event__builder.hpp(108)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.569s] 
+[6.570s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_event__builder.hpp(112)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.570s] 
+[6.570s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_event__builder.hpp(112)[0m: [01;31merror[0m: more than one instance of overloaded function [01m"rcl_interfaces::build"[0m matches the argument list:
+[6.571s] 
+[6.573s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp(60)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.573s] 
+[6.573s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp(64)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.574s] 
+[6.574s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp(64)[0m: [01;31merror[0m: more than one instance of overloaded function [01m"rcl_interfaces::build"[0m matches the argument list:
+[6.574s] 
+[6.597s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter__builder.hpp(60)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.598s] 
+[6.598s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter__builder.hpp(64)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.598s] 
+[6.599s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter__builder.hpp(64)[0m: [01;31merror[0m: more than one instance of overloaded function [01m"rcl_interfaces::build"[0m matches the argument list:
+[6.599s] 
+[6.599s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_type__builder.hpp(24)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.600s] 
+[6.600s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_type__builder.hpp(28)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.600s] 
+[6.601s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_type__builder.hpp(28)[0m: [01;31merror[0m: more than one instance of overloaded function [01m"rcl_interfaces::build"[0m matches the argument list:
+[6.601s] 
+[6.606s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_value__builder.hpp(188)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.606s] 
+[6.606s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_value__builder.hpp(192)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.607s] 
+[6.607s] [01m[0m[01m/opt/ros/foxy/include/rcl_interfaces/msg/detail/parameter_value__builder.hpp(192)[0m: [01;31merror[0m: more than one instance of overloaded function [01m"rcl_interfaces::build"[0m matches the argument list:
+[6.607s] 
+[6.613s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(46)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.613s] 
+[6.614s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(116)[0m: [01;31merror[0m: expected a declaration
+[6.614s] 
+[6.614s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(131)[0m: [01;31merror[0m: expected a ";"
+[6.614s] 
+[6.615s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(236)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.615s] 
+[6.615s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(245)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.615s] 
+[6.616s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(246)[0m: [01;31merror[0m: more than one instance of overloaded function [01m"rclcpp::detail::get_value_helper"[0m matches the argument list:
+[6.616s] 
+[6.616s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(254)[0m: [01;31merror[0m: "auto" function requires a trailing return type
+[6.617s] 
+[6.617s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(255)[0m: [01;31merror[0m: more than one instance of overloaded function [01m"rclcpp::detail::get_value_helper"[0m matches the argument list:
+[6.617s] 
+[6.617s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(268)[0m: [01;31merror[0m: expected an identifier
+[6.618s] 
+[6.618s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(268)[0m: [01;31merror[0m: "auto" is not allowed here
+[6.618s] 
+[6.619s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/parameter.hpp(269)[0m: [01;31merror[0m: expected a ";"
+[6.619s] 
+[6.624s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/subscription_factory.hpp(78)[0m: [01;31merror[0m: namespace [01m"rclcpp::subscription_traits"[0m has no member "[01mhas_message_type[0m"
+[6.625s] 
+[6.626s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/subscription_factory.hpp(78)[0m: [01;31merror[0m: expected a "," or ">"
+[6.626s] 
+[6.626s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/subscription_factory.hpp(78)[0m: [01;31merror[0m: the global scope has no "[01mtype[0m"
+[6.627s] 
+[6.627s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/subscription_factory.hpp(122)[0m: [01;31merror[0m: expected a ";"
+[6.627s] 
+[6.627s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/subscription_factory.hpp(123)[0m: [01;31merror[0m: no instance of overloaded function [01m"std::dynamic_pointer_cast"[0m matches the argument list
+[6.628s]             argument types are: (int)
+[6.628s] 
+[6.628s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/subscription_factory.hpp(124)[0m: [01;31merror[0m: expected a declaration
+[6.628s] 
+[6.629s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/subscription_factory.hpp(126)[0m: [01;31merror[0m: expected a declaration
+[6.629s] 
+[6.629s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/subscription_factory.hpp(129)[0m: [01;31merror[0m: expected a declaration
+[6.629s] 
+[6.630s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/subscription_factory.hpp(130)[0m: [01;31merror[0m: expected a declaration
+[6.630s] 
+[6.630s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(66)[0m: [01;31merror[0m: invalid specifier outside a class declaration
+[6.630s] 
+[6.631s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(71)[0m: [01;31merror[0m: function [01m"create_subscription"[0m may not be initialized
+[6.631s] 
+[6.631s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(74)[0m: [01;31merror[0m: invalid specifier outside a class declaration
+[6.631s] 
+[6.632s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(78)[0m: [01;31merror[0m: function [01m"add_subscription"[0m may not be initialized
+[6.632s] 
+[6.632s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(81)[0m: [01;31merror[0m: invalid specifier outside a class declaration
+[6.632s] 
+[6.633s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(83)[0m: [01;31merror[0m: a type qualifier is not allowed on a nonmember function
+[6.633s] 
+[6.633s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(83)[0m: [01;31merror[0m: function [01m"get_node_base_interface"[0m may not be initialized
+[6.633s] 
+[6.633s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(86)[0m: [01;31merror[0m: invalid specifier outside a class declaration
+[6.634s] 
+[6.634s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(88)[0m: [01;31merror[0m: a type qualifier is not allowed on a nonmember function
+[6.635s] 
+[6.635s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(88)[0m: [01;31merror[0m: function [01m"get_node_timers_interface"[0m may not be initialized
+[6.635s] 
+[6.635s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(89)[0m: [01;31merror[0m: expected a declaration
+[6.636s] 
+[6.636s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp(91)[0m: [01;31merror[0m: expected a declaration
+[6.636s] 
+[6.636s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_waitables_interface.hpp(52)[0m: [01;31merror[0m: expected a declaration
+[6.637s] 
+[6.637s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_interfaces/node_waitables_interface.hpp(54)[0m: [01;31merror[0m: expected a declaration
+[6.637s] 
+[6.637s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(86)[0m: [01;31merror[0m: a type qualifier is not allowed on a nonmember function
+[6.637s] 
+[6.638s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(91)[0m: [01;31merror[0m: a type qualifier is not allowed on a nonmember function
+[6.638s] 
+[6.638s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(95)[0m: [01;31merror[0m: identifier "[01mNodeOptions[0m" is undefined
+[6.639s] 
+[6.639s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(101)[0m: [01;31merror[0m: a type qualifier is not allowed on a nonmember function
+[6.639s] 
+[6.639s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(111)[0m: [01;31merror[0m: identifier "[01mNodeOptions[0m" is undefined
+[6.639s] 
+[6.640s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(121)[0m: [01;31merror[0m: a type qualifier is not allowed on a nonmember function
+[6.640s] 
+[6.640s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(121)[0m: [01;31merror[0m: cannot overload functions distinguished by return type alone
+[6.640s] 
+[6.640s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(130)[0m: [01;31merror[0m: identifier "[01mNodeOptions[0m" is undefined
+[6.641s] 
+[6.641s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(135)[0m: [01;31merror[0m: identifier "[01mNodeOptions[0m" is undefined
+[6.641s] 
+[6.641s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(145)[0m: [01;31merror[0m: a type qualifier is not allowed on a nonmember function
+[6.642s] 
+[6.642s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(156)[0m: [01;31merror[0m: identifier "[01mNodeOptions[0m" is undefined
+[6.642s] 
+[6.642s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(162)[0m: [01;31merror[0m: a type qualifier is not allowed on a nonmember function
+[6.642s] 
+[6.643s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(172)[0m: [01;31merror[0m: identifier "[01mNodeOptions[0m" is undefined
+[6.643s] 
+[6.643s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(178)[0m: [01;31merror[0m: a type qualifier is not allowed on a nonmember function
+[6.643s] 
+[6.643s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(191)[0m: [01;31merror[0m: identifier "[01mNodeOptions[0m" is undefined
+[6.644s] 
+[6.644s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(197)[0m: [01;31merror[0m: a type qualifier is not allowed on a nonmember function
+[6.644s] 
+[6.644s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(208)[0m: [01;31merror[0m: identifier "[01mNodeOptions[0m" is undefined
+[6.644s] 
+[6.644s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(214)[0m: [01;31merror[0m: a type qualifier is not allowed on a nonmember function
+[6.645s] 
+[6.645s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(227)[0m: [01;31merror[0m: identifier "[01mNodeOptions[0m" is undefined
+[6.645s] 
+[6.645s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(233)[0m: [01;31merror[0m: a type qualifier is not allowed on a nonmember function
+[6.645s] 
+[6.645s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(243)[0m: [01;31merror[0m: identifier "[01mNodeOptions[0m" is undefined
+[6.646s] 
+[6.646s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(249)[0m: [01;31merror[0m: a type qualifier is not allowed on a nonmember function
+[6.646s] 
+[6.646s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(256)[0m: [01;31merror[0m: identifier "[01mNodeOptions[0m" is undefined
+[6.646s] 
+[6.647s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(262)[0m: [01;31merror[0m: a type qualifier is not allowed on a nonmember function
+[6.647s] 
+[6.647s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(273)[0m: [01;31merror[0m: identifier "[01mNodeOptions[0m" is undefined
+[6.647s] 
+[6.647s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(280)[0m: [01;31merror[0m: a type qualifier is not allowed on a nonmember function
+[6.647s] 
+[6.648s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(293)[0m: [01;31merror[0m: identifier "[01mNodeOptions[0m" is undefined
+[6.648s] 
+[6.648s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(299)[0m: [01;31merror[0m: a type qualifier is not allowed on a nonmember function
+[6.648s] 
+[6.648s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(313)[0m: [01;31merror[0m: identifier "[01mNodeOptions[0m" is undefined
+[6.649s] 
+[6.649s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(320)[0m: [01;31merror[0m: a type qualifier is not allowed on a nonmember function
+[6.649s] 
+[6.649s] [01m[0m[01m/opt/ros/foxy/include/rclcpp/node_options.hpp(327)[0m: [01;31merror[0m: identifier "[01mNodeOptions[0m" is undefined
+[6.649s] 
+[6.649s] Error limit reached.
+[6.650s] 100 errors detected in the compilation of "/home/kt/repos/mppi/src/mppi/src/mppi_node.cu".
+[6.650s] Compilation terminated.
+[6.676s] make[2]: *** [CMakeFiles/mppi_node.dir/build.make:63: CMakeFiles/mppi_node.dir/src/mppi_node.cu.o] Error 1
+[6.676s] make[1]: *** [CMakeFiles/Makefile2:120: CMakeFiles/mppi_node.dir/all] Error 2
+[6.677s] make: *** [Makefile:141: all] Error 2
+[6.684s] Invoked command in '/home/kt/repos/mppi/build/mppi' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kt/repos/mppi/build/mppi -- -j6 -l6

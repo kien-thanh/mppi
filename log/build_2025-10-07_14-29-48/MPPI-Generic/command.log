@@ -1,0 +1,1 @@
+Invoking command in '/home/kt/repos/mppi/build/MPPI-Generic': /usr/bin/cmake /home/kt/repos/mppi/submodules/MPPI-Generic -DCMAKE_INSTALL_PREFIX=/home/kt/repos/mppi/install/MPPI-Generic
