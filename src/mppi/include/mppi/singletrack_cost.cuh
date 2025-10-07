@@ -1,86 +1,35 @@
-#ifndef SINGLETRACK_CUH_
-#define SINGLETRACK_CUH_
+#pragma once
 
-#include <mppi/dynamics/dynamics.cuh>
+#ifndef SINGLETRACK_COST_CUH_
+#define SINGLETRACK_COST_CUH_
 
-struct SingletrackDynamicsParams : public DynamicsParams
+#include <mppi/cost_functions/cost.cuh>
+#include <singletrack_dynamics.cuh>
+
+struct SingletrackCostParams : public CostParams<SingletrackDynamics::CONTROL_DIM>
 {
-    enum class StateIndex : int
-    {
-        X_POS = 0,
-        Y_POS,
-        STEER,
-        VEL,
-        YAW,
-        NUM_STATES
-    };
-
-    enum class ControlIndex : int
-    {
-        STEER_SPEED = 0,
-        ACCELERATION,
-        NUM_CONTROLS
-    };
-
-    enum class OutputIndex : int
-    {
-        X_POS = 0,
-        Y_POS,
-        STEER,
-        VEL,
-        YAW,
-        NUM_OUTPUTS
-    };
-
-    float wheelbase = 0.31f;
-
-    SingletrackDynamicsParams() = default;
-    SingletrackDynamicsParams(float wheelbase) : wheelbase(wheelbase) {};
+    float width = 2.0f;  // width of the track
+    float coeff = 10.0f; // cost coefficient
 };
 
-using namespace MPPI_internal;
-
-class SingletrackDynamics : public Dynamics<SingletrackDynamics, SingletrackDynamicsParams>
+class SingletrackCost : public Cost<SingletrackCost, SingletrackCostParams, SingletrackDynamicsParams>
 {
 public:
-    EIGEN_MAKE_ALIGNED_OPERATOR_NEW
-    using PARENT_CLASS = Dynamics<SingletrackDynamics, SingletrackDynamicsParams>;
-    SingletrackDynamics(float wheelbase = 0.31f, cudaStream_t stream = 0);
+    using DYN_P = Cost<SingletrackCost, SingletrackCostParams, SingletrackDynamicsParams>::TEMPLATED_DYN_PARAMS;
 
-    std::string getDynamicsModelName() const override
-    {
-        return "Singletrack Model";
-    }
+    SingletrackCost(cudaStream_t stream = nullptr);
 
-    void computeDynamics(const Eigen::Ref<const state_array> &state, const Eigen::Ref<const control_array> &control, Eigen::Ref<state_array> state_der);
+    __device__ float computeStateCost(float *s, int timestep = 0, float *theta_c = nullptr, int *crash_status = nullptr);
 
-    bool computeGrad(const Eigen::Ref<const state_array> &state, const Eigen::Ref<const control_array> &control, Eigen::Ref<dfdx> A, Eigen::Ref<dfdu> B);
+    float computeStateCost(const Eigen::Ref<const output_array> s, int timestep = 0, int *crash_status = nullptr);
 
-    __host__ __device__ float getWheelbase()
-    {
-        return params_.wheelbase;
-    }
+    __device__ float terminalCost(float *s, float *theta_c);
 
-    __host__ __device__ float getGravity()
-    {
-        return gravity_;
-    }
-
-
-    void printState(const Eigen::Ref<const state_array>& state);
-    void printState(float* state);
-    void printParams();
-
-    __device__ void computeDynamics(float* state, float* control, float* state_der, float* theta = nullptr);
-
-    state_array stateFromMap(const std::map<std::string, float>& map) override;
-
-protected:
-    const float gravity_ = 9.81;
+    float terminalCost(const Eigen::Ref<const output_array> s);
 };
 
 #if __CUDACC__
-#include "singletrack_dynamics.cu"
+#include "singletrack_cost.cu"
 #endif
 
-#endif
+#endif // SINGLETRACK_COST_CUH_

@@ -8,6 +8,7 @@
 #include <mppi/cost_functions/quadratic_cost/quadratic_cost.cuh>
 #include <mppi/feedback_controllers/DDP/ddp.cuh>
 #include <singletrack_dynamics.cuh>
+#include <singletrack_cost.cuh>
 #include <plant.hpp>
 
 const int NUM_TIMESTEPS = 100;
@@ -15,7 +16,7 @@ const int NUM_ROLLOUTS = 1024;
 const int DYN_BLOCK_X = 64;
 using DYN_T = SingletrackDynamics;
 const int DYN_BLOCK_Y = DYN_T::STATE_DIM;
-using COST_T = QuadraticCost<DYN_T>;
+using COST_T = SingletrackCost;
 using FB_T = DDPFeedback<DYN_T, NUM_TIMESTEPS>;
 using SAMPLING_T = mppi::sampling_distributions::GaussianDistribution<DYN_T::DYN_PARAMS_T>;
 using CONTROLLER_T = VanillaMPPIController<DYN_T, COST_T, FB_T, NUM_TIMESTEPS, NUM_ROLLOUTS, SAMPLING_T>;
@@ -64,6 +65,8 @@ public:
       msg.drive.speed = plant.current_state_(3);
       msg.drive.steering_angle = plant.current_state_(4);
       publisher_->publish(msg);
+
+      std::this_thread::sleep_for(std::chrono::milliseconds(20)); // wait 0.02s
     }
 
     std::cout << "Avg Optimization time: " << plant.getAvgOptimizationTime() << " ms" << std::endl;
